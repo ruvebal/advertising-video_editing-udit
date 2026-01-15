@@ -3,6 +3,7 @@
 .AppleDouble
 .LSOverride
 Icon?
+!docs/assets/icons/
 
 # Ruby / Bundler
 .bundle/

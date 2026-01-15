@@ -146,9 +146,9 @@ body {
 	font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
+/* Removed experimental text-box properties for broader browser compatibility */
 h1 {
-	text-box-trim: both;
-	text-box-align: center;
+	text-align: center;
 }
 
 /* Footer logo fits container */
@@ -267,7 +267,7 @@ img.footer-logo {
 	outline-offset: 2px;
 }
 .prose code {
-	padding: none !important;
+	padding: 0 !important;
 	border-radius: 0.25rem;
 	border: 1px solid var(--code-inline-border);
 }
