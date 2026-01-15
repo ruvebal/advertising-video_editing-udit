@@ -1,0 +1,32 @@
+# macOS cruft
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Ruby / Bundler
+.bundle/
+vendor/bundle/
+Gemfile.lock
+
+# Jekyll build output & caches
+_site/
+.jekyll-cache/
+.sass-cache/
+docs/.jekyll-cache/
+docs/.sass-cache/
+
+# Node/pnpm artifacts
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Logs & temp files
+*.log
+*.tmp
+*.swp
+
+# IDE/project files
+.vscode/
+.idea/

@@ -1,0 +1,18 @@
+# Week 1 Video Library - Introduction to Advertising & Editing Persuasion
+- id: "placeholder-mcluhan"
+  platform: "youtube"
+  title: "Marshall McLuhan: The Medium is the Message"
+  duration: "4:30"
+  description: "Introduction to media theory and its application to video editing"
+
+- id: "placeholder-debord"
+  platform: "youtube"
+  title: "Society of the Spectacle - Documentary"
+  duration: "8:15"
+  description: "Understanding Guy Debord's critique of modern consumer society"
+
+- id: "placeholder-premiere-intro"
+  platform: "youtube"
+  title: "Premiere Pro Interface Overview"
+  duration: "12:00"
+  description: "Getting started with Adobe Premiere Pro workspace"

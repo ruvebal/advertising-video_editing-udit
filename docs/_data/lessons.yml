@@ -1,0 +1,775 @@
+- slug: ilustracion-webapp
+  title:
+   es: 'Ilustración Aplicada: Productos Digitales Web-App — Track'
+  path:
+   es: /tracks/es/ilustracion-webapp/
+  file:
+   es: tracks/es/ilustracion-webapp/index.md
+  status:
+   es: complete
+  type: track
+- slug: atelier-prompts
+  title:
+   en: 'Atelier Prompt Collection — Modern Web Development'
+  path:
+   en: /lessons/en/atelier-prompts/
+  file:
+   en: lessons/en/atelier-prompts/index.md
+  status:
+   en: complete
+- slug: development-environment
+  title:
+   es: Guía para Configurar un Entorno de Desarrollo Web
+   en: Development Environment
+  path:
+   es: /lessons/es/entorno-de-desarrollo/
+   en: /lessons/en/development-environment/
+  file:
+   es: lessons/es/entorno-de-desarrollo/index.md
+   en: lessons/en/development-environment/index.md
+  status:
+   es: complete
+   en: complete
+- slug: first-steps
+  title:
+   es: Desarrollo Web con HTML – Organización y Buenas Prácticas
+   en: Web Development with HTML – Organization and Best Practices
+  path:
+   es: /lessons/es/primeros-pasos/
+   en: /lessons/en/first-steps/
+  file:
+   es: lessons/es/primeros-pasos/index.md
+   en: lessons/en/first-steps/index.md
+  status:
+   es: complete
+   en: complete
+- slug: html-css-basics
+  title:
+   es: Práctica HTML semántico + Fundamentos de CSS
+   en: Practice Semantic HTML + CSS Fundamentals
+  path:
+   es: /lessons/es/html-css-basics/
+   en: /lessons/en/html-css-basics/
+  file:
+   es: lessons/es/html-css-basics/index.md
+   en: lessons/en/html-css-basics/index.md
+  status:
+   es: complete
+   en: complete
+- slug: inspiration-kickoff
+  title:
+   es: Inicio & Inspiración
+   en: Inspiration & Kickoff
+  path:
+   es: /lessons/es/inicio-inspiracion/
+   en: /lessons/en/inspiration-kickoff/
+  file:
+   es: lessons/es/inicio-inspiracion/index.md
+   en: lessons/en/inspiration-kickoff/index.md
+  status:
+   es: complete
+   en: complete
+- slug: intrinsic-web-design
+  title:
+   es: 'Diseño Web Intrínseco: Container Queries y Subgrid'
+   en: 'Intrinsic Web Design: Container Queries & Subgrid'
+  path:
+   es: /lessons/es/intrinsic-web-design/
+   en: /lessons/en/intrinsic-web-design/
+  file:
+   es: lessons/es/intrinsic-web-design/index.md
+   en: lessons/en/intrinsic-web-design/index.md
+  status:
+   es: complete
+   en: complete
+  week: 3
+- slug: js-intro
+  title:
+   es: Introducción a JavaScript
+   en: Introduction to JavaScript
+  path:
+   es: /lessons/es/js-intro/
+   en: /lessons/en/js-intro/
+  file:
+   es: lessons/es/js-intro/index.md
+   en: lessons/en/js-intro/index.md
+  status:
+   es: complete
+   en: complete
+- slug: js-modules
+  title:
+   es: 'Módulos JavaScript: Del Caos a la Modularidad'
+   en: 'JavaScript Modules: From Chaos to Modularity'
+  path:
+   es: /lessons/es/js-modules/
+   en: /lessons/en/js-modules/
+  file:
+   es: lessons/es/js-modules/index.md
+   en: lessons/en/js-modules/index.md
+  status:
+   es: complete
+   en: complete
+- slug: js-dom-manipulation
+  title:
+   es: 'Manipulación del DOM en el Navegador: Cadenas, API del DOM, Plantillas y DOM Virtual'
+   en: 'DOM Manipulation in the Browser: Strings, DOM API, Templates, and the Virtual DOM'
+  path:
+   es: /lessons/es/js-dom-manipulation/
+   en: /lessons/en/js-dom-manipulation/
+  file:
+   es: lessons/es/js-dom-manipulation/index.md
+   en: lessons/en/js-dom-manipulation/index.md
+  status:
+   es: complete
+   en: complete
+- slug: web-animations
+  title:
+   es: 'Animaciones Web: Del Movimiento al Significado'
+   en: 'Web Animations: From Motion to Meaning'
+  path:
+   es: /lessons/es/web-animations/
+   en: /lessons/en/web-animations/
+  file:
+   es: lessons/es/web-animations/index.md
+   en: lessons/en/web-animations/index.md
+  status:
+   es: complete
+   en: complete
+- slug: web-animations-css
+  title:
+   es: 'Animaciones Web con CSS – De lo Básico a lo Avanzado'
+   en: 'Web Animations with CSS – From Basics to Advanced Techniques'
+  path:
+   es: /lessons/es/web-animations/css/
+   en: /lessons/en/web-animations/css/
+  file:
+   es: lessons/es/web-animations/css/index.md
+   en: lessons/en/web-animations/css/index.md
+  status:
+   es: complete
+   en: complete
+  category: animations
+- slug: web-animations-gsap
+  title:
+   es: 'Dominio de Animaciones GSAP – De Cero a Producción'
+   en: 'GSAP Animation Mastery – From Zero to Production'
+  path:
+   es: /lessons/es/web-animations/gsap/
+   en: /lessons/en/web-animations/gsap/
+  file:
+   es: lessons/es/web-animations/gsap/index.md
+   en: lessons/en/web-animations/gsap/index.md
+  status:
+   es: complete
+   en: complete
+  category: animations
+- slug: gsap-overview
+  title:
+   es: 'GSAP para Diseñadores: Dominio de Tipografía y Animación SVG'
+   en: 'GSAP for Designers: Typography & SVG Animation Mastery'
+  path:
+   es: /lessons/es/gsap/overview/
+   en: /lessons/en/gsap/overview/
+  file:
+   es: lessons/es/gsap/overview/index.md
+   en: lessons/en/gsap/overview/index.md
+  status:
+   es: complete
+   en: complete
+  category: animations
+- slug: gsap-tailwind
+  title:
+   es: 'GSAP para Diseñadores: Dominio de Tipografía y Animación SVG (Tailwind)'
+   en: 'GSAP for Designers: Typography & SVG Animation Mastery (Tailwind)'
+  path:
+   es: /lessons/es/gsap/tailwind/
+   en: /lessons/en/gsap/tailwind/
+  file:
+   es: lessons/es/gsap/tailwind/index.md
+   en: lessons/en/gsap/tailwind/index.md
+  status:
+   es: complete
+   en: complete
+  category: animations
+- slug: gsap-bootstrap
+  title:
+   es: 'GSAP para Diseñadores: Dominio de Tipografía y Animación SVG (Bootstrap)'
+   en: 'GSAP for Designers: Typography & SVG Animation Mastery (Bootstrap)'
+  path:
+   es: /lessons/es/gsap/bootstrap/
+   en: /lessons/en/gsap/bootstrap/
+  file:
+   es: lessons/es/gsap/bootstrap/index.md
+   en: lessons/en/gsap/bootstrap/index.md
+  status:
+   es: complete
+   en: complete
+  category: animations
+- slug: readings
+  title:
+   es: Lecturas
+  path:
+   es: /lessons/es/readings/
+  file:
+   es: lessons/es/readings/index.md
+  status:
+   es: complete
+- slug: typography-color
+  title:
+   es: Tipografía y Color
+   en: Typography & Color
+  path:
+   es: /lessons/es/tipografia-color/
+   en: /lessons/en/typography-color/
+  file:
+   es: lessons/es/tipografia-color/index.md
+   en: lessons/en/typography-color/index.md
+  status:
+   es: complete
+   en: stub
+- slug: web-analysis
+  title:
+   es: Guía para el Análisis Web
+   en: Web Analysis Guide
+  path:
+   es: /lessons/es/analisis-web/
+   en: /lessons/en/web-analysis/
+  file:
+   es: lessons/es/analisis-web/index.md
+   en: lessons/en/web-analysis/index.md
+  status:
+   es: complete
+   en: stub
+- slug: web-basics-diagnosis
+  title:
+   es: 'Fundamentos web: Checklist de diagnóstico'
+   en: 'Web Basics Diagnosis: Checklist'
+  path:
+   es: /lessons/es/web-basics-diagnosis/
+   en: /lessons/en/web-basics-diagnosis/
+  file:
+   es: lessons/es/web-basics-diagnosis/index.md
+   en: lessons/en/web-basics-diagnosis/index.md
+  status:
+   es: complete
+   en: complete
+- slug: web-design-tools
+  title:
+   es: Herramientas de Diseño Web Clásicas y Modernas (2025)
+   en: Classic and Modern Web Design Tools Overview (2025)
+  path:
+   es: /lessons/es/web-design-tools/
+   en: /lessons/en/web-design-tools/
+  file:
+   es: lessons/es/web-design-tools/index.md
+   en: lessons/en/web-design-tools/index.md
+  status:
+   es: complete
+   en: complete
+
+- slug: web-analysis-practice
+  title:
+   es: 'Práctica: Informe de Análisis de Sitios Web Sobresalientes (SOW)'
+   en: 'Practice: Report on Outstanding Websites Analysis (SOW)'
+  path:
+   es: /lessons/es/analisis-web/practica/
+   en: /lessons/en/web-analysis/practice/
+  file:
+   es: lessons/es/analisis-web/practica/index.md
+   en: lessons/en/web-analysis/practice/index.md
+  status:
+   es: complete
+   en: complete
+
+- slug: responsive
+  title:
+   es: 'Diseño Web: Responsive, Fluido e Intrínseco'
+   en: 'Web Design: Responsive, Fluid and Intrinsic'
+  path:
+   es: /lessons/es/responsive/
+   en: /lessons/en/responsive/
+  file:
+   es: lessons/es/responsive/index.md
+   en: lessons/en/responsive/index.md
+  status:
+   es: complete
+   en: complete
+
+- slug: tailwind
+  title:
+   es: 'Ruta de Aprendizaje de Tailwind CSS — Hoja de Ruta Completa'
+   en: 'Tailwind CSS Learning Path — Complete Roadmap'
+  path:
+   es: /lessons/es/tailwind/
+   en: /lessons/en/tailwind/
+  file:
+   es: lessons/es/tailwind/index.md
+   en: lessons/en/tailwind/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: tailwind-roadmap
+  title:
+   es: 'Hoja de Ruta de Enseñanza de Tailwind CSS'
+   en: 'Tailwind CSS Teaching Roadmap'
+  path:
+   es: /lessons/es/tailwind/roadmap/
+   en: /lessons/en/tailwind/roadmap/
+  file:
+   es: lessons/es/tailwind/roadmap/index.md
+   en: lessons/en/tailwind/roadmap/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: tailwind-setup-fundamentals
+  title:
+   es: 'Tailwind CSS: Configuración y Fundamentos — Desarrollo PWA-Ready'
+   en: 'Tailwind CSS: Setup & Fundamentals — PWA-Ready Development'
+  path:
+   es: /lessons/es/tailwind/setup-and-fundamentals/
+   en: /lessons/en/tailwind/setup-and-fundamentals/
+  file:
+   es: lessons/es/tailwind/setup-and-fundamentals/index.md
+   en: lessons/en/tailwind/setup-and-fundamentals/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: tailwind-design-tokens
+  title:
+   es: 'Tailwind CSS: Tokens de diseño y style.css — Guía breve'
+   en: 'Tailwind CSS: Design Tokens & style.css — Quick Guide'
+  path:
+   es: /lessons/es/tailwind/design-tokens/
+   en: /lessons/en/tailwind/design-tokens/
+  file:
+   es: lessons/es/tailwind/design-tokens/index.md
+   en: lessons/en/tailwind/design-tokens/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: tailwind-dark-mode
+  title:
+   es: 'Tailwind CSS: Guía de Implementación de Modo Oscuro — Enfoque de Codificación Crítica'
+   en: 'Tailwind CSS: Dark Mode Implementation Guide — Critical Coding Approach'
+  path:
+   es: /lessons/es/tailwind/dark-mode/
+   en: /lessons/en/tailwind/dark-mode/
+  file:
+   es: lessons/es/tailwind/dark-mode/index.md
+   en: lessons/en/tailwind/dark-mode/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: tailwind-components-inline
+  title:
+   es: 'Tailwind CSS: Componentes Inline en Vistas — Ruta A (sin componentización)'
+  path:
+   es: /lessons/es/tailwind/components-inline/
+  file:
+   es: lessons/es/tailwind/components-inline/index.md
+  status:
+   es: complete
+  category: tailwind
+
+- slug: tailwind-routing-string-templates
+  title:
+   es: 'Tailwind CSS: Ruteo SPA con String Templates — Vistas Modulares y Navegación'
+   en: 'Tailwind CSS: SPA Routing with String Templates — Modular Views & Navigation'
+  path:
+   es: /lessons/es/tailwind/routing-and-shared-layout/string-templates/
+   en: /lessons/en/tailwind/routing-and-shared-layout/string-templates/
+  file:
+   es: lessons/es/tailwind/routing-and-shared-layout/string-templates/index.md
+   en: lessons/en/tailwind/routing-and-shared-layout/string-templates/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: tailwind-routing-shared-layout
+  title:
+   es: 'Tailwind CSS: Ruteo y Layout Compartido — Visión General'
+  path:
+   es: /lessons/es/tailwind/routing-and-shared-layout/
+  file:
+   es: lessons/es/tailwind/routing-and-shared-layout/index.md
+  status:
+   es: complete
+  category: tailwind
+
+- slug: tailwind-routing-html-template
+  title:
+   es: 'Tailwind CSS: Ruteo SPA con HTML Template — Renderizado Limpio y Seguro'
+   en: 'Tailwind CSS: SPA Routing with HTML Template — Clean, Safe Rendering'
+  path:
+   es: /lessons/es/tailwind/routing-and-shared-layout/html-template/
+   en: /lessons/en/tailwind/routing-and-shared-layout/html-template/
+  file:
+   es: lessons/es/tailwind/routing-and-shared-layout/html-template/index.md
+   en: lessons/en/tailwind/routing-and-shared-layout/html-template/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: tailwind-components-design-system
+  title:
+   es: 'Tailwind CSS: Componentes y Sistema de Diseño — Construyendo Patrones Reutilizables'
+   en: 'Tailwind CSS: Components & Design System — Building Reusable Patterns'
+  path:
+   es: /lessons/es/tailwind/components-design-system/
+   en: /lessons/en/tailwind/components-design-system/
+  file:
+   es: lessons/es/tailwind/components-design-system/index.md
+   en: lessons/en/tailwind/components-design-system/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: tailwind-state-interactivity
+  title:
+   es: 'Tailwind CSS: Estado e Interactividad — Construyendo Experiencias de Usuario Dinámicas'
+   en: 'Tailwind CSS: State & Interactivity — Building Dynamic User Experiences'
+  path:
+   es: /lessons/es/tailwind/state-interactivity/
+   en: /lessons/en/tailwind/state-interactivity/
+  file:
+   es: lessons/es/tailwind/state-interactivity/index.md
+   en: lessons/en/tailwind/state-interactivity/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: tailwind-accessibility-performance
+  title:
+   es: 'Tailwind CSS: Accesibilidad y Rendimiento — Diseño Inclusivo y Optimizado'
+   en: 'Tailwind CSS: Accessibility & Performance — Inclusive & Optimized Design'
+  path:
+   es: /lessons/es/tailwind/accessibility-performance/
+   en: /lessons/en/tailwind/accessibility-performance/
+  file:
+   es: lessons/es/tailwind/accessibility-performance/index.md
+   en: lessons/en/tailwind/accessibility-performance/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: tailwind-build-deploy
+  title:
+   es: 'Tailwind CSS: Build y Deploy — PWA Lista para Producción'
+   en: 'Tailwind CSS: Build & Deploy — Production-Ready PWA'
+  path:
+   es: /lessons/es/tailwind/build-deploy/
+   en: /lessons/en/tailwind/build-deploy/
+  file:
+   es: lessons/es/tailwind/build-deploy/index.md
+   en: lessons/en/tailwind/build-deploy/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: tailwind-portfolio-spa-architecture
+  title:
+   es: 'Portfolio SPA con Tailwind — Guía de Arquitectura'
+   en: 'Tailwind Portfolio SPA — Architecture Guide'
+  path:
+   es: /lessons/es/tailwind/portfolio-template/
+   en: /lessons/en/tailwind/portfolio-template/
+  file:
+   es: lessons/es/tailwind/portfolio-template/index.md
+   en: lessons/en/tailwind/portfolio-template/index.md
+  status:
+   es: complete
+   en: complete
+  category: tailwind
+
+- slug: bootstrap
+  title:
+   es: 'Bootstrap CSS Learning Path — Complete Roadmap'
+   en: 'Bootstrap CSS Learning Path — Complete Roadmap'
+  path:
+   es: /lessons/es/bootstrap/
+   en: /lessons/en/bootstrap/
+  file:
+   es: lessons/es/bootstrap/index.md
+   en: lessons/en/bootstrap/index.md
+  status:
+   es: complete
+   en: complete
+  category: bootstrap
+
+- slug: bootstrap-roadmap
+  title:
+   en: 'Bootstrap CSS Teaching Roadmap'
+  path:
+   en: /lessons/en/bootstrap/roadmap/
+  file:
+   en: lessons/en/bootstrap/roadmap/index.md
+  status:
+   en: complete
+  category: bootstrap
+
+- slug: bootstrap-setup-fundamentals
+  title:
+   es: 'Bootstrap CSS: Setup & Fundamentals — PWA-Ready Development'
+   en: 'Bootstrap CSS: Setup & Fundamentals — PWA-Ready Development'
+  path:
+   es: /lessons/es/bootstrap/setup-and-fundamentals/
+   en: /lessons/en/bootstrap/setup-and-fundamentals/
+  file:
+   es: lessons/es/bootstrap/setup-and-fundamentals/index.md
+   en: lessons/en/bootstrap/setup-and-fundamentals/index.md
+  status:
+   es: complete
+   en: complete
+  category: bootstrap
+
+- slug: bootstrap-layout-grid-containers
+  title:
+   es: 'Bootstrap CSS: Layout Grid & Containers — Responsive Layout Architecture'
+   en: 'Bootstrap CSS: Layout Grid & Containers — Responsive Layout Architecture'
+  path:
+   es: /lessons/es/bootstrap/layout-grid-containers/
+   en: /lessons/en/bootstrap/layout-grid-containers/
+  file:
+   es: lessons/es/bootstrap/layout-grid-containers/index.md
+   en: lessons/en/bootstrap/layout-grid-containers/index.md
+  status:
+   es: complete
+   en: complete
+  category: bootstrap
+
+- slug: bootstrap-components-navbar-cards
+  title:
+   es: 'Bootstrap CSS: Components & UI Patterns — Reusable Component Library'
+   en: 'Bootstrap CSS: Components & UI Patterns — Reusable Component Library'
+  path:
+   es: /lessons/es/bootstrap/components-navbar-cards/
+   en: /lessons/en/bootstrap/components-navbar-cards/
+  file:
+   es: lessons/es/bootstrap/components-navbar-cards/index.md
+   en: lessons/en/bootstrap/components-navbar-cards/index.md
+  status:
+   es: complete
+   en: complete
+  category: bootstrap
+
+- slug: bootstrap-css-customization-sass
+  title:
+   es: 'Bootstrap CSS: CSS Customization & Sass — Design System Theming'
+   en: 'Bootstrap CSS: CSS Customization & Sass — Design System Theming'
+  path:
+   es: /lessons/es/bootstrap/css-customization-sass/
+   en: /lessons/en/bootstrap/css-customization-sass/
+  file:
+   es: lessons/es/bootstrap/css-customization-sass/index.md
+   en: lessons/en/bootstrap/css-customization-sass/index.md
+  status:
+   es: complete
+   en: complete
+  category: bootstrap
+
+- slug: bootstrap-interactivity-js-components
+  title:
+   es: 'Bootstrap CSS: Interactivity & JavaScript — Dynamic User Experiences'
+   en: 'Bootstrap CSS: Interactivity & JavaScript — Dynamic User Experiences'
+  path:
+   es: /lessons/es/bootstrap/interactivity-js-components/
+   en: /lessons/en/bootstrap/interactivity-js-components/
+  file:
+   es: lessons/es/bootstrap/interactivity-js-components/index.md
+   en: lessons/en/bootstrap/interactivity-js-components/index.md
+  status:
+   es: complete
+   en: complete
+  category: bootstrap
+
+- slug: bootstrap-final-project-deployment
+  title:
+   es: 'Bootstrap CSS: Construcción y Despliegue — Portafolio Listo para Producción'
+   en: 'Bootstrap CSS: Build & Deploy — Production-Ready Portfolio'
+  path:
+   es: /lessons/es/bootstrap/final-project-deployment/
+   en: /lessons/en/bootstrap/final-project-deployment/
+  file:
+   es: lessons/es/bootstrap/final-project-deployment/index.md
+   en: lessons/en/bootstrap/final-project-deployment/index.md
+  status:
+   es: complete
+   en: complete
+  category: bootstrap
+
+- slug: bootstrap-modern-web-design-trends
+  title:
+   es: 'Tendencias de Diseño Web Moderno con Bootstrap: Guía Práctica para Estudiantes'
+   en: 'Modern Web Design Trends with Bootstrap: Practical Guide for Students'
+  path:
+   es: /lessons/es/bootstrap/modern-web-design-trends/
+   en: /lessons/en/bootstrap/modern-web-design-trends/
+  file:
+   es: lessons/es/bootstrap/modern-web-design-trends/index.md
+   en: lessons/en/bootstrap/modern-web-design-trends/index.md
+  status:
+   es: complete
+   en: complete
+  category: bootstrap
+
+- slug: metadata-visual-identity-web
+  title:
+   es: 'Metadatos e identidad visual en la documentación web'
+   en: 'Metadata and Visual Identity in Web Documentation'
+  path:
+   es: /lessons/es/metadata-visual-identity-web/
+   en: /lessons/en/metadata-visual-identity-web/
+  file:
+   es: lessons/es/metadata-visual-identity-web/index.md
+   en: lessons/en/metadata-visual-identity-web/index.md
+  status:
+   es: complete
+   en: complete
+
+- slug: linting-and-formatting
+  title:
+   es: 'El Propósito del Formateo y Linting en el Desarrollo'
+   en: 'The Purpose of Formatting and Linting in Development'
+  path:
+   es: /lessons/es/linting-and-formatting/
+   en: /lessons/en/linting-and-formatting/
+  file:
+   es: lessons/es/linting-and-formatting/index.md
+   en: lessons/en/linting-and-formatting/index.md
+  status:
+   es: complete
+   en: complete
+
+- slug: modern-web-design-trends
+  title:
+   es: 'Tendencias de Diseño Web Moderno: Guía Práctica para Estudiantes'
+   en: 'Modern Web Design Trends: Practical Guide for Students'
+  path:
+   es: /lessons/es/modern-web-design-trends/
+   en: /lessons/en/modern-web-design-trends/
+  file:
+   es: lessons/es/modern-web-design-trends/index.md
+   en: lessons/en/modern-web-design-trends/index.md
+  status:
+   es: complete
+   en: complete
+
+- slug: pseudo-elements-and-state-styling
+  title:
+   es: 'Pseudo-Elementos y Estilos Basados en Estado: Enfoques Críticos para CSS Dinámico'
+   en: 'Pseudo-Elements and State-Based Styling: Critical Approaches to Dynamic CSS'
+  path:
+   es: /lessons/es/pseudo-elementos-y-estilos-de-estado/
+   en: /lessons/en/pseudo-elements-and-state-styling/
+  file:
+   es: lessons/es/pseudo-elementos-y-estilos-de-estado/index.md
+   en: lessons/en/pseudo-elements-and-state-styling/index.md
+  status:
+   es: complete
+   en: complete
+  description:
+   es: 'Domina las pseudo-clases y pseudo-elementos para crear interfaces dinámicas y accesibles'
+   en: 'Master pseudo-classes and pseudo-elements for dynamic, accessible interfaces'
+
+- slug: modals
+  title:
+   en: 'Modals & Navigation Patterns – New Page vs. Modal Dialogs'
+  path:
+   en: /lessons/en/modals/
+  file:
+   en: lessons/en/modals/index.md
+  status:
+   en: complete
+  description:
+   en: 'A critical exploration of when to use modals vs. new pages, with implementations in pure CSS and vanilla JavaScript'
+  category: ux
+
+- slug: web-design-trends
+  title:
+   es: 'Tendencias de diseño web moderno: teoría y práctica'
+   en: 'Modern Web Design Trends: Theory and Practice'
+  path:
+   es: /lessons/es/web-design-trends/
+   en: /lessons/en/web-design-trends/
+  file:
+   es: lessons/es/web-design-trends/index.md
+   en: lessons/en/web-design-trends/index.md
+  status:
+   es: complete
+   en: complete
+
+- slug: video-on-web
+  title:
+   es: 'Video en la Web – De HTML5 a Experiencias Listas para Producción'
+   en: 'Video on the Web – From HTML5 to Production-Ready Experiences'
+  path:
+   es: /lessons/es/media/video/
+   en: /lessons/en/media/video/
+  file:
+   es: lessons/es/media/video/index.md
+   en: lessons/en/media/video/index.md
+  status:
+   es: stub
+   en: complete
+  category: media
+  description:
+   es: 'Guía completa sobre video en la web: HTML5, accesibilidad, rendimiento y bibliotecas'
+   en: 'Complete guide to video on the web: HTML5, accessibility, performance, and libraries'
+
+- slug: portfolio-template-brief
+  title:
+   es: 'Proyecto Final del Curso: Plantilla Profesional de Portfolio'
+   en: 'Final Course Project: Professional Portfolio Template'
+  path:
+   es: /lessons/es/portfolio-template-brief/challenge/
+   en: /lessons/en/portfolio-template-brief/challenge/
+  file:
+   es: lessons/es/portfolio-template-brief/challenge/index.md
+   en: lessons/en/portfolio-template-brief/challenge/index.md
+  status:
+   es: complete
+   en: complete
+
+- slug: portfolio-template-brief-plan
+  title:
+   es: 'Proyecto Final: Plan del Brief de Plantilla de Portfolio'
+   en: 'Final Project: Portfolio Template Brief Plan'
+  path:
+   es: /lessons/es/portfolio-template-brief/plan/
+   en: /lessons/en/portfolio-template-brief/plan/
+  file:
+   es: lessons/es/portfolio-template-brief/plan/index.md
+   en: lessons/en/portfolio-template-brief/plan/index.md
+  status:
+   es: complete
+   en: complete
+
+- slug: portfolio-template-brief-site-plan
+  title:
+   es: 'Proyecto Final: Plan de Showcase y Arquitectura CSS'
+   en: 'Final Project: Showcase & CSS Architecture Plan'
+  path:
+   es: /lessons/es/portfolio-template-brief/site/plan/
+   en: /lessons/en/portfolio-template-brief/site/plan/
+  file:
+   es: lessons/es/portfolio-template-brief/site/plan/index.md
+   en: lessons/en/portfolio-template-brief/site/plan/index.md
+  status:
+   es: complete
+   en: complete

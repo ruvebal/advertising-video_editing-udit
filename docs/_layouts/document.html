@@ -1,0 +1,123 @@
+---
+layout: default
+---
+
+{% comment %} Detect if TOC exists {% endcomment %}
+{% assign has_toc = false %}
+{% if page.content contains '{:toc}' %}
+	{% assign has_toc = true %}
+{% endif %}
+
+<div class="lesson-wrapper{% if has_toc %} has-toc{% else %} no-toc{% endif %}">
+	{% if has_toc %}
+	<button class="toc-toggle" id="toc-toggle" aria-label="Open table of contents" aria-expanded="false">
+		<svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+		</svg>
+		<span class="toc-toggle-text">{% if page.lang == "es" %}Contenido{% else %}Contents{% endif %}</span>
+	</button>
+	<div class="toc-backdrop" id="toc-backdrop" aria-hidden="true"></div>
+	<aside class="lesson-toc" id="lesson-toc" aria-label="{% if page.lang == 'es' %}Tabla de contenidos{% else %}Table of Contents{% endif %}">
+		<div class="toc-container">
+			<div class="toc-header">
+				<h2 class="toc-title">📋 {% if page.lang == "es" %}Tabla de contenidos{% else %}Table of Contents{% endif %}</h2>
+				<button class="toc-close" id="toc-close" aria-label="Close table of contents">
+					<svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</button>
+			</div>
+			<nav class="toc-nav" id="toc-nav">
+				<div id="toc-sidebar-placeholder" class="toc-content"></div>
+			</nav>
+		</div>
+	</aside>
+	{% endif %}
+
+	<div class="lesson-main">
+		<article class="lesson-content">
+			<header class="lesson-header">
+				<div class="week-badge">
+					{% if page.category %}
+						{{ page.category }}
+					{% else %}
+						Document
+					{% endif %}
+				</div>
+				{% if page.status %}
+				{% assign status_lower = page.status | downcase %}
+				<span class="lesson-status status-{{ page.status | downcase | replace: ' ', '-' }} flex-shrink-0">
+					{% if status_lower == 'finished' or status_lower == 'terminado' %}
+						{% if page.lang == 'es' %}✓ Finalizado{% else %}✓ Finished{% endif %}
+					{% elsif status_lower == 'draft' or status_lower == 'borrador' %}
+						{% if page.lang == 'es' %}Borrador{% else %}Draft{% endif %}
+					{% elsif status_lower == 'in progress' or status_lower == 'in-progress' or status_lower == 'en proceso' %}
+						{% if page.lang == 'es' %}En Proceso{% else %}In Progress{% endif %}
+					{% else %}
+						{{ page.status | capitalize }}
+					{% endif %}
+				</span>
+				{% endif %}
+				<h1 class="lesson-title">{{ page.title }}</h1>
+				{% if page.description %}
+				<p class="lesson-lead">{{ page.description }}</p>
+				{% endif %}
+			</header>
+
+			<div class="lesson-body prose prose-lg prose-slate dark:prose-invert">
+				{{ content }}
+			</div>
+		</article>
+	</div>
+</div>
+
+<script>
+(function () {
+	const toc = document.getElementById('markdown-toc');
+	const placeholder = document.getElementById('toc-sidebar-placeholder');
+	if (toc && placeholder) {
+		placeholder.appendChild(toc);
+	}
+
+	const tocHeading = document.querySelector('h2.no_toc');
+	if (tocHeading) {
+		const text = tocHeading.textContent.toLowerCase();
+		if (text.includes('table of contents') || text.includes('tabla de contenidos') || text.includes('📋')) {
+			tocHeading.style.display = 'none';
+		}
+	}
+
+	const tocToggle = document.getElementById('toc-toggle');
+	const tocClose = document.getElementById('toc-close');
+	const lessonToc = document.getElementById('lesson-toc');
+	const tocBackdrop = document.getElementById('toc-backdrop');
+
+	function openTOC() {
+		if (lessonToc) {
+			lessonToc.setAttribute('aria-expanded', 'true');
+			lessonToc.style.display = 'block';
+			lessonToc.style.transform = 'translateX(0)';
+		}
+		if (tocToggle) tocToggle.setAttribute('aria-expanded', 'true');
+		if (tocBackdrop) tocBackdrop.setAttribute('aria-hidden', 'false');
+		document.body.classList.add('toc-open');
+		document.body.style.overflow = 'hidden';
+	}
+
+	function closeTOC() {
+		if (lessonToc) {
+			lessonToc.setAttribute('aria-expanded', 'false');
+			lessonToc.style.display = '';
+			lessonToc.style.transform = '';
+		}
+		if (tocToggle) tocToggle.setAttribute('aria-expanded', 'false');
+		if (tocBackdrop) tocBackdrop.setAttribute('aria-hidden', 'true');
+		document.body.classList.remove('toc-open');
+		document.body.style.overflow = '';
+	}
+
+	if (tocToggle) tocToggle.addEventListener('click', openTOC);
+	if (tocClose) tocClose.addEventListener('click', closeTOC);
+	if (tocBackdrop) tocBackdrop.addEventListener('click', closeTOC);
+})();
+</script>

@@ -1,0 +1,28 @@
+<!-- Video playlist for a week -->
+{% assign week = include.week %}
+{% assign videos = site.data.videos[week] %}
+
+{% if videos %}
+<div class="video-playlist">
+	<h3>Week {{ week }} Video Library</h3>
+	<div class="playlist-items">
+		{% for video in videos %}
+		<div class="playlist-item">
+			<div class="playlist-thumbnail">
+				{% if video.platform == 'youtube' %}
+				<img src="https://img.youtube.com/vi/{{ video.id }}/mqdefault.jpg" alt="{{ video.title }}" loading="lazy">
+				{% endif %}
+			</div>
+			<div class="playlist-info">
+				<h4>{{ video.title }}</h4>
+				<p class="duration">{{ video.duration }}</p>
+				<p class="description">{{ video.description }}</p>
+				<button class="play-btn" data-platform="{{ video.platform }}" data-id="{{ video.id }}">
+					▶ Play
+				</button>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+{% endif %}

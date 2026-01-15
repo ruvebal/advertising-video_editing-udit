@@ -1,0 +1,67 @@
+title: 'Advertising Video Editing Course'
+description: 'A comprehensive course on video editing for advertising, blending theory, technique, and ethics. UDIT – University of Design, Innovation and Technology.'
+url: 'https://ruvebal.github.io'
+baseurl: '/advertising-video_editing'
+repository: 'ruvebal/advertising-video_editing'
+
+source: docs
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
+  parse_span_html: true
+  show_warnings: false
+  auto_ids: true
+  auto_id_stripping: true
+  smart_quotes: [lsquo, rsquo, ldquo, rdquo]
+  entity_output: as_char
+  typographic_symbols:
+    hellip: '…'
+    ndash: '–'
+    mdash: '—'
+    laquo: '«'
+    raquo: '»'
+  footnote_nr: 1
+  footnote_backlink: '↩'
+  toc_levels: 2..4
+
+theme: null
+highlighter: rouge
+permalink: /prompts/:slug/
+
+collections:
+  prompts:
+    output: true
+    permalink: /prompts/:slug/
+
+defaults:
+  - scope:
+      path: '_prompts'
+      type: 'prompts'
+    values:
+      layout: 'lesson'
+      status: draft
+  - scope:
+      path: ''
+    values:
+      layout: 'default'
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - scripts
+  - .github
+  - astro
+  - "*.analysis.md"
+  - jekyll-implementation-guide.md
+  - course-website-technical-analysis.md
