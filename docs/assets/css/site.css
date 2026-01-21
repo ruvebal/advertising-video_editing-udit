@@ -718,7 +718,7 @@ img.footer-logo {
 
 /* Blockquotes contrast */
 .prose blockquote {
-	border-left: 4px solid var(--border-light);
+	border-left: none !important;
 	background: var(--bg-light);
 	padding: 0.5rem 1rem;
 	color: var(--text-secondary);
@@ -733,20 +733,12 @@ img.footer-logo {
 /* Override Tailwind's default quotes on p:first-of-type and p:last-of-type */
 .prose :where(blockquote p:first-of-type):not(:where([class~='not-prose'], [class~='not-prose'] *))::before,
 .prose :where(blockquote p:last-of-type):not(:where([class~='not-prose'], [class~='not-prose'] *))::after {
-	font-size: 5rem;
-	line-height: 0.5em;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	color: var(--text-primary);
-	opacity: 0.12;
-	position: absolute;
-	pointer-events: none;
 	z-index: 0;
-	font-weight: 400;
 }
 
 /* Opening quote - positioned at top-left, above text */
 .prose :where(blockquote p:first-of-type):not(:where([class~='not-prose'], [class~='not-prose'] *))::before {
-	content: open-quote !important;
+	content: '' !important;
 	left: 0;
 	top: 0;
 	line-height: 0.5em;
@@ -760,7 +752,7 @@ img.footer-logo {
 
 /* Closing quote - positioned at bottom-right with upper padding */
 .prose :where(blockquote p:last-of-type):not(:where([class~='not-prose'], [class~='not-prose'] *))::after {
-	content: close-quote !important;
+	content: '' !important;
 	right: 0.5rem;
 	bottom: -1.5rem;
 	line-height: 0em;
@@ -776,18 +768,86 @@ img.footer-logo {
 /* Figure quote styling - for attributed quotes */
 .prose figure.quote {
 	margin: 1.5rem 0;
+	border-left: 4px solid var(--border-light);
+	background: var(--bg-light);
+	padding: 0.5rem 1rem;
+	position: relative;
+	overflow: visible;
+	/* Define quote characters: double quotes, single quotes */
+	quotes: '\201C''\201D''\2018''\2019';
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dark .prose figure.quote {
+	border-left-color: #404040;
+	background-color: #171717;
+}
+
+/* Oversized decorative quotes for figure.quote */
+.prose figure.quote::before,
+.prose figure.quote::after {
+	font-size: 5rem;
+	line-height: 0.5em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: var(--text-primary);
+	opacity: 0.12;
+	position: absolute;
+	pointer-events: none;
+	z-index: 0;
+	font-weight: 400;
+}
+
+.dark .prose figure.quote::before,
+.dark .prose figure.quote::after {
+	color: #f5f5f5;
+}
+
+/* Opening quote - positioned at top-left */
+.prose figure.quote::before {
+	content: open-quote;
+	left: 0;
+	top: 0;
+	line-height: 0.5em;
+	z-index: 2;
+}
+
+/* Closing quote - positioned at bottom-right */
+.prose figure.quote::after {
+	content: close-quote;
+	right: 0.5rem;
+	bottom: -1.5rem;
+	line-height: 0em;
+	padding-top: 0.5rem;
 }
 
 .prose figure.quote blockquote {
 	margin: 0; /* Remove default margin since figure handles spacing */
+	border-left: none !important;
+	padding: 1rem;
+	position: relative;
+	z-index: 1;
+	color: var(--text-secondary);
+}
+
+.dark .prose figure.quote blockquote {
+	border-left: none !important;
+	color: #f5f5f5;
 }
 
 .prose figure.quote figcaption {
 	margin-top: 0.75rem;
 	text-align: right;
-	font-size: 0.875em;
+	font-size: 0.75em;
 	color: var(--text-secondary);
 	font-style: italic;
+	background: var(--bg-light);
+	position: relative;
+	z-index: 1;
+}
+
+.dark .prose figure.quote figcaption {
+	background-color: #171717;
+	color: #a3a3a3;
 }
 
 .prose figure.quote figcaption cite {
@@ -929,14 +989,14 @@ img.footer-logo {
 		padding: 0;
 		width: 100%;
 	}
-	
+
 	/* TOC doesn't take space in grid on mobile - completely removed from flow */
 	/* But allow it to show when expanded - this rule only applies when NOT expanded */
 	.lesson-wrapper > .lesson-toc:not([aria-expanded="true"]) {
 		display: none !important;
 		position: fixed !important; /* Override any other positioning */
 	}
-	
+
 	/* When expanded, ensure TOC is visible and positioned correctly */
 	.lesson-wrapper > .lesson-toc[aria-expanded="true"] {
 		display: block !important;
@@ -1788,7 +1848,7 @@ main#main:has(.lesson-wrapper) {
 		padding: 0;
 		margin: 0;
 	}
-	
+
 	/* Ensure lesson-wrapper starts immediately after header */
 	.lesson-wrapper {
 		margin-top: 0 !important;

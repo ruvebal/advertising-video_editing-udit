@@ -1,0 +1,293 @@
+# Cursor Rules for Advertising Video Editing Course
+
+## Video Embedding
+
+### YouTube Videos
+Use the `video-player` include with the following pattern:
+
+```liquid
+{% include video-player.html
+   platform="youtube"
+   id="VIDEO_ID"
+   title="Descriptive Video Title"
+   timestamps="0:00|Label1,1:30|Label2,3:45|Label3" %}
+```
+
+**Rules:**
+- Always use `platform="youtube"` for YouTube videos
+- Extract video ID from URL: `https://www.youtube.com/watch?v=VIDEO_ID` → use `VIDEO_ID`
+- Always provide a descriptive `title` for accessibility
+- Add timestamps for videos longer than 2 minutes or when specific moments need highlighting
+- Timestamp format: `"MM:SS|Label"` or `"HH:MM:SS|Label"`, comma-separated
+- Place videos at the beginning of relevant sections, before explanatory text
+
+**Example:**
+```liquid
+{% include video-player.html
+   platform="youtube"
+   id="dQw4w9WgXcQ"
+   title="Example Video Title"
+   timestamps="0:00|Introduction,2:15|Main Content,5:30|Conclusion" %}
+```
+
+### Vimeo Videos
+Use the same pattern but with `platform="vimeo"`:
+
+```liquid
+{% include video-player.html
+   platform="vimeo"
+   id="VIDEO_ID"
+   title="Descriptive Video Title"
+   timestamps="0:00|Label1,1:30|Label2" %}
+```
+
+**Rules:**
+- Extract video ID from URL: `https://vimeo.com/123456789` → use `123456789`
+- Same timestamp format as YouTube
+- Same placement rules
+
+### Video Placement Guidelines
+- Place videos at the start of relevant theory sections (before "Key Thesis" or main content)
+- Add context before the video embed (brief description)
+- Follow with analysis/discussion points after the video
+- Use timestamps to highlight key moments mentioned in the text
+
+---
+
+## Image Embedding
+
+### Semantic Image Structure
+Use semantic HTML5 `<figure>` and `<figcaption>` elements:
+
+```html
+<figure class="spectacle-image">
+<img src="IMAGE_URL" alt="Descriptive alt text" loading="lazy" />
+<figcaption>
+<p>Image caption describing what the image shows and its relevance to the content.</p>
+<p class="image-credit">Photographer/Source Credit</p>
+</figcaption>
+</figure>
+```
+
+**Rules:**
+- Always use `<figure>` wrapper for images with captions
+- Always include descriptive `alt` text for accessibility
+- Always use `loading="lazy"` for performance
+- Include caption in first `<p>` tag within `<figcaption>`
+- Include credit in second `<p>` tag with class `image-credit`
+- Place images after video embeds but before main content text
+- Use descriptive class names (e.g., `spectacle-image`, `theory-image`)
+
+**Example:**
+```html
+<figure class="theory-image">
+<img src="https://example.com/image.jpg" alt="Description of image content" loading="lazy" />
+<figcaption>
+<p>Caption explaining the image and its relevance to the lesson content.</p>
+<p class="image-credit">Photographer Name/Source</p>
+</figcaption>
+</figure>
+```
+
+### Image Placement Guidelines
+- Place images after video embeds in the same section
+- Position before "Key Thesis" or main explanatory text
+- Use images to illustrate theoretical concepts visually
+- Ensure images support and enhance the text content
+
+---
+
+## Content Structure Pattern
+
+### Standard Section Layout
+When adding media to a lesson section, follow this order:
+
+1. **Section Title** (e.g., `#### 1. Theory Name`)
+2. **Video Embed** (if applicable)
+3. **Image** (if applicable)
+4. **Key Thesis/Introduction Text**
+5. **Main Content**
+6. **Examples/Discussion Points**
+
+**Example:**
+```markdown
+#### 1. Theory Name
+
+{% include video-player.html
+   platform="youtube"
+   id="VIDEO_ID"
+   title="Video Title"
+   timestamps="0:00|Intro" %}
+
+<figure class="theory-image">
+<img src="IMAGE_URL" alt="Alt text" loading="lazy" />
+<figcaption>
+<p>Caption</p>
+<p class="image-credit">Credit</p>
+</figcaption>
+</figure>
+
+**Key Thesis:**
+Main content here...
+```
+
+---
+
+## Technical Requirements
+
+### Video Features
+- All videos use privacy-enhanced mode (`youtube-nocookie.com`)
+- `rel=0` parameter limits recommendations to same channel only
+- JavaScript automatically stops videos when they end (prevents related videos)
+- Timestamp buttons automatically seek and play
+- Responsive 16:9 aspect ratio containers
+
+### Image Features
+- Lazy loading for performance
+- Semantic HTML5 structure
+- Accessible alt text required
+- Caption and credit always included
+
+---
+
+## Common Patterns
+
+### Adding a Theory Video
+```liquid
+{% include video-player.html
+   platform="youtube"
+   id="VIDEO_ID"
+   title="Theory Name - Video Title"
+   timestamps="0:00|Introduction,0:30|Key Concept,1:15|Application" %}
+```
+
+### Adding an Illustration Image
+```html
+<figure class="concept-image">
+<img src="IMAGE_URL" alt="Description of how image illustrates the concept" loading="lazy" />
+<figcaption>
+<p>Explanation of image relevance to the theory/concept.</p>
+<p class="image-credit">Source Credit</p>
+</figcaption>
+</figure>
+```
+
+### Adding Video with Timestamps for Key Moments
+```liquid
+{% include video-player.html
+   platform="youtube"
+   id="VIDEO_ID"
+   title="Video Title"
+   timestamps="0:00|Opening,0:30|Argument Starts,1:15|Key Point,2:00|Conclusion" %}
+```
+
+---
+
+## File Locations
+
+- Video includes: `docs/_includes/video-player.html`, `youtube.html`, `vimeo.html`
+- Video JavaScript: `docs/assets/js/video-timestamps.js`
+- Video CSS: `docs/assets/css/video.css`
+- Lesson files: `docs/_prompts/week-XX-*.md`
+
+---
+
+## Best Practices
+
+1. **Always provide context** - Add brief description before video/image
+2. **Use descriptive titles** - Video titles should be clear and informative
+3. **Add timestamps for long videos** - Help students navigate content
+4. **Include captions** - Images need descriptive captions explaining relevance
+5. **Maintain consistency** - Follow the established patterns
+6. **Test locally** - Verify videos/images work after adding
+7. **Accessibility first** - Always include alt text and descriptive titles
+
+---
+
+## Quick Reference
+
+**Add YouTube video:**
+```liquid
+{% include video-player.html platform="youtube" id="VIDEO_ID" title="Title" %}
+```
+
+**Add YouTube video with timestamps:**
+```liquid
+{% include video-player.html platform="youtube" id="VIDEO_ID" title="Title" timestamps="0:00|Label1,1:30|Label2" %}
+```
+
+**Add image:**
+```html
+<figure class="image-class">
+<img src="URL" alt="Description" loading="lazy" />
+<figcaption>
+<p>Caption</p>
+<p class="image-credit">Credit</p>
+</figcaption>
+</figure>
+```
+
+---
+
+## Quote Formatting
+
+### Semantic Quote Structure
+Use semantic HTML5 `<figure>`, `<blockquote>`, and `<figcaption>` elements:
+
+```html
+<figure class="quote">
+<blockquote>
+Quote text goes here without quotation marks or italics.
+</blockquote>
+<figcaption>
+&mdash; Attribution Name or Source
+</figcaption>
+</figure>
+```
+
+**Rules:**
+- Always use `<figure class="quote">` wrapper
+- Use `<blockquote>` for the quote text (no quotation marks, no italics)
+- Use `<figcaption>` with `&mdash;` for attribution
+- Remove markdown quote syntax (`>`) and formatting (`*`)
+- Place quotes where they enhance the content flow
+- Use "Tao of the Video Editor" as attribution for course quotes
+
+**Example:**
+```html
+<figure class="quote">
+<blockquote>
+The medium shapes the message. The editor shapes both.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
+```
+
+**Before (Markdown):**
+```markdown
+> *"The medium shapes the message. The editor shapes both."*
+```
+
+**After (Semantic HTML):**
+```html
+<figure class="quote">
+<blockquote>
+The medium shapes the message. The editor shapes both.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
+```
+
+### Quote Placement Guidelines
+- Place quotes at natural breaks in content
+- Use quotes to emphasize key concepts
+- Ensure quotes support the surrounding text
+- Don't overuse quotes—quality over quantity
+
+---
+
+*These rules ensure consistent, accessible, and maintainable media integration across all lesson content.*

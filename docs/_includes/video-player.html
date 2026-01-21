@@ -1,26 +1,24 @@
-<!-- Universal video player with timestamps -->
 <div class="video-player" data-video-id="{{ include.id }}">
-	{% if include.platform == 'youtube' %}
-		{% include youtube.html id=include.id title=include.title %}
-	{% elsif include.platform == 'vimeo' %}
-		{% include vimeo.html id=include.id title=include.title %}
-	{% endif %}
-	
-	{% if include.timestamps %}
-	<div class="video-timestamps">
-		<h4>Key Moments:</h4>
-		<ul>
-			{% assign timestamps = include.timestamps | split: ',' %}
-			{% for timestamp in timestamps %}
-				{% assign parts = timestamp | split: '|' %}
-				<li>
-					<button class="timestamp-btn" data-time="{{ parts[0] }}">
-						<span class="time">{{ parts[0] }}</span>
-						<span class="label">{{ parts[1] }}</span>
-					</button>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-	{% endif %}
+{% if include.platform == 'youtube' %}
+{% include youtube.html id=include.id title=include.title %}
+{% elsif include.platform == 'vimeo' %}
+{% include vimeo.html id=include.id title=include.title %}
+{% endif %}
+{% if include.timestamps %}
+<div class="video-timestamps">
+<h4>Key Moments:</h4>
+<ul>
+{% assign timestamps = include.timestamps | split: ',' %}
+{% for timestamp in timestamps %}
+{% assign parts = timestamp | split: '|' %}
+<li>
+<button class="timestamp-btn" data-time="{{ parts[0] }}">
+<span class="time">{{ parts[0] }}</span>
+<span class="label">{{ parts[1] }}</span>
+</button>
+</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
 </div>

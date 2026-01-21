@@ -62,6 +62,13 @@ exclude:
   - scripts
   - .github
   - astro
+  - prompts
   - "*.analysis.md"
   - jekyll-implementation-guide.md
   - course-website-technical-analysis.md
+  - VIDEO_INTEGRATION_GUIDE.md
+  - VIDEO_QUICK_REFERENCE.md
+  - VIDEO_INTEGRATION_SUMMARY.md
+  - PROJECT_AUDIT.md
+  - DIRECTORY_STRUCTURE_EXPLANATION.md  - JEKYLL_BUILD_FIX.md
+  - JEKYLL_BUILD_FIX.md

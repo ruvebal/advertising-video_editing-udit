@@ -21,11 +21,15 @@ next_week:
 {:toc}
 <!-- prettier-ignore-end -->
 
-# Week 1: Introduction to Advertising & Editing Persuasion
-## Lesson Development Prompt for Instructors
 
-> *"To edit is to choose; to choose is to reveal your values. The ethical editor knows that every frame carries responsibility."*  
-> — Tao of the Video Editor
+<figure class="quote">
+<blockquote>
+To edit is to choose; to choose is to reveal your values. The ethical editor knows that every frame carries responsibility.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 ---
 
@@ -51,12 +55,12 @@ next_week:
 
 ### Week 1 Success Indicators
 By the end of Week 1, students should be able to:
-- ✓ Navigate Premiere Pro interface confidently
-- ✓ Import media and create sequences
-- ✓ Make basic cuts and understand pacing impact
-- ✓ Articulate how editing serves persuasion
-- ✓ Reference McLuhan and Debord in discussions
-- ✓ Identify platform-specific editing considerations
+- Navigate Premiere Pro interface confidently
+- Import media and create sequences
+- Make basic cuts and understand pacing impact
+- Articulate how editing serves persuasion
+- Reference McLuhan and Debord in discussions
+- Identify platform-specific editing considerations
 
 ---
 
@@ -64,7 +68,14 @@ By the end of Week 1, students should be able to:
 
 ### Opening (15 minutes)
 
-> *"Before the first cut, the story must already exist in your mind."*
+<figure class="quote">
+<blockquote>
+Before the first cut, the story must already exist in your mind.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 **Welcome & Course Introduction**
 - Introduce yourself and teaching philosophy (atelier model, learning by doing)
@@ -83,6 +94,12 @@ By the end of Week 1, students should be able to:
 
 #### 1. Marshall McLuhan: "The Medium is the Message" (15 min)
 
+{% include video-player.html
+   platform="youtube"
+   id="vTSmbMm7MDg"
+   title="Marshall McLuhan - The Medium is the Message"
+   timestamps="0:00|Introduction,2:00|Argument Starts to Camera,12:27|McLuhan Appears" %}
+
 **Key Thesis:**
 The form of media influences how content is received, often more than the content itself.
 
@@ -91,7 +108,7 @@ The form of media influences how content is received, often more than the conten
   - News story on newspaper (linear, reader-paced, text-heavy)
   - Same story on TV (visual, editor-paced, emotional music)
   - Same story on TikTok (vertical, 60 seconds, text overlays, trending sound)
-  
+
 **Discussion prompt:** "How does the *platform* change how you feel about the information?"
 
 **Application to Advertising:**
@@ -100,9 +117,31 @@ The form of media influences how content is received, often more than the conten
 - The *editing approach* must change based on medium
 
 **Quote to emphasize:**
-> *"The medium shapes the message. The editor shapes both."*
+
+<figure class="quote">
+<blockquote>
+The medium shapes the message. The editor shapes both.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 #### 2. Guy Debord: Society of the Spectacle (15 min)
+
+{% include video-player.html
+   platform="youtube"
+   id="-tFkeJH8gV4"
+   title="Guy Debord - Society of the Spectacle"
+   timestamps="0:03|Excerpt" %}
+
+<figure class="spectacle-image">
+<img src="https://static.life.com/wp-content/uploads/migrated/2012/11/1952_00129471.jpg" alt="Audience members sport 3-D glasses during the first screening of 'Bwana Devil,' the first full-length, color 3-D movie, November 26, 1952, at the Paramount Theater in Hollywood." loading="lazy" />
+<figcaption>
+<p>Audience members sport 3-D glasses during the first screening of "Bwana Devil," the first full-length, color 3-D movie, November 26, 1952, at the Paramount Theater in Hollywood.</p>
+<p class="image-credit">J.R. Eyerman/Life Pictures/Shutterstock</p>
+</figcaption>
+</figure>
 
 **Key Thesis:**
 In modern consumer society, direct experience is replaced by representations and images. "News, propaganda, advertising, entertainment" merge into a unified spectacle.
@@ -127,6 +166,15 @@ The spectacle is not a collection of images, but a social relationship mediated 
 **Key Thesis:**
 "Advertising sells more than products—it sells concepts of love, beauty, success, sexuality, and normalcy."
 
+{% include video-player.html
+   platform="youtube"
+   id="jWKXit_3rpQ"
+   title="Killing Us Softly 4 - Trailer [Featuring Jean Kilbourne]"
+   timestamps="0:00|Introduction,0:30|Key Concepts,1:00|Media Analysis" %}
+
+**Resources:**
+- [Jean Kilbourne's Films](https://jeankilbourne.com/films/) - Complete collection of her documentary work including *Killing Us Softly* series
+
 **Examples to Present:**
 - Beauty product ads: Selling insecurity, then solution
 - Car commercials: Selling freedom, masculinity, status (not transportation)
@@ -145,7 +193,14 @@ The spectacle is not a collection of images, but a social relationship mediated 
 - Creating false needs
 - Addictive design patterns (infinite scroll, autoplay)
 
-> *"The ethical editor asks not only 'Can I make this cut?' but 'Should I make this cut?'"*
+<figure class="quote">
+<blockquote>
+The ethical editor asks not only 'Can I make this cut?' but 'Should I make this cut?'
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 ---
 
@@ -154,6 +209,12 @@ The spectacle is not a collection of images, but a social relationship mediated 
 #### Example 1: Apple "1984" Super Bowl Commercial (60 seconds)
 
 **Context:** Aired during 1984 Super Bowl, directed by Ridley Scott, introducing Macintosh computer
+
+{% include video-player.html
+   platform="youtube"
+   id="ErwS24cBZPc"
+   title="Apple 1984 Super Bowl Commercial"
+   timestamps="0:00|Opening - Dystopian World,0:30|Heroine Appears,0:50|Chase Sequence,1:00|Hammer Throw & Explosion" %}
 
 **Screening:** Play twice
 - First viewing: Just watch and feel
@@ -250,7 +311,14 @@ Create comparison chart on board:
 - As future editors, you have power and responsibility
 - This course will teach technique AND ethics
 
-> *"The timeline is your canvas; every frame a brushstroke. Paint with intention."*
+<figure class="quote">
+<blockquote>
+The timeline is your canvas; every frame a brushstroke. Paint with intention.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 ---
 
@@ -276,7 +344,14 @@ Create comparison chart on board:
 
 ### Opening (10 minutes)
 
-> *"Theory without practice is philosophy. Practice without theory is chaos. Together, they are mastery."*
+<figure class="quote">
+<blockquote>
+Theory without practice is philosophy. Practice without theory is chaos. Together, they are mastery.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 **Recap Session A:**
 - Quick review: McLuhan (medium = message), Debord (spectacle), Kilbourne (unconscious influence)
@@ -353,7 +428,14 @@ Cmd+S       - Save project (DO THIS OFTEN!)
 - Delete section with Shift+Del
 - Undo with Cmd+Z
 
-> *"The keyboard is the editor's instrument. Learn its language, and you will speak fluently."*
+<figure class="quote">
+<blockquote>
+The keyboard is the editor's instrument. Learn its language, and you will speak fluently.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 #### Part 3: Three-Point Editing Workflow (20 minutes)
 
@@ -542,7 +624,14 @@ PROJECT_NAME/
 - Continuity editing can be slow OR fast
 - The editor controls time and therefore emotion
 
-> *"The editor is both artist and scientist—feeling the rhythm while measuring the frame."*
+<figure class="quote">
+<blockquote>
+The editor is both artist and scientist—feeling the rhythm while measuring the frame.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 ---
 
@@ -615,7 +704,14 @@ Understanding how distribution channel shapes editing approach:
 - Corporate co-opting of social movements
 - Environmental impact of consumption
 
-> *"The ethical editor knows that every frame carries responsibility. Edit with conscience."*
+<figure class="quote">
+<blockquote>
+The ethical editor knows that every frame carries responsibility. Edit with conscience.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 ---
 
@@ -709,7 +805,14 @@ Most professional editing uses simple cuts. Transitions should be rare and purpo
 - These scream "amateur" in professional work
 - Exception: Intentional retro/campy style
 
-> *"The best transition is no transition—the cut that serves the story invisibly."*
+<figure class="quote">
+<blockquote>
+The best transition is no transition—the cut that serves the story invisibly.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 **Audio Transitions:**
 - **Constant Power Crossfade:** Default, good for most
@@ -910,7 +1013,14 @@ Note:
 - Be flexible but keep moving forward
 - Save detailed questions for office hours
 
-> *"The master editor teaches not by showing the way, but by walking beside the student on their journey."*
+<figure class="quote">
+<blockquote>
+The master editor teaches not by showing the way, but by walking beside the student on their journey.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 ### Accessibility Considerations
 
@@ -960,7 +1070,14 @@ We'll travel back to the birth of cinema (1890s-1900s) to see how editing emerge
 
 **Hands-on:** Students will recreate early cinema effects using stop-motion and substitution cuts, learning that editing began as problem-solving and creative experimentation.
 
-> *"To know where editing is going, we must first understand where it came from. In the beginning, there was no cut. Then came the magician who stopped time."*
+<figure class="quote">
+<blockquote>
+To know where editing is going, we must first understand where it came from. In the beginning, there was no cut. Then came the magician who stopped time.
+</blockquote>
+<figcaption>
+&mdash; Tao of the Video Editor
+</figcaption>
+</figure>
 
 ---
 
