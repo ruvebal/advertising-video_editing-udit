@@ -363,6 +363,67 @@ Theory without practice is philosophy. Practice without theory is chaos. Togethe
 
 ---
 
+### Video Analysis: Editing Techniques in Practice (15 minutes)
+
+{% include video-player.html
+   platform="vimeo"
+   id="180668935"
+   title="Editing Techniques Demonstration" %}
+
+**Critical Thinking Prompts:**
+
+After watching the video, discuss these questions:
+
+1. **Editing as Persuasion:**
+   - How do the editing choices in this video influence your emotional response?
+   - What specific cuts or transitions create meaning beyond what the footage alone shows?
+   - How does the editor guide your attention and interpretation?
+
+2. **Technical Choices:**
+   - Identify at least three different editing techniques used (refer to the [NYFA Film Editing Vocabulary Guide](https://www.nyfa.edu/student-resources/a-beginners-guide-to-film-editing-vocabulary/))
+   - Why might the editor have chosen these specific techniques?
+   - How do these techniques serve the video's purpose or message?
+
+3. **Ethical Considerations:**
+   - Does this video manipulate or inform? Where is the line?
+   - What reality is being constructed through editing choices?
+   - How might different editing choices change the meaning or impact?
+
+**Technical Analysis Guide:**
+
+Use the following framework to analyze the editing techniques, referencing [NYFA's Film Editing Vocabulary](https://www.nyfa.edu/student-resources/a-beginners-guide-to-film-editing-vocabulary/):
+
+**1. Identify Editing Techniques:**
+- **Cuts:** Where are straight cuts used? Are there any jump cuts?
+- **Transitions:** Are there dissolves, fades, or wipes? Why were they chosen?
+- **Continuity:** Is continuity editing maintained? Are there any continuity errors?
+- **Pacing:** How does the rhythm of cuts affect the emotional impact?
+- **Montage:** Are there montage sequences? What do they convey?
+
+**2. Analyze Shot Relationships:**
+- **Establishing Shots:** How is space/time established?
+- **Shot Reverse Shot:** Are conversations or interactions edited this way?
+- **Eyeline Match:** How does the editor guide viewer attention?
+- **Matched Cuts:** Are there cuts that match composition or action?
+
+**3. Audio-Visual Relationships:**
+- **J-Cuts:** Does audio lead into the next shot?
+- **L-Cuts:** Does audio continue from the previous shot?
+- **Sweetening:** How is music and sound used to enhance meaning?
+
+**4. Narrative Structure:**
+- **Cross Cutting:** Are there parallel storylines?
+- **Cutaways:** Are there interruptions to show related action?
+- **Sequence Shots:** Are there long takes? Why might they be used?
+
+**Discussion Format:**
+- Watch the video once for overall impression
+- Watch a second time focusing on specific editing techniques
+- Use the vocabulary guide to name techniques precisely
+- Connect technical choices to emotional/meaningful impact
+
+---
+
 ### Adobe Premiere Pro Workshop (50 minutes)
 
 #### Part 1: Interface Tour (20 minutes)
