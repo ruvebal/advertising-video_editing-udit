@@ -324,7 +324,7 @@ The timeline is your canvas; every frame a brushstroke. Paint with intention.
 
 ### Assignment for Session B
 
-**Homework before next class (2 days later):**
+**Homework before next class:**
 1. Watch 3 advertisements from different eras/platforms:
    - One classic TV commercial (pre-2000)
    - One YouTube ad (2010s)
@@ -341,6 +341,15 @@ The timeline is your canvas; every frame a brushstroke. Paint with intention.
 ---
 
 ## Session B: Hands-On Practice (2 hours)
+
+<figure class="session-cover">
+<img src="https://njpart.ggcf.kr/storage/upload/2023/02/09/bnsjMxzDZoowPFWzxjYYQ3TwdVV3kyLOT3lg6TlI.jpg" alt="TV Buddha by Nam June Paik - A limestone Buddha statue contemplating its own image on a CRT television via closed-circuit camera" loading="lazy">
+<figcaption>
+<strong>TV Buddha</strong> by Nam June Paik, 1974 (2002)<br>
+Sculpture/Installation: 1 limestone Buddha statue, 1 CRT TV set, 1 CCTV camera<br>
+<a href="https://njpart.ggcf.kr/collections/205">Nam June Paik Art Center Collection</a>
+</figcaption>
+</figure>
 
 ### Opening (10 minutes)
 
@@ -365,10 +374,7 @@ Theory without practice is philosophy. Practice without theory is chaos. Togethe
 
 ### Video Analysis: Editing Techniques in Practice (15 minutes)
 
-{% include video-player.html
-   platform="vimeo"
-   id="180668935"
-   title="Editing Techniques Demonstration" %}
+{% include video-player.html platform="vimeo" id="180668935" title="Editing Techniques Demonstration" %}
 
 **Critical Thinking Prompts:**
 
@@ -531,7 +537,183 @@ The keyboard is the editor's instrument. Learn its language, and you will speak 
 
 ---
 
+### Alternative Exercise: "Abstract Rhythm" (50 minutes)
+
+*Use this exercise when raw camera footage is not available. Students create an abstract visual piece using only solid colors, shapes, and sound.*
+
+#### Exercise Overview
+
+**Objective:** Understand the fundamental relationship between visual rhythm, pacing, and sound without the distraction of narrative content. Focus purely on timing, cuts, and audio-visual synchronization.
+
+**Why This Works:**
+- No footage needed—create everything from scratch in Premiere Pro
+- Forces focus on editing fundamentals: timing, rhythm, transitions
+- Demonstrates how cuts alone create meaning and emotion
+- Introduces split-screen composition techniques
+
+#### Free Educational Resources
+
+**Royalty-Free Music (for soundtrack):**
+- [Freesound.org](https://freesound.org) — Creative Commons sounds and music
+- [Incompetech](https://incompetech.com/music/royalty-free/) — Kevin MacLeod's royalty-free music
+- [Free Music Archive](https://freemusicarchive.org) — Curated free music
+- [Pixabay Music](https://pixabay.com/music/) — Free music tracks
+
+**Sound Effects:**
+- [BBC Sound Effects](https://sound-effects.bbcrewind.co.uk) — 16,000+ free sounds
+- [Zapsplat](https://www.zapsplat.com) — Free sound effects
+- [Mixkit](https://mixkit.co/free-sound-effects/) — Free sound effects
+
+**For Future Lessons - Free Stock Footage:**
+- [Pexels Videos](https://www.pexels.com/videos/) — Free stock videos
+- [Pixabay Videos](https://pixabay.com/videos/) — Free stock videos
+- [Videvo](https://www.videvo.net) — Free stock footage
+- [Coverr](https://coverr.co) — Free stock videos
+- [Mixkit](https://mixkit.co/free-stock-video/) — Free stock video clips
+
+**Color Palette Inspiration:**
+- [Coolors](https://coolors.co) — Color scheme generator
+- [Adobe Color](https://color.adobe.com) — Color wheel and palettes
+
+#### Step-by-Step Instructions
+
+**Step 1: Choose Your Soundtrack (5 minutes)**
+
+1. Go to [Freesound.org](https://freesound.org) or [Incompetech](https://incompetech.com/music/royalty-free/)
+2. Find a short music track (30-60 seconds) with clear rhythm
+3. Download the track
+4. **Listen carefully:** Identify the beats, measures, and emotional peaks
+
+**Suggested search terms:** "electronic beat," "ambient rhythm," "percussion loop," "minimal techno"
+
+**Step 2: Create Your Project (5 minutes)**
+
+1. Create new Premiere Pro project: `Abstract_Rhythm_[YourName]`
+2. Create bins: `AUDIO`, `GRAPHICS`, `SEQUENCES`, `EXPORTS`
+3. Import your soundtrack into `AUDIO` bin
+4. Create new sequence: **1920x1080, 24fps** (or match your audio)
+
+**Step 3: Create Solid Color Layers (10 minutes)**
+
+In Premiere Pro, create solid color graphics:
+
+1. **File > New > Color Matte**
+2. Choose a color (start with 5-6 contrasting colors)
+3. Name it: `RED_SOLID`, `BLUE_SOLID`, etc.
+4. Repeat for each color
+
+**Color Palette Suggestions:**
+- **High Energy:** Red, Orange, Yellow, White, Black
+- **Cool/Calm:** Blue, Cyan, Purple, White, Black
+- **Earth Tones:** Brown, Green, Cream, Black, Rust
+- **Monochrome:** 5 shades of gray from white to black
+
+**Step 4: Build Your Timeline (15 minutes)**
+
+1. Drag your soundtrack to A1 (audio track 1)
+2. Listen to the track and mark key moments with markers (`M` key):
+   - Beat drops
+   - Transitions
+   - Emotional peaks
+   - Quiet moments
+
+3. **Create visual rhythm by placing color mattes:**
+   - Cut on the beat (use `Cmd+K` to cut at playhead)
+   - Vary clip lengths: 1 frame, 4 frames, 1 second, 2 seconds
+   - Create patterns: A-B-A-B, A-B-C-A-B-C
+
+4. **Experiment with:**
+   - **Flash cuts:** 1-4 frames of contrasting color
+   - **Sustained holds:** 2-4 seconds of one color
+   - **Gradual transitions:** Use cross-dissolves between colors
+   - **Hard cuts:** Instant color changes on beats
+
+**Step 5: Add Split-Screen Composition (10 minutes)**
+
+1. Stack two color mattes on V1 and V2
+2. Select the top layer (V2)
+3. In **Effect Controls**, adjust:
+   - **Scale:** 50%
+   - **Position:** Move to left or right side
+
+4. **Create split-screen patterns:**
+   - Vertical split (left/right)
+   - Horizontal split (top/bottom)
+   - Quadrants (4 colors)
+   - Asymmetric splits (1/3 - 2/3)
+
+5. **Animate the splits:**
+   - Use keyframes to change position over time
+   - Create wipes using position animation
+   - Stack multiple layers for complex compositions
+
+**Step 6: Refine and Polish (5 minutes)**
+
+1. Watch your piece from start to finish
+2. Adjust cuts that feel "off" from the beat
+3. Add variety: Don't repeat the same pattern too many times
+4. Consider adding:
+   - **Fade in** at the beginning
+   - **Fade to black** at the end
+   - **Opacity changes** for layering effects
+
+#### Analysis Questions (Group Discussion)
+
+After completing the exercise, discuss:
+
+1. **Rhythm & Timing:**
+   - How did the music guide your editing decisions?
+   - What happens when cuts are ON the beat vs. OFF the beat?
+   - How does cut length affect perceived energy?
+
+2. **Color & Emotion:**
+   - What emotions did different colors evoke?
+   - How did color transitions (hard cut vs. dissolve) change the feeling?
+   - Did certain colors work better with certain parts of the music?
+
+3. **Connection to Advertising:**
+   - How do commercials use rhythm and color to persuade?
+   - Think of a car commercial: fast cuts = excitement, slow cuts = luxury
+   - How might this abstract exercise inform narrative editing?
+
+4. **Technical Vocabulary (Reference [NYFA's Film Editing Terms](https://www.nyfa.edu/student-resources/a-beginners-guide-to-film-editing-vocabulary/)):**
+   - **Cut:** Instant transition between colors
+   - **Dissolve:** Gradual blend between colors
+   - **Montage:** Sequence of images creating meaning through juxtaposition
+   - **Pacing:** The rhythm and speed of your cuts
+   - **Sweetening:** How the music enhances the visual impact
+
+#### Export Your Work
+
+1. **File > Export > Media** (or `Cmd+M`)
+2. Format: **H.264**
+3. Preset: **Match Source - High Bitrate**
+4. Output Name: `Abstract_Rhythm_[YourName]_v01.mp4`
+5. Export
+
+#### Bonus Challenge: Emotional Contrast
+
+Create TWO versions of your abstract piece using the **same soundtrack**:
+
+**Version A: Aggressive/Energetic**
+- Fast cuts (1-4 frames)
+- High contrast colors (red, black, white)
+- Cuts on every beat
+- Hard cuts only
+
+**Version B: Calm/Meditative**
+- Slow transitions (1-2 second dissolves)
+- Soft colors (pastels, earth tones)
+- Cuts on every 4th beat
+- Mostly dissolves
+
+**Compare:** How does the same music feel completely different with different editing choices?
+
+---
+
 ### Practical Exercise: "The Power of Pacing" (50 minutes)
+
+*Use this exercise when raw camera footage is available.*
 
 #### Exercise Overview
 
