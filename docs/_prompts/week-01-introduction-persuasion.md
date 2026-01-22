@@ -366,10 +366,6 @@ Theory without practice is philosophy. Practice without theory is chaos. Togethe
 - Quick review: McLuhan (medium = message), Debord (spectacle), Kilbourne (unconscious influence)
 - Preview today: "We'll get hands-on with Adobe Premiere Pro and feel how editing choices change meaning"
 
-**Student Homework Share (5 minutes):**
-- Quick popcorn sharing: "What ad did you analyze? One technique you noticed?"
-- Collect energy and observations
-
 ---
 
 ### Video Analysis: Editing Techniques in Practice (15 minutes)
@@ -537,7 +533,7 @@ The keyboard is the editor's instrument. Learn its language, and you will speak 
 
 ---
 
-### Alternative Exercise: "Abstract Rhythm" (50 minutes)
+### Exercise: "Abstract Rhythm" (50 minutes)
 
 *Use this exercise when raw camera footage is not available. Students create an abstract visual piece using only solid colors, shapes, and sound.*
 
@@ -710,83 +706,6 @@ Create TWO versions of your abstract piece using the **same soundtrack**:
 **Compare:** How does the same music feel completely different with different editing choices?
 
 ---
-
-### Practical Exercise: "The Power of Pacing" (50 minutes)
-
-*Use this exercise when raw camera footage is available.*
-
-#### Exercise Overview
-
-**Objective:** Edit the same dialogue scene two ways to viscerally feel how pacing changes meaning and emotional impact.
-
-**Materials Provided:**
-- 2-minute dialogue scene with multiple camera angles
-- Characters A and B having a conversation
-- Coverage: Wide shot, Medium shots (both characters), Close-ups (both characters)
-
-**Task:** Create TWO versions of a 30-second excerpt:
-
-**Version 1: Slow & Contemplative**
-- Long takes (5-8 seconds per shot)
-- Minimal cuts (maybe 4-6 total)
-- Let moments breathe
-- Creates: intimacy, thoughtfulness, drama, weight
-
-**Version 2: Fast & Energetic**
-- Rapid cuts (1-3 seconds per shot)
-- Quick shot-reverse-shot (12-15 cuts)
-- Dynamic pacing
-- Creates: tension, excitement, urgency, anxiety
-
-#### Step-by-Step Instructions (Demonstrate, then students do)
-
-**Step 1: Create Sequences (5 minutes)**
-- Right-click any footage clip
-- Select "New Sequence from Clip" (ensures correct settings)
-- Name it: "01_SLOW_PACING_v01"
-- Duplicate sequence: "02_FAST_PACING_v01"
-
-**Step 2: Watch All Coverage (5 minutes)**
-- Review all angles in Source monitor
-- Understand the conversation flow
-- Note which angles show which emotions best
-
-**Step 3: Edit Version 1 - Slow (15 minutes)**
-
-**Approach:**
-- Start with Wide shot (establish space, 6-8 seconds)
-- Cut to Medium of Character A (full line of dialogue, 5-7 seconds)
-- Cut to Medium of Character B (response, 5-7 seconds)
-- Cut to Close-up of A (emotional moment, hold 6 seconds)
-- End on Wide (resolution, 4-5 seconds)
-
-**Adobe Techniques to Demonstrate:**
-- **Ripple Edit Tool (`B`):** Trim clip and automatically close gap
-- **Rolling Edit Tool (`N`):** Adjust cut point between two clips without changing duration
-- Drag edges of clips to extend/shorten
-- Watch Program monitor to feel the pacing
-
-**Step 4: Edit Version 2 - Fast (15 minutes)**
-
-**Approach:**
-- Start with Wide (establish, 2 seconds)
-- Rapid shot-reverse-shot between Close-ups
-- Cut every 1-2 seconds, sometimes mid-sentence
-- Intercutting reactions while other person speaks
-- Build rhythm and energy
-- End abruptly on reaction
-
-**Adobe Techniques:**
-- Use Razor tool (`C`) to make quick cuts
-- Or use `Cmd+K` to cut at playhead
-- Ripple delete (`Shift+Del`) to remove unwanted sections
-- Fine-tune with frame-by-frame navigation (arrow keys)
-
-**Step 5: Compare & Reflect (10 minutes)**
-- Play both versions back-to-back
-- Notice how different they feel
-- Same footage, same dialogue, completely different emotional impact
-
 ---
 
 ### Community Best Practices (Integrated Throughout)
