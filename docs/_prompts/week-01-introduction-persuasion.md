@@ -430,6 +430,13 @@ Use the following framework to analyze the editing techniques, referencing [NYFA
 
 #### Part 1: Interface Tour (20 minutes)
 
+**For this and future Lessons - Free Stock Footage:**
+- [Pexels Videos](https://www.pexels.com/videos/) — Free stock videos
+- [Pixabay Videos](https://pixabay.com/videos/) — Free stock videos
+- [Videvo](https://www.videvo.net) — Free stock footage
+- [Coverr](https://coverr.co) — Free stock videos
+- [Mixkit](https://mixkit.co/free-stock-video/) — Free stock video clips
+
 **Launch Premiere Pro and create new project together**
 
 **Four Main Panels:**
@@ -559,13 +566,6 @@ The keyboard is the editor's instrument. Learn its language, and you will speak 
 - [BBC Sound Effects](https://sound-effects.bbcrewind.co.uk) — 16,000+ free sounds
 - [Zapsplat](https://www.zapsplat.com) — Free sound effects
 - [Mixkit](https://mixkit.co/free-sound-effects/) — Free sound effects
-
-**For Future Lessons - Free Stock Footage:**
-- [Pexels Videos](https://www.pexels.com/videos/) — Free stock videos
-- [Pixabay Videos](https://pixabay.com/videos/) — Free stock videos
-- [Videvo](https://www.videvo.net) — Free stock footage
-- [Coverr](https://coverr.co) — Free stock videos
-- [Mixkit](https://mixkit.co/free-stock-video/) — Free stock video clips
 
 **Color Palette Inspiration:**
 - [Coolors](https://coolors.co) — Color scheme generator
