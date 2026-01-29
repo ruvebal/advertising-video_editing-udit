@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}" id="html-root">
 	<head>
 		<script>
@@ -19,13 +19,12 @@
 		</script>
 		{% include head.html %}
 	</head>
-	<body class="bg-white dark:bg-neutral-950 text-slate-900 dark:text-neutral-100 antialiased transition-colors duration-200">
+	<body
+		class="bg-white dark:bg-neutral-950 text-slate-900 dark:text-neutral-100 antialiased transition-colors duration-200">
 		<a href="#main" class="skip-link">Skip to main content</a>
 		{% include header.html %}
-		<main id="main" class="min-h-screen prose-slate dark:prose-invert w-full max-w-none">
-			{{ content }}
-		</main>
-		{% include footer.html %}
+		<main id="main" class="min-h-screen prose-slate dark:prose-invert w-full max-w-none">{{ content }}</main>
+		{% include footer.html %} {% include back-to-top.html %}
 		<script>
 			// Theme toggle functionality
 			(function () {
@@ -54,5 +53,6 @@
 			})();
 		</script>
 		<script src="{{ site.baseurl }}/assets/js/video-timestamps.js" defer></script>
+		<script src="{{ site.baseurl }}/assets/js/back-to-top.js" defer></script>
 	</body>
 </html>
