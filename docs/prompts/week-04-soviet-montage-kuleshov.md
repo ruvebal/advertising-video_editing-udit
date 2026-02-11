@@ -59,6 +59,8 @@ By the end of Week 4, students should be able to:
 - Students guess: neutral, bored, waiting
 - "Now watch what happens when I add context..."
 
+{% include video-player.html platform="youtube" id="kEcQjlURwPo" title="Hitchcock Explains the Kuleshov Effect (1964)" timestamps="0:00|Setup,0:45|Kuleshov demonstration,1:30|Key takeaway" %}
+
 ---
 
 ### Core Lecture: The Kuleshov Effect (50 minutes)
@@ -213,25 +215,25 @@ By the end of Week 4, students should be able to:
 
 #### Example 1: Product + Emotion (Kuleshov Effect) (10 min)
 
-**Screen:** Emotional commercial (e.g., Coca-Cola, Apple, Nike)
+{% include video-player.html platform="file" url="https://upload.wikimedia.org/wikipedia/commons/1/11/LuckyStr1948.webm" title="Lucky Strike commercial (1948) — montage rhythm + product association (direct file)" timestamps="0:00|Set-up,0:15|Rhythmic montage,0:35|Product + payoff" %}
 
-**Analysis:**
-- Identify juxtapositions: Product + happy moments
-- How does product inherit emotional qualities?
-- Is this manipulation or persuasion?
-- Would different juxtapositions change meaning?
+- First pass: just watch.
+- Second pass: pause on every **product shot** and label the adjacent context (pleasure? sophistication? relief? social belonging?).
+- Discussion prompt: *What does the product “inherit” from its neighbors?* Where does the ad rely on **association** more than information?
+- Micro-exercise: In groups, storyboard a 6-shot “Kuleshov ad” for any everyday object (phone, coffee, shoes). Then **swap the context** (joy → anxiety) and predict how meaning changes.
 
-**Exercise:** "If we replaced happy people with sad people, same product, what would change?"
+> Source record (rights/license tags): <a href="https://commons.wikimedia.org/wiki/File:LuckyStr1948.webm">Wikimedia Commons</a>.
 
 #### Example 2: Rapid Montage (Eisenstein Style) (10 min)
 
-**Screen:** Fast-paced ad (sports brand, energy drink, action movie trailer)
+{% include video-player.html platform="file" url="https://upload.wikimedia.org/wikipedia/commons/d/d8/1952_Eisenhower_Political_Ad_-_I_Like_Ike_-_Presidential_Campaign_Ad.webm" title="‘I Like Ike’ political ad (1952) — montage + jingle persuasion (direct file)" timestamps="0:00|Opening hook,0:15|Montage builds,0:45|Slogan lock-in" %}
 
-**Analysis:**
-- Count cuts per minute (often 60-100+ in modern ads)
-- Identify rhythm: Metric? Rhythmic? Both?
-- How does pacing affect emotion?
-- What's the intended feeling? (Energy, excitement, urgency)
+- First pass for impact.
+- Second pass: tally cuts and label patterns as **metric** (time-driven) vs **rhythmic** (motion-driven).
+- Prompt: *What “collective idea” is created by collision (crowds + flags + smiles + candidate name)?*
+- Quick drill: assign pairs a 10-second excerpt to list **juxtapositions** (image A ↔ image B) and the “third meaning” created by the collision.
+
+> Source record (rights/license tags): <a href="https://commons.wikimedia.org/wiki/File:1952_Eisenhower_Political_Ad_-_I_Like_Ike_-_Presidential_Campaign_Ad.webm">Wikimedia Commons</a>.
 
 #### Example 3: Intellectual Montage (Conceptual Ad) (10 min)
 

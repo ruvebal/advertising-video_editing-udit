@@ -1002,9 +1002,4 @@ Even for simple stop-motion, key principles apply:
 
 ---
 
-> _"The master knows: Every frame is a teacher. Every mistake is a lesson. Every triumph is a step on the infinite path."_
-> _"Next week, we learn to make cuts disappear. The best edit is the one you don't see—the viewer's mind completes the story."_
-
----
-
-**End of Week 2 Lesson Prompt**
+*** End of Lesson Content ***

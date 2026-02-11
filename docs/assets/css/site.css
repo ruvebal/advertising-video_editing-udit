@@ -1308,8 +1308,10 @@ img.footer-logo {
    ======================================== */
 
 .lesson-main {
-	overflow-y: auto;
-	height: 100vh;
+	/* Use a single (document) scrollbar.
+	   Nested scrolling here causes a "double scrollbar" UX on some browsers/layouts. */
+	overflow: visible;
+	height: auto;
 	scroll-behavior: smooth;
 	-webkit-overflow-scrolling: touch;
 	position: relative;

@@ -47,10 +47,20 @@ Use the `video-player` include for individual videos with optional timestamps:
 ```
 
 **Parameters:**
-- `platform` (required): `"youtube"` or `"vimeo"`
-- `id` (required): Video ID from the platform
-- `title` (optional): Accessible title for the iframe
+- `platform` (required): `"youtube"`, `"vimeo"`, or `"file"`
+- `id` (required for youtube/vimeo): Video ID from the platform
+- `url` (required for file): Direct URL to video file (e.g., Wikimedia Commons upload)
+- `title` (optional): Accessible title for the iframe/video
 - `timestamps` (optional): Comma-separated list of `time|label` pairs
+
+**Platform `"file"`:** For embedding direct Public Domain or Creative Commons video files (e.g., from [Wikimedia Commons](https://commons.wikimedia.org)). Uses native HTML5 `<video>` element.
+
+```liquid
+{% include video-player.html
+   platform="file"
+   url="https://upload.wikimedia.org/wikipedia/commons/7/74/Battleship_Potemkin_%281925%29_by_Sergei_Eisenstein.webm"
+   title="Battleship Potemkin (1925) - Full Film" %}
+```
 
 **Example in Markdown:**
 
@@ -187,6 +197,49 @@ timestamps="0:00|Introduction,1:45|Key Concepts,3:20|Application,5:00|Conclusion
 
 ---
 
+## Direct File Embedding (Wikimedia PD/CC)
+
+To embed Public Domain or Creative Commons video files directly from Wikimedia Commons (or other hosts), use `platform="file"`:
+
+```liquid
+{% include video-player.html
+   platform="file"
+   url="https://upload.wikimedia.org/wikipedia/commons/2/2d/Battleship_Potemkin_(1925).webm"
+   title="Battleship Potemkin (1925) - Sergei Eisenstein" %}
+```
+
+**Rendered HTML (approx.)**
+
+```html
+<div class="video-player" data-video-id="https://upload.wikimedia.org/wikipedia/commons/.../filename.webm">
+  <div class="video-container">
+    <video
+      src="https://upload.wikimedia.org/wikipedia/commons/.../filename.webm"
+      controls
+      preload="metadata"
+      playsinline
+      aria-label="Video Title">
+      <p>
+        Your browser does not support the video element.
+        <a href="https://upload.wikimedia.org/wikipedia/commons/.../filename.webm">Download the video</a>.
+      </p>
+    </video>
+  </div>
+</div>
+```
+
+**Use cases:**
+- Wikimedia Commons PD/CC video files (.webm, .ogv, .mp4)
+- Self-hosted course videos
+- Direct links to downloadable media
+
+**Notes:**
+- The `file` platform uses native HTML5 `<video>` (no iframe)
+- Timestamps are supported for file platform (native video seeking via JavaScript)
+- Large files may affect page load; consider YouTube/Internet Archive for very long films
+
+---
+
 ## Adding Other Video Sources
 
 ### Option 1: Extend video-player.html
@@ -200,6 +253,8 @@ Edit `_includes/video-player.html` to add support for new platforms:
 		{% include youtube.html id=include.id title=include.title %}
 	{% elsif include.platform == 'vimeo' %}
 		{% include vimeo.html id=include.id title=include.title %}
+	{% elsif include.platform == 'file' %}
+		<!-- Direct file embed (see above) -->
 	{% elsif include.platform == 'custom' %}
 		<!-- Add custom embed code here -->
 		<div class="video-container">
@@ -511,12 +566,18 @@ Potential improvements to consider:
 **Quick Reference:**
 
 ```liquid
-<!-- Single video with timestamps -->
+<!-- Single video with timestamps (YouTube/Vimeo) -->
 {% include video-player.html
    platform="youtube"
    id="VIDEO_ID"
    title="Video Title"
    timestamps="0:00|Intro,1:45|Main" %}
+
+<!-- Direct file embed (Wikimedia PD/CC) -->
+{% include video-player.html
+   platform="file"
+   url="https://upload.wikimedia.org/.../filename.webm"
+   title="Video Title" %}
 
 <!-- Simple embed -->
 {% include youtube.html id="VIDEO_ID" title="Title" %}

@@ -16,8 +16,6 @@ next_week:
 
 <!-- prettier-ignore-start -->
 
-## 📋 Tabla de contenidos
-
 {: .no_toc }
 
 - TOC
@@ -26,10 +24,16 @@ next_week:
 
 # Week 4: Soviet Montage Theory – Kuleshov Effect & Vertov
 
-## Lesson Development Prompt for Instructors
-
 > _"Two shots placed together create a third meaning that exists in neither alone. This is the alchemy of montage."_
 > — Tao of the Video Editor
+
+<figure class="spectacle-image">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Kuleshov_effect.jpg/960px-Kuleshov_effect.jpg" alt="Kuleshov Effect: same face + different images creates different perceived emotions" loading="lazy" />
+<figcaption>
+<p><strong>The Kuleshov Effect</strong> — Same neutral face (Ivan Mosjoukine) intercut with different images: soup, coffin, child. Audiences perceived hunger, grief, or tenderness—though the face was identical each time.</p>
+<p class="image-credit">CC BY-SA 3.0 — <a href="https://commons.wikimedia.org/wiki/File:Kuleshov_effect.jpg">Wikimedia Commons</a></p>
+</figcaption>
+</figure>
 
 ---
 
@@ -93,6 +97,8 @@ By the end of Week 4, students should be able to:
 - Students guess: neutral, bored, waiting
 - "Now watch what happens when I add context..."
 
+{% include video-player.html platform="youtube" id="kEcQjlURwPo" title="Hitchcock Explains the Kuleshov Effect (1964)" timestamps="0:00|Setup,0:45|Kuleshov demonstration,1:30|Key takeaway" %}
+
 ---
 
 ### Core Lecture: The Kuleshov Effect (50 minutes)
@@ -128,10 +134,14 @@ By the end of Week 4, students should be able to:
 
 **Demonstrate Live:**
 
+{% include video-player.html platform="file" url="https://upload.wikimedia.org/wikipedia/commons/e/e9/KuleshovEffectExample.ogv" title="Kuleshov Effect Example (reconstruction) (direct file, CC BY-SA)" timestamps="0:00|Neutral face,0:10|Context 1,0:25|Context 2,0:40|Context 3" %}
+
 - Show the Kuleshov Effect (use modern recreation or original footage)
 - Poll students: "What emotion do you see?"
 - Reveal it's the same face each time
 - Discuss: "Your brain CREATED the emotion from context"
+
+> Source record (rights/license tags): <a href="https://commons.wikimedia.org/wiki/File:KuleshovEffectExample.ogv">Wikimedia Commons</a>.
 
 **Why This Matters:**
 
@@ -203,7 +213,15 @@ By the end of Week 4, students should be able to:
 
 **Demonstrate with Examples:**
 
-{% include video-player.html platform="youtube" id="K1Vx3AOpVDo" title="Battleship Potemkin - Odessa Steps Sequence" timestamps="10:55|Odessa Steps Sequence" %}
+<figure class="spectacle-image">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Eisenstein_Potemkin_2.jpg" alt="Battleship Potemkin - Odessa Steps sequence still (actress N. Poltavseva)" loading="lazy" />
+<figcaption>
+<p><strong>Battleship Potemkin</strong> (1925) — Odessa Steps sequence. Eisenstein's rhythmic and intellectual montage.</p>
+<p class="image-credit">Public Domain — <a href="https://commons.wikimedia.org/wiki/File:Eisenstein_Potemkin_2.jpg">Wikimedia Commons</a></p>
+</figcaption>
+</figure>
+
+{% include video-player.html platform="file" url="https://upload.wikimedia.org/wikipedia/commons/b/bf/Battleship_Potemkin.webm" title="Battleship Potemkin (1925) — Public Domain (direct file)" timestamps="10:55|Odessa Steps (cue in the full file)" %}
 
 <figure class="film-metadata">
 <figcaption>
@@ -260,6 +278,18 @@ By the end of Week 4, students should be able to:
 
 **Screen:** 3-5 minute excerpt from _Man with a Movie Camera_
 
+{% include video-player.html platform="file" url="https://upload.wikimedia.org/wikipedia/commons/5/52/Man_With_A_Movie_Camera_%28Dziga_Vertov%2C_1929%29.webm" title="Man with a Movie Camera (1929) — Public Domain (direct file)" timestamps="0:00|Opening,5:00|City waking,15:00|Rapid montage,25:00|Split screens" %}
+
+<figure class="film-metadata">
+<figcaption>
+<strong>Man with a Movie Camera</strong> (1929)<br>
+<strong>Director:</strong> Dziga Vertov<br>
+<strong>Duration:</strong> 68 minutes<br>
+<strong>Description:</strong> Experimental documentary; "Kino-Eye" theory; rapid montage, split screens, superimpositions.<br>
+<strong>Source:</strong> <a href="https://commons.wikimedia.org/wiki/File:Man_With_A_Movie_Camera_(Dziga_Vertov,_1929).webm">Wikimedia Commons</a> (Public Domain)<br>
+</figcaption>
+</figure>
+
 - City waking up sequence
 - Rapid montage of daily activities
 - Split screens, superimpositions, speed ramping
@@ -284,31 +314,36 @@ By the end of Week 4, students should be able to:
 
 #### Example 1: Product + Emotion (Kuleshov Effect) (10 min)
 
-**Screen:** Emotional commercial (e.g., Coca-Cola, Apple, Nike)
+{% include video-player.html platform="file" url="https://upload.wikimedia.org/wikipedia/commons/1/11/LuckyStr1948.webm" title="Lucky Strike commercial (1948) — montage rhythm + product association (direct file)" timestamps="0:00|Set-up,0:15|Rhythmic montage,0:35|Product + payoff" %}
 
-**Analysis:**
+- First pass: just watch.
+- Second pass: pause on every **product shot** and label the adjacent context (pleasure? sophistication? relief? social belonging?).
+- Discussion prompt: _What does the product “inherit” from its neighbors?_ Where does the ad rely on **association** more than information?
+- Micro-exercise: In groups, storyboard a 6-shot “Kuleshov ad” for any everyday object (phone, coffee, shoes). Then **swap the context** (joy → anxiety) and predict how meaning changes.
 
-- Identify juxtapositions: Product + happy moments
-- How does product inherit emotional qualities?
-- Is this manipulation or persuasion?
-- Would different juxtapositions change meaning?
-
-**Exercise:** "If we replaced happy people with sad people, same product, what would change?"
+> Source record (rights/license tags): <a href="https://commons.wikimedia.org/wiki/File:LuckyStr1948.webm">Wikimedia Commons</a>.
 
 #### Example 2: Rapid Montage (Eisenstein Style) (10 min)
 
-**Screen:** Fast-paced ad (sports brand, energy drink, action movie trailer)
+{% include video-player.html platform="file" url="https://upload.wikimedia.org/wikipedia/commons/d/d8/1952_Eisenhower_Political_Ad_-_I_Like_Ike_-_Presidential_Campaign_Ad.webm" title="‘I Like Ike’ political ad (1952) — montage + jingle persuasion (direct file)" timestamps="0:00|Opening hook,0:15|Montage builds,0:45|Slogan lock-in" %}
 
-**Analysis:**
+- First pass for impact.
+- Second pass: tally cuts and label patterns as **metric** (time-driven) vs **rhythmic** (motion-driven).
+- Prompt: _What “collective idea” is created by collision (crowds + flags + smiles + candidate name)?_
+- Quick drill: assign pairs a 10-second excerpt to list **juxtapositions** (image A ↔ image B) and the “third meaning” created by the collision.
 
-- Count cuts per minute (often 60-100+ in modern ads)
-- Identify rhythm: Metric? Rhythmic? Both?
-- How does pacing affect emotion?
-- What's the intended feeling? (Energy, excitement, urgency)
+> Source record (rights/license tags): <a href="https://commons.wikimedia.org/wiki/File:1952_Eisenhower_Political_Ad_-_I_Like_Ike_-_Presidential_Campaign_Ad.webm">Wikimedia Commons</a>.
 
 #### Example 3: Intellectual Montage (Conceptual Ad) (10 min)
 
 **Screen:** Conceptual/artistic ad (luxury brand, social cause, art film style)
+
+> Many luxury/conceptual spots disable external embeds. Share links and cue timecodes instead of relying on in-page playback.
+
+- [Cartier — “L'Odyssée de Cartier”](https://www.youtube.com/watch?v=yaBNjTtCxd4) — Global voyage where each vignette symbolizes brand heritage through associative montage.
+- [Chanel N°5 — “The Film” (Baz Luhrmann)](https://www.youtube.com/watch?v=2Xr2R0gReVU) — Dream logic transitions, saturated color, and metaphorical juxtapositions to sell aspiration.
+- [Prada — “A Therapy” (Roman Polanski)](https://www.youtube.com/watch?v=4Eo84jDIMKI) — Narrative short with ironic twist; study how edit timing delivers the punchline.
+- [Amnesty International — “Look Beyond Borders”](https://www.youtube.com/watch?v=oGtQi58roJo) — Social cause example using long takes and reactions to build empathy through juxtaposed faces.
 
 **Analysis:**
 
@@ -740,6 +775,7 @@ Answer:
 - _Breathless_ (Godard) - Jump cut sequence (YouTube clip)
 - _Pulp Fiction_ - Nonlinear structure analysis
 - Modern music video with experimental editing
+- **Hitchcock on Kuleshov (1964):** Classic explanation of the effect
 
 #### 5. Begin Final Project Concept
 
@@ -806,84 +842,31 @@ Answer:
 
 ---
 
-## Instructor Notes
+## References & Further Reading
 
-### Timing Breakdown (Session A)
+### Primary Sources
 
-- 10 min: Opening and Week 3 recap
-- 50 min: Core lecture (Kuleshov 20, Eisenstein 20, Vertov 10)
-- 30 min: Screening and analysis (3 ads, 10 min each)
-- 30 min: Student presentations (3-4 students)
+- **Eisenstein, Sergei.** _Film Form_ (1949). Harvest/HBJ. — "Methods of Montage" and intellectual montage theory.
+- **Vertov, Dziga.** "Kino-Eye Manifesto" (1923). — Translation available in _Kino-Eye: The Writings of Dziga Vertov_ (University of California Press).
 
-### Timing Breakdown (Session B)
+### Kuleshov Effect
 
-- 10 min: Opening
-- 30 min: Student presentations continued (if needed)
-- 20 min: Technical workshop
-- 50 min: Practical exercises (Kuleshov 25, Intellectual 25)
-- 10 min: Screening and critique
+- **Kuleshov, Lev.** "The Principles of Montage" (1920s). — Original experiment descriptions.
+- **Film School Rejects:** ["The Kuleshov Effect Explained"](https://filmschoolrejects.com/kuleshov-effect/)
+- **StudioBinder:** "Kuleshov Effect Examples in Film"
+- **YouTube:** Hitchcock Explains the Kuleshov Effect (1964) — Primary source of filmmaker explaining the effect.
 
-### Common Challenges
+### Soviet Montage Theory
 
-**Challenge 1: Students Don't See Different Meanings**
+- **Wikipedia:** [Kuleshov Effect](https://en.wikipedia.org/wiki/Kuleshov_effect)
+- **Wikipedia:** [Soviet montage theory](https://en.wikipedia.org/wiki/Soviet_montage_theory)
+- **BFI:** "Soviet Montage Movement" overview
 
-- **Solution:** Poll class for each version
-- Emphasize even subtle differences count
-- Discuss how advertising relies on subtle associations
+### Image & Clip Sources (PD/CC)
 
-**Challenge 2: Intellectual Montage Too Literal**
-
-- **Solution:** Encourage metaphor and symbolism
-- Show examples of abstract vs. literal
-- Remind: "Don't show the concept, evoke it"
-
-**Challenge 3: Timing Issues (Too Fast/Slow)**
-
-- **Solution:** General rule: 2-3 seconds per shot
-- Test on classmate for feedback
-- Adjust based on complexity of image
-
-### Facilitation Tips
-
-**Emphasize Power:**
-
-- "You now have the power to create meaning"
-- "This is why editing is so important in advertising"
-- "Use this power ethically"
-
-**Connect to Advertising:**
-
-- Constantly relate to commercial examples
-- "How do brands use this?"
-- "What associations are being created?"
-
-**Encourage Experimentation:**
-
-- "Try unexpected juxtapositions"
-- "The weirder, the better—for learning"
-- "Happy accidents teach us"
-
-> _"The master editor knows: Meaning is not found in shots, but created between them. This is the secret of montage."_
+- **Kuleshov Effect diagram:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kuleshov_effect.jpg) — CC BY-SA 3.0
+- **Battleship Potemkin still:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eisenstein_Potemkin_2.jpg) — Public Domain
+- **Battleship Potemkin (full film):** [Wikimedia Commons](<https://commons.wikimedia.org/wiki/File:Battleship_Potemkin_(1925)_by_Sergei_Eisenstein.webm>) — Public Domain
+- **Man with a Movie Camera (full film):** [Wikimedia Commons](<https://commons.wikimedia.org/wiki/File:Man_With_A_Movie_Camera_(Dziga_Vertov,_1929).webm>) — Public Domain
 
 ---
-
-## Next Week Preview
-
-**Week 5: Breaking the Rules – Experimental Editing from New Wave to Tarantino**
-
-Having learned the rules (continuity) and the power (montage), we now explore breaking conventions. Students will discover:
-
-- Jump cuts and French New Wave aesthetics
-- Nonlinear narratives (Tarantino, Nolan)
-- MTV-style rapid editing
-- When and why to break rules in advertising
-
-**Hands-on:** Students will create experimental edits that intentionally violate conventions for creative effect.
-
-> _"First learn the rules like a master, then break them like an artist. Next week, you become artists."_
-
----
-
-**End of Week 4 Lesson Prompt**
-
-_May your students discover the alchemy of montage, the power of context, and the responsibility of juxtaposition._

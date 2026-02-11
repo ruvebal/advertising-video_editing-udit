@@ -16,8 +16,6 @@ next_week:
 
 <!-- prettier-ignore-start -->
 
-## 📋 Tabla de contenidos
-
 {: .no_toc }
 
 - TOC
@@ -26,10 +24,17 @@ next_week:
 
 # Week 3: Continuity Editing & Perception Psychology (Gestalt)
 
-## Lesson Development Prompt for Instructors
 
 > _"The best edit is the one you don't see. The viewer's mind completes the story."_
 > — Tao of the Video Editor
+
+<figure class="spectacle-image">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Intolerance_set_%281916%29_1.jpg" alt="Publicity photo of the Babylon set for D.W. Griffith's Intolerance (1916), with the director, cinematographer Billy Bitzer, and actors positioned on tiered terraces" loading="lazy" />
+<figcaption>
+<p><strong>Intolerance</strong> (1916) — Griffith, cinematographer Billy Bitzer, Erich von Stroheim, and cast posed on the vast Babylon set, a reminder that continuity discipline was essential to keep audiences oriented inside such monumental spaces.</p>
+<p class="image-credit">Public Domain — <a href="https://commons.wikimedia.org/wiki/File:Intolerance_set_(1916)_1.jpg">Wikimedia Commons</a></p>
+</figcaption>
+</figure>
 
 ---
 
@@ -119,19 +124,31 @@ Make cuts so smooth that viewers don't notice them—they're absorbed in the sto
 - If you cross the line, characters appear to flip positions
 - Result: Spatial confusion
 
-**Demonstrate with diagram on board:**
+**Demonstrate with diagram:**
 
-```
-    [Character A]  ←→  [Character B]
-         ↑                    ↑
-    Camera Side 1        Camera Side 1
-    (Stay on this side)
-```
+<figure class="spectacle-image">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/180_degree_rule.svg/960px-180_degree_rule.svg.png" alt="180-degree rule diagram: axis between two characters, green arc for camera placement, red arc for wrong side" loading="lazy" />
+<figcaption>
+<p><strong>180-degree rule diagram</strong> — The axis between two characters. Cameras stay on the green arc; crossing to the red arc causes characters to flip positions on screen.</p>
+<p class="image-credit">CC BY-SA 3.0 — <a href="https://commons.wikimedia.org/wiki/File:180_degree_rule.svg">Wikimedia Commons</a></p>
+</figcaption>
+</figure>
 
 **Show examples:**
 
 - Correct: Classic dialogue scene maintaining the line
 - Incorrect: Scene that crosses the line (characters flip)
+
+{% include video-player.html platform="file" url="https://archive.org/download/INTOLERANCE_201407/Intolerance-v2.mp4" url_mp4="https://archive.org/download/INTOLERANCE_201407/Intolerance-v2.mp4" url_webm="https://upload.wikimedia.org/wikipedia/commons/c/c0/Intolerance_%281916%29_by_D._W._Griffith.webm" title="Intolerance (1916) — excerpt for continuity analysis (direct file)" timestamps="0:00|Set scale + staging,0:45|Match on action,1:30|Eyeline + screen direction" %}
+
+<figure class="film-metadata">
+<figcaption>
+<strong>Intolerance</strong> (1916)<br>
+<strong>Director:</strong> D.W. Griffith<br>
+<strong>Description:</strong> Public domain excerpt highlighting the massive Babylon set. Use to showcase early cross-cutting, eyeline precision, and continuity scaffolding that influenced studio-era grammar.<br>
+<strong>Source:</strong> <a href="https://commons.wikimedia.org/wiki/File:Intolerance_(1916)_by_D._W._Griffith.webm">Wikimedia Commons</a> (Public Domain) · <a href="https://archive.org/details/INTOLERANCE_201407">Internet Archive master</a>
+</figcaption>
+</figure>
 
 **2. Match on Action**
 
@@ -190,6 +207,48 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 - In film: Similar shots (same location, lighting, characters) feel continuous
 - Example: Multiple shots in same room with same lighting = one continuous scene
 
+**Visual Toolkit: Gestalt Principles (Graphics)**
+
+<figure class="spectacle-image">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Gestalt.svg/960px-Gestalt.svg.png" alt="Gestalt principles overview diagram (7 laws of Gestalt)" loading="lazy" />
+<figcaption>
+<p><strong>Gestalt overview</strong> — A compact visual summary of multiple Gestalt grouping laws (use this as a quick “legend” before the individual examples below).</p>
+<p class="image-credit">CC BY 4.0 — <a href="https://commons.wikimedia.org/wiki/File:Gestalt.svg">Wikimedia Commons</a></p>
+</figcaption>
+</figure>
+
+<figure class="spectacle-image">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Scheinkonturen_Kanizsa_Dreieck.svg/960px-Scheinkonturen_Kanizsa_Dreieck.svg.png" alt="Kanizsa triangle illusion (closure): a triangle is perceived though not drawn" loading="lazy" />
+<figcaption>
+<p><strong>Closure (Kanizsa triangle)</strong> — Viewers “complete” missing contours. In editing, this is why ellipsis works: we don’t need every micro-action between two cuts.</p>
+<p class="image-credit">CC BY-SA 4.0 — <a href="https://commons.wikimedia.org/wiki/File:Scheinkonturen_Kanizsa_Dreieck.svg">Wikimedia Commons</a></p>
+</figcaption>
+</figure>
+
+<figure class="spectacle-image">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Gestalt_proximity.svg/960px-Gestalt_proximity.svg.png" alt="Gestalt law of proximity: dots group into columns based on distance" loading="lazy" />
+<figcaption>
+<p><strong>Proximity</strong> — We group what’s close. In editing, shot order implies relationship: adjacent shots feel causally/temporally linked unless you clearly signal otherwise.</p>
+<p class="image-credit">Public Domain (PD-ineligible) — <a href="https://commons.wikimedia.org/wiki/File:Gestalt_proximity.svg">Wikimedia Commons</a></p>
+</figcaption>
+</figure>
+
+<figure class="spectacle-image">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Similar-geometric-shapes.svg/1024px-Similar-geometric-shapes.svg.png" alt="Similarity: geometric shapes are grouped by shared form" loading="lazy" />
+<figcaption>
+<p><strong>Similarity</strong> — We group what looks alike. In continuity editing: matching wardrobe/light/color/shot scale helps separate takes feel like one continuous moment.</p>
+<p class="image-credit">Public Domain (PD-ineligible) — <a href="https://commons.wikimedia.org/wiki/File:Similar-geometric-shapes.svg">Wikimedia Commons</a></p>
+</figcaption>
+</figure>
+
+<figure class="spectacle-image">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Figur_Grund_Wahrnehmung.svg/960px-Figur_Grund_Wahrnehmung.svg.png" alt="Figure-ground perception: a cross can be seen as black on white or white on black" loading="lazy" />
+<figcaption>
+<p><strong>Figure–ground</strong> — What’s “subject” vs “background” can flip. In ads, clean figure–ground separation keeps product legible even in fast cuts.</p>
+<p class="image-credit">CC BY-SA 4.0 — <a href="https://commons.wikimedia.org/wiki/File:Figur_Grund_Wahrnehmung.svg">Wikimedia Commons</a></p>
+</figcaption>
+</figure>
+
 **Why This Matters for Editors:**
 
 - **Continuity editing exploits these natural tendencies**
@@ -244,6 +303,17 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 
 **Screen:** Dialogue scene from _Casablanca_ (Rick and Ilsa conversation) or similar
 
+{% include video-player.html platform="youtube" id="k_uINM_XI6I" title="Casablanca - Rick and Ilsa Dialogue Scene (I Still Love You)" timestamps="0:00|Scene Setup,1:00|Shot-Reverse-Shot,2:00|Eyeline Matches" %}
+
+<figure class="film-metadata">
+<figcaption>
+<strong>Casablanca</strong> (1942)<br>
+<strong>Director:</strong> Michael Curtiz<br>
+<strong>Description:</strong> Classic Hollywood continuity: 180-degree rule, shot-reverse-shot, eyeline matches, match on action.<br>
+<strong>Source:</strong> <a href="https://www.youtube.com">YouTube</a> — Fair use for educational analysis
+</figcaption>
+</figure>
+
 **Analysis Points:**
 
 - **180-degree rule:** Camera stays on one side throughout
@@ -257,6 +327,17 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 #### Example 2: Modern Action Continuity (15 min)
 
 **Screen:** Action sequence from _Mad Max: Fury Road_ or _Mission: Impossible_
+
+{% include video-player.html platform="youtube" id="hEJnMQG9ev8" title="Mad Max Fury Road - Chase Sequence" timestamps="0:00|Chase Setup,1:00|Match on Action,2:30|Screen Direction" %}
+
+<figure class="film-metadata">
+<figcaption>
+<strong>Mad Max: Fury Road</strong> (2015)<br>
+<strong>Director:</strong> George Miller<br>
+<strong>Description:</strong> Continuity maintained in chaos: match on action, consistent screen direction, spatial geography.<br>
+<strong>Source:</strong> <a href="https://www.youtube.com">YouTube</a> — Fair use for educational analysis
+</figcaption>
+</figure>
 
 **Analysis Points:**
 
@@ -272,6 +353,8 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 
 **Screen:** Product demonstration commercial (e.g., car commercial, tech product)
 
+{% include video-player.html platform="file" url="https://upload.wikimedia.org/wikipedia/commons/6/6b/Gillette_Super-Speed_TV_commercial_with_Pee_Wee_Reese_circa_1956.webm" url_webm="https://upload.wikimedia.org/wikipedia/commons/6/6b/Gillette_Super-Speed_TV_commercial_with_Pee_Wee_Reese_circa_1956.webm" title="Gillette Super-Speed TV commercial with Pee Wee Reese (c.1956) — testimonial continuity + product inserts" timestamps="0:00|Endorsement setup,0:16|Product insert,0:30|Demo continuity,0:50|Tagline/close" %}
+
 **Analysis Points:**
 
 - **Clear spatial relationships:** We understand product features
@@ -285,6 +368,9 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 - Can't afford viewer confusion
 - Product must be clearly presented
 - Continuity = professionalism
+
+> Source record (rights/license tags): <a href="https://commons.wikimedia.org/wiki/File:Gillette_Super-Speed_TV_commercial_with_Pee_Wee_Reese_circa_1956.webm">Wikimedia Commons</a>.
+> Backup direct-file ads (PD/CC): Pepsodent (c.1950s) <a href="https://commons.wikimedia.org/wiki/File:Pepsodent_commercial,_c._1950s.ogg">record</a>, M&M’s (1960s) <a href="https://commons.wikimedia.org/wiki/File:1960s_M%26M%27s_candies_commercial.webm">record</a>.
 
 ---
 
@@ -354,6 +440,16 @@ Create a 6-panel storyboard for a simple conversation:
 - **Ripple Edit (B):** Trim and close gap automatically
 - **Rolling Edit (N):** Adjust cut point between two clips
 - **Slip Tool (Y):** Change content without changing duration
+
+{% include video-player.html platform="youtube" id="3AIPnwkrNOo" title="Ripple vs. Rolling Edit in Premiere Pro (Adobe Help Center)" timestamps="0:00|Ripple Overview,1:05|Rolling Edit Demo,2:10|When to Use Each" %}
+
+<figure class="film-metadata">
+<figcaption>
+<strong>Adobe Premiere Pro</strong> — Ripple vs. Rolling Edit<br>
+<strong>Description:</strong> Official Adobe walkthrough clarifying when to choose ripple vs. rolling trims. Encourage students to watch before the hands-on lab so they can diagnose pacing issues quickly.<br>
+<strong>Source:</strong> <a href="https://www.youtube.com/watch?v=3AIPnwkrNOo">YouTube — Adobe Creative Cloud</a>
+</figcaption>
+</figure>
 
 **Method 2: Multi-Camera Editing (Advanced)**
 
@@ -643,11 +739,11 @@ Create a 6-panel storyboard for a simple conversation:
 - Continuity errors = amateur/cheap
 - Brands invest in polish
 
-**Examples of Continuity in Ads:**
+**Examples of Continuity in Ads (watch & discuss):**
 
-- Car commercials: Vehicle moves smoothly through space
-- Product demos: Clear before/after transitions
-- Testimonials: Interview continuity maintains credibility
+- [Volvo XC60 — “Moments”](https://www.youtube.com/watch?v=xFpjmLmXBOE) — Car spot that keeps screen direction, camera eyelines, and match-on-action pristine while intercutting near-misses.
+- [Dyson Airwrap Complete — Official Demo](https://www.youtube.com/watch?v=EblXbykYB10) — Product demo structured around precise before/after beats; note how continuity sells clarity.
+- [Google Workspace — “Real Customers, Real Results”](https://www.youtube.com/watch?v=R05-0X7xLz0) — Testimonial format with consistent interview coverage and cutaways to B-roll without breaking geography.
 
 ---
 
@@ -746,23 +842,8 @@ Answer:
 
 - Kuleshov Effect demonstration (YouTube, link provided)
 
-{% include video-player.html platform="youtube" id="K1Vx3AOpVDo" title="Battleship Potemkin - Odessa Steps Sequence" timestamps="10:55|Odessa Steps Sequence" %}
-
-<figure class="film-metadata">
-<figcaption>
-<strong>Battleship Potemkin</strong> (1925)<br>
-<strong>Director:</strong> Sergei M. Eisenstein, Grigori Aleksandrov<br>
-<strong>Duration:</strong> 73 minutes<br>
-<strong>Format:</strong> Silent film with musical score<br>
-<strong>Description:</strong> Considered one of the most important films in the history of silent pictures, as well as possibly Eisenstein's greatest work, Battleship Potemkin brought Eisenstein's theories of cinema art to the world in a powerful showcase; his emphasis on montage, his stress of intellectual contact, and his treatment of the mass instead of the individual as the protagonist. The film tells the story of the mutiny on the Russian ship Prince Potemkin during the 1905 uprising.<br>
-<strong>Note:</strong> Eisenstein's canonical montage practice (rhythm, intellectual montage): perfect to annotate "Odessa Steps" as editing grammar, not "coverage."<br>
-<strong>Source:</strong> <a href="https://archive.org/details/BattleshipPotemkin">Internet Archive</a> (Public Domain)<br>
-<strong>Direct Download:</strong> <a href="https://archive.org/download/BattleshipPotemkin/Battleship_Potemkin_512kb.mp4">MP4 File</a>
-</figcaption>
-</figure>
-
-- _Battleship Potemkin_ - Odessa Steps sequence (starts at 10:55)
-- _Man with a Movie Camera_ - City montage (5 min)
+- _Battleship Potemkin_ — Odessa Steps sequence (embedded in Week 4)
+- _Man with a Movie Camera_ — City montage excerpt (embedded in Week 4)
 
 ---
 
@@ -802,111 +883,55 @@ Answer:
 
 ### Continuity Editing Theory
 
-- **Film School Online:** "The 180-Degree Rule" (video tutorial)
-- **StudioBinder:** "Continuity Editing Techniques" (article + examples)
-- **Every Frame a Painting:** "Akira Kurosawa - Composing Movement" (YouTube)
+- [Film School Online — “The 180-Degree Rule”](https://www.filmschoolonline.com/sample_lessons/filmmaking_180_degree_rule.htm)
+- [StudioBinder — “Continuity Editing Techniques”](https://www.studiobinder.com/blog/continuity-editing/)
+- [Every Frame a Painting — “Akira Kurosawa: Composing Movement”](https://www.youtube.com/watch?v=doaQC-S8de8)
 
 ### Gestalt Psychology
 
-- **Simply Psychology:** "Gestalt Principles" https://www.simplypsychology.org/gestalt-psychology.html
-- **Interaction Design Foundation:** "Gestalt Principles for Visual Perception"
+- [Simply Psychology — “Gestalt Principles”](https://www.simplypsychology.org/gestalt-psychology.html)
+- [Interaction Design Foundation — “Gestalt Principles for Visual Perception”](https://www.interaction-design.org/literature/article/gestalt-principles-of-visual-perception)
 
 ### Adobe Premiere Pro: Multi-Camera
 
-- **Adobe Tutorial:** "Multi-Camera Editing Workflow"
-- **LinkedIn Learning:** "Premiere Pro: Multi-Camera Editing"
+- [Adobe Help Center — “Multi-Camera Editing Workflow”](https://helpx.adobe.com/premiere-pro/how-to/multi-camera-editing.html)
+- [LinkedIn Learning — “Premiere Pro: Multi-Camera Editing”](https://www.linkedin.com/learning/premiere-pro-essential-training-2023/multi-camera-editing)
 
 ### Professional Examples
 
-- **Classic Hollywood:** Any scene from _Casablanca_, _The Godfather_, _Chinatown_
-- **Modern Action:** _Mad Max: Fury Road_, _John Wick_, _Mission: Impossible_
-- **Advertising:** Car commercials (usually perfect continuity)
+- [Casablanca — “Rick & Ilsa Reunion”](https://www.youtube.com/watch?v=k_uINM_XI6I)
+- [Mission: Impossible — Burj Khalifa Sequence](https://www.youtube.com/watch?v=z2CnVy0yQMA)
+- [Google Pixel — “Javier in Frame”](https://www.youtube.com/watch?v=wYPTZIFQoDQ)
 
 ---
 
-## Instructor Notes
+## References & Further Reading
 
-### Timing Breakdown (Session A)
+### Primary Sources
 
-- 10 min: Opening and Week 2 recap
-- 45 min: Core lecture (Continuity 15, Gestalt 20, Breaking rules 10)
-- 40 min: Screening and analysis (Classic 15, Action 15, Ad 10)
-- 15 min: Assignment explanation and storyboarding time
+- **Bordwell, David; Thompson, Kristin.** _Film Art: An Introduction._ McGraw-Hill. — Chapters on continuity editing, 180-degree rule, and classical Hollywood style.
+- **Thompson, Kristin.** "Continuity and editing." In _The Classical Hollywood Cinema_ (Bordwell, Staiger, Thompson). Columbia University Press, 1985.
 
-### Timing Breakdown (Session B)
+### Gestalt Psychology
 
-- 10 min: Opening and storyboard share
-- 20 min: Technical workshop (Multi-cam 10, J/L cuts 10)
-- 70 min: Practical exercise (Setup 10, Filming 35, Editing 30, Buffer 5)
-- 15 min: Group critique
+- **Wertheimer, Max.** "Laws of organization in perceptual forms." 1923. — Foundational Gestalt principles.
+- **Simply Psychology:** ["Gestalt Principles of Visual Perception"](https://www.simplypsychology.org/gestalt-psychology.html)
+- **Interaction Design Foundation:** ["Gestalt Principles for Visual Perception"](https://www.interaction-design.org/literature/article/gestalt-principles-of-visual-perception)
 
-### Common Challenges
+### Film History & Technique
 
-**Challenge 1: Students Cross the Line**
+- **Wikipedia:** [180-degree rule](https://en.wikipedia.org/wiki/180-degree_rule)
+- **Wikipedia:** [Continuity editing](https://en.wikipedia.org/wiki/Continuity_editing)
+- **StudioBinder:** "Continuity Editing Techniques" (article + video examples)
 
-- **Solution:** Physical demonstration with two students
-- Mark the line with tape on floor
-- Show how crossing flips screen positions
+### Image & Clip Sources (PD/CC)
 
-**Challenge 2: Inconsistent Performance Between Takes**
-
-- **Solution:** Encourage actors to repeat exactly
-- Film one take, review, then match it
-- Remind: Editing is easier with consistent takes
-
-**Challenge 3: Audio Sync Issues**
-
-- **Solution:** Clap or snap at beginning of each take
-- Use audio waveform to sync manually
-- Teach audio sync techniques
-
-**Challenge 4: Time Management**
-
-- **Solution:** Strict timers for each phase
-- Some students won't finish—that's okay
-- Homework completion is acceptable
-
-### Facilitation Tips
-
-**Emphasize Planning:**
-
-- "The storyboard is your roadmap"
-- Students who plan well edit faster
-- Show examples of good storyboards
-
-**Celebrate Invisible Edits:**
-
-- When cuts aren't noticed, that's success!
-- Highlight smooth transitions
-- Praise attention to detail
-
-**Address Continuity Errors Gently:**
-
-- Frame as learning opportunities
-- "This is why professionals have script supervisors"
-- Everyone makes continuity mistakes
-
-> _"The master editor knows: Perfection is impossible, but excellence is achievable. Strive for excellence, forgive imperfection."_
+- **The Birth of a Nation poster:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Birth_of_a_Nation_theatrical_poster.jpg) — Public Domain
+- **180-degree rule diagram:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:180_degree_rule.svg) — CC BY-SA 3.0
+- **Gestalt overview:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gestalt.svg) — CC BY 4.0
+- **Kanizsa triangle:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scheinkonturen_Kanizsa_Dreieck.svg) — CC BY-SA 4.0
+- **Gestalt proximity:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gestalt_proximity.svg) — Public Domain
+- **Similarity diagram:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Similar-geometric-shapes.svg) — Public Domain
+- **Figure–ground diagram:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Figur_Grund_Wahrnehmung.svg) — CC BY-SA 4.0
 
 ---
-
-## Next Week Preview
-
-**Week 4: Soviet Montage Theory – Kuleshov Effect & Vertov**
-
-We shift from invisible editing to visible, powerful montage. Students will explore:
-
-- Kuleshov Effect: How juxtaposition creates meaning
-- Eisenstein's collision montage
-- Vertov's "Kino-Eye" and documentary montage
-- How montage serves persuasion in advertising
-
-**Hands-on:** Students will create their own Kuleshov experiments and intellectual montages.
-
-> _"Next week, we learn that two shots placed together create a third meaning that exists in neither alone. This is the alchemy of montage."_
-
----
-
-**End of Week 3 Lesson Prompt**
-
-_May your students discover the invisible art, the seamless flow, and the power of continuity._

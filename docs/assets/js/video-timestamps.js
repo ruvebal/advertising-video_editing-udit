@@ -32,29 +32,46 @@
 	}
 
 	/**
-	 * Get the iframe element for a video player
+	 * Get the iframe or native video element for a video player
 	 * @param {HTMLElement} videoPlayer - The video player container
-	 * @returns {HTMLIFrameElement|null} - The iframe element
+	 * @returns {HTMLIFrameElement|HTMLVideoElement|null} - The iframe or video element
 	 */
-	function getVideoIframe(videoPlayer) {
-		return videoPlayer.querySelector('iframe');
+	function getVideoElement(videoPlayer) {
+		return videoPlayer.querySelector('iframe') || videoPlayer.querySelector('video');
 	}
 
 	/**
-	 * Get the platform (youtube or vimeo) from the iframe src
-	 * @param {HTMLIFrameElement} iframe - The iframe element
-	 * @returns {string|null} - 'youtube' or 'vimeo' or null
+	 * Get the platform (youtube, vimeo, or file) from the element
+	 * @param {HTMLIFrameElement|HTMLVideoElement} element - The iframe or video element
+	 * @returns {string|null} - 'youtube', 'vimeo', 'file', or null
 	 */
-	function getPlatform(iframe) {
-		if (!iframe || !iframe.src) return null;
+	function getPlatform(element) {
+		if (!element) return null;
 
-		if (iframe.src.includes('youtube.com') || iframe.src.includes('youtube-nocookie.com')) {
+		// Native video element (file platform)
+		if (element.tagName === 'VIDEO') {
+			return 'file';
+		}
+
+		if (!element.src) return null;
+
+		if (element.src.includes('youtube.com') || element.src.includes('youtube-nocookie.com')) {
 			return 'youtube';
-		} else if (iframe.src.includes('vimeo.com')) {
+		} else if (element.src.includes('vimeo.com')) {
 			return 'vimeo';
 		}
 
 		return null;
+	}
+
+	/**
+	 * Jump to timestamp in native HTML5 video (file platform)
+	 * @param {HTMLVideoElement} video - Native video element
+	 * @param {number} seconds - Time in seconds
+	 */
+	function jumpToFileTime(video, seconds) {
+		video.currentTime = seconds;
+		video.play().catch(() => {}); // Autoplay may be blocked
 	}
 
 	/**
@@ -130,15 +147,15 @@
 			return;
 		}
 
-		// Get the iframe
-		const iframe = getVideoIframe(videoPlayer);
-		if (!iframe) {
-			console.warn('No iframe found in video player');
+		// Get the iframe or native video element
+		const videoElement = getVideoElement(videoPlayer);
+		if (!videoElement) {
+			console.warn('No iframe or video element found in video player');
 			return;
 		}
 
 		// Determine platform
-		const platform = getPlatform(iframe);
+		const platform = getPlatform(videoElement);
 		if (!platform) {
 			console.warn('Unknown video platform');
 			return;
@@ -149,9 +166,11 @@
 
 		// Jump to timestamp based on platform
 		if (platform === 'youtube') {
-			jumpToYouTubeTime(iframe, seconds);
+			jumpToYouTubeTime(videoElement, seconds);
 		} else if (platform === 'vimeo') {
-			jumpToVimeoTime(iframe, seconds);
+			jumpToVimeoTime(videoElement, seconds);
+		} else if (platform === 'file') {
+			jumpToFileTime(videoElement, seconds);
 		}
 
 		// Visual feedback: highlight clicked button
@@ -199,10 +218,10 @@
 		const videoPlayers = document.querySelectorAll('.video-player');
 
 		videoPlayers.forEach(videoPlayer => {
-			const iframe = getVideoIframe(videoPlayer);
-			if (!iframe) return;
+			const videoElement = getVideoElement(videoPlayer);
+			if (!videoElement || videoElement.tagName !== 'IFRAME') return;
 
-			const platform = getPlatform(iframe);
+			const platform = getPlatform(videoElement);
 			if (platform !== 'youtube') return;
 
 			// Listen for messages from YouTube iframe
@@ -219,8 +238,8 @@
 					if (data.event === 'onStateChange' && data.info === 0) {
 						// State 0 = ended
 						setTimeout(() => {
-							if (iframe.contentWindow) {
-								iframe.contentWindow.postMessage(
+							if (videoElement.contentWindow) {
+								videoElement.contentWindow.postMessage(
 									JSON.stringify({
 										event: 'command',
 										func: 'stopVideo'
