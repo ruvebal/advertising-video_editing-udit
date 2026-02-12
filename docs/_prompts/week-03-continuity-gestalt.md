@@ -24,7 +24,6 @@ next_week:
 
 # Week 3: Continuity Editing & Perception Psychology (Gestalt)
 
-
 > _"The best edit is the one you don't see. The viewer's mind completes the story."_
 > — Tao of the Video Editor
 
@@ -374,306 +373,66 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 
 ---
 
-### Assignment for Session B (15 minutes)
-
-**Homework (Complete before Session B):**
-
-**1. Storyboard a Dialogue Scene (Required)**
-Create a 6-panel storyboard for a simple conversation:
-
-- 2 characters (A and B)
-- 3-4 lines of dialogue each
-- Plan coverage: Wide, Medium (both), Close-ups (both)
-- Mark camera positions (stay on one side of the line!)
-- Bring storyboard to Session B
-
-**2. Gather Props/Actors**
-
-- Find a partner (you'll film each other)
-- Simple props if needed (coffee cups, books, phones)
-- Location: Can film in classroom or simple background
-
-**3. Reading**
-
-- "The 180-Degree Rule Explained" (handout)
-- "Gestalt Principles in Film Editing" (excerpt)
-
----
-
-## Session B: Practice – Filming a Continuity Scene (2 hours)
+## Session B: Screening, Discussion & Continuity Deep Dive (2 hours)
 
 ### Opening (10 minutes)
 
-> _"Today you become invisible. Your cuts will disappear. The audience will see only story, not editing."_
+> _"Today we look closer. The best continuity is invisible—but understanding how it works makes you a stronger editor."_
 
-**Storyboard Share:**
+**Recap Session A:**
 
-- Quick review: 2-3 students show their storyboards
-- Instructor checks: Are they maintaining the 180-degree rule?
-- Emphasize: "Your storyboard is your roadmap"
+- 180-degree rule, shot-reverse-shot, match on action
+- Gestalt principles: closure, continuity, proximity
 
-**Today's Challenge:**
-"Film and edit a 30-second dialogue scene with perfect continuity. The goal: invisible editing."
+**Today's Focus:**
+"Screen and analyze professional examples. We'll dissect how continuity editing serves advertising and narrative clarity."
 
 ---
 
-### Technical Workshop: Multi-Camera Editing (20 minutes)
+### Technical Workshop: J-Cuts, L-Cuts & Multi-Camera Concepts (30 minutes)
 
-#### Adobe Premiere Pro: Multi-Camera Workflow
+**Instructor demonstration only** — no student filming. Show key concepts so students recognize them in Week 4's group project.
 
-**Method 1: Traditional (Manual Assembly)**
+#### J-Cuts and L-Cuts (Audio Transitions)
 
-**1. Organize Footage:**
+- **J-Cut:** Audio leads video (hear next scene before seeing it)
+- **L-Cut:** Video leads audio (see next scene while hearing previous)
+- Play examples from ads; students identify which technique is used
 
-- Create bins for each angle: WIDE, MEDIUM_A, MEDIUM_B, CLOSEUP_A, CLOSEUP_B
-- Name clips clearly
+#### Multi-Camera Workflow (Overview)
 
-**2. Build Sequence:**
-
-- Start with wide shot (establishes space)
-- Cut to medium shots for dialogue
-- Cut to close-ups for emotional moments
-- Use shot-reverse-shot pattern
-
-**3. Trimming Tools:**
-
-- **Ripple Edit (B):** Trim and close gap automatically
-- **Rolling Edit (N):** Adjust cut point between two clips
-- **Slip Tool (Y):** Change content without changing duration
+- Organize bins by angle; shot-reverse-shot assembly
+- Ripple vs. rolling edit for precise trimming
+- Students will apply these in Week 4's editing phase
 
 {% include video-player.html platform="youtube" id="3AIPnwkrNOo" title="Ripple vs. Rolling Edit in Premiere Pro (Adobe Help Center)" timestamps="0:00|Ripple Overview,1:05|Rolling Edit Demo,2:10|When to Use Each" %}
 
-<figure class="film-metadata">
-<figcaption>
-<strong>Adobe Premiere Pro</strong> — Ripple vs. Rolling Edit<br>
-<strong>Description:</strong> Official Adobe walkthrough clarifying when to choose ripple vs. rolling trims. Encourage students to watch before the hands-on lab so they can diagnose pacing issues quickly.<br>
-<strong>Source:</strong> <a href="https://www.youtube.com/watch?v=3AIPnwkrNOo">YouTube — Adobe Creative Cloud</a>
-</figcaption>
-</figure>
+---
 
-**Method 2: Multi-Camera Editing (Advanced)**
+### Extended Screening & Analysis (70 minutes)
 
-**If you shot with multiple cameras simultaneously:**
+**Screen and discuss continuity in advertising:**
 
-```
-1. Select all clips from same take
-2. Right-click > Create Multi-Camera Source Sequence
-3. Sync by: Audio, Timecode, or In Points
-4. Edit: Switch between angles in real-time
-5. Refine: Adjust cuts after initial pass
-```
+- [Dream Job | Google Pixel SB Commercial 2025](https://www.youtube.com/watch?v=-7e6g11BJc0) — eyelines, match on action
+- [The ULTRA Hustle | Michelob ULTRA](https://www.youtube.com/watch?v=eAJW_-i4-kc) — props, sightlines, spatial continuity
+- [Always #LikeAGirl](https://www.youtube.com/watch?v=XjJQBjWYDTs) — pacing, eyelines, emotional build
 
-**Pro Tip:** Even if you didn't shoot multi-cam, you can fake it by syncing takes manually.
+**Guiding questions for each:**
 
-#### Audio Transitions: J-Cuts and L-Cuts
-
-**J-Cut (Audio Leads Video):**
-
-- Hear next scene before seeing it
-- Creates smooth transition
-- Example: Hear Character B's response before cutting to them
-
-**How to create:**
-
-1. Unlink audio and video (Right-click > Unlink)
-2. Extend audio track earlier than video
-3. Creates "J" shape on timeline
-
-**L-Cut (Video Leads Audio):**
-
-- See next scene while hearing previous
-- Natural conversation flow
-- Example: Cut to Character B while Character A still speaking
-
-**How to create:**
-
-1. Unlink audio and video
-2. Extend audio track later than video
-3. Creates "L" shape on timeline
-
-**Demonstrate both techniques live.**
-
-> _"The J-cut and L-cut are the editor's secret weapons. They make dialogue feel like real conversation, not edited clips."_
+- Where is the 180-degree rule maintained (or deliberately broken)?
+- How do J-cuts and L-cuts support the flow?
+- What Gestalt principles are at work?
 
 ---
 
-### Practical Exercise: Film and Edit Continuity Scene (70 minutes)
+### Wrap-Up (10 minutes)
 
-#### Exercise Overview
+> _"Continuity editing is the foundation. Next week, Soviet montage will show you the opposite: visible, deliberate cuts that create meaning."_
 
-**Objective:** Film and edit a 30-second dialogue scene with perfect continuity.
+**Remind students:**
 
-**Scenario Options (Choose one or create your own):**
-
-**Option 1: The Pitch**
-
-- Character A pitches an idea/product to Character B
-- B is skeptical, asks questions
-- A convinces B (or doesn't)
-
-**Option 2: The Confession**
-
-- Character A reveals something to Character B
-- B reacts with surprise/concern
-- Resolution or cliffhanger
-
-**Option 3: The Argument**
-
-- Characters disagree about something
-- Tension builds
-- Ends with agreement or walking away
-
-#### Production Phase (35 minutes)
-
-**Setup (10 minutes):**
-
-- Pairs find filming location
-- Set up simple background (wall, desk, outdoor space)
-- Establish the "line" (mark with tape if helpful)
-- Plan camera positions (all on one side of line)
-
-**Coverage to Shoot:**
-
-**1. Wide Shot (Establishing)**
-
-- Both characters in frame
-- Shows spatial relationship
-- Shoot entire scene in one take
-
-**2. Medium Shots (Over-the-Shoulder)**
-
-- Over A's shoulder, showing B
-- Over B's shoulder, showing A
-- Shoot entire scene from each angle
-
-**3. Close-Ups (Optional but recommended)**
-
-- Close-up of A (for emotional moments)
-- Close-up of B (for reactions)
-- Shoot key lines/reactions
-
-**Filming Tips:**
-
-**1. Consistent Performance:**
-
-- Actors should repeat dialogue/actions similarly each take
-- Makes editing easier (matching action)
-
-**2. Overlap Dialogue:**
-
-- Start recording before scene begins
-- Keep recording after scene ends
-- Gives editing flexibility
-
-**3. Maintain Eyelines:**
-
-- Characters should look at same spot (where other actor is)
-- Even when other actor isn't in frame
-
-**4. Audio Continuity:**
-
-- Consistent volume and tone
-- Minimize background noise changes
-
-**Instructor Role:**
-
-- Circulate and check camera positions
-- Ensure students are maintaining the 180-degree rule
-- Help troubleshoot technical issues
-
-#### Editing Phase (30 minutes)
-
-**Import and Organize:**
-
-1. Transfer footage to computers
-2. Create bins for each angle
-3. Review all footage, note best takes
-
-**Assembly:**
-
-**Step 1: Lay Down Wide Shot (5 min)**
-
-- Place wide shot on timeline
-- This is your "safety" coverage
-- Trim to best 30 seconds
-
-**Step 2: Add Medium Shots (10 min)**
-
-- Cut to medium of Character A when they speak
-- Cut to medium of Character B when they speak
-- Use shot-reverse-shot pattern
-- Cut on action or during pauses
-
-**Step 3: Add Close-Ups (5 min)**
-
-- Replace some mediums with close-ups for emphasis
-- Use for emotional moments or key lines
-- Don't overuse—variety is key
-
-**Step 4: Audio Smoothing (5 min)**
-
-- Add J-cuts and L-cuts for natural flow
-- Ensure no audio pops or clicks
-- Dialogue should flow naturally
-
-**Step 5: Final Polish (5 min)**
-
-- Watch full sequence
-- Trim any awkward pauses
-- Ensure all cuts are motivated
-- Check for continuity errors
-
-**Adobe Premiere Techniques:**
-
-**Keyboard Shortcuts for Speed:**
-
-- `,` (comma): Insert edit
-- `.` (period): Overwrite edit
-- `Q` / `W`: Trim previous/next edit to playhead
-- `Cmd+K`: Cut at playhead
-- `Shift+Delete`: Ripple delete
-
-**Matching Action:**
-
-- Zoom in timeline for frame accuracy
-- Find exact frame where action starts
-- Cut just before or during movement
-- Motion masks the edit
-
----
-
-### Group Critique (15 minutes)
-
-**Screening:**
-
-- Show 4-5 student scenes (volunteers)
-- Each is 30 seconds = ~2-3 minutes of screening
-
-**Critique Discussion:**
-
-**Guiding Questions:**
-
-- "Did you notice the cuts? If not, why not?"
-- "Was the spatial relationship clear? Could you tell where characters were?"
-- "Were there any continuity errors? (Eyelines, screen direction, props)"
-- "How did the editing serve the story/emotion?"
-- "Where were J-cuts or L-cuts used effectively?"
-
-**Common Issues to Address:**
-
-- Crossing the line (characters flip positions)
-- Mismatched eyelines (characters not looking at each other)
-- Awkward cut timing (mid-word, mid-gesture)
-- Inconsistent audio levels
-
-**Celebrate Successes:**
-
-- Smooth match cuts
-- Natural-feeling dialogue flow
-- Effective use of close-ups for emphasis
-- Invisible editing (didn't notice cuts)
-
-> _"You have now mastered the foundation of all editing: continuity. From this foundation, all other techniques grow."_
+- Analysis assignment due Week 4, Session A
+- Week 4 introduces the group capstone project (product/idea, persuasion/convincing, no speech)
 
 ---
 
@@ -741,9 +500,7 @@ Create a 6-panel storyboard for a simple conversation:
 
 **Examples of Continuity in Ads (watch & discuss):**
 
-- [Volvo XC60 — “Moments”](https://www.youtube.com/watch?v=xFpjmLmXBOE) — Car spot that keeps screen direction, camera eyelines, and match-on-action pristine while intercutting near-misses.
-- [Dyson Airwrap Complete — Official Demo](https://www.youtube.com/watch?v=EblXbykYB10) — Product demo structured around precise before/after beats; note how continuity sells clarity.
-- [Google Workspace — “Real Customers, Real Results”](https://www.youtube.com/watch?v=R05-0X7xLz0) — Testimonial format with consistent interview coverage and cutaways to B-roll without breaking geography.
+    - [Dream Job | Google Pixel SB Commercial 2025](https://www.youtube.com/watch?v=-7e6g11BJc0) — Made by Google’s Super Bowl LIX spot (checked 200/OK on 2026-02-11) that tracks a father’s interview prep in a single axis, keeping eyelines and match-on-action tight while Gemini-generated prompts motivate each cut.
 
 ---
 
@@ -807,24 +564,7 @@ Create a 6-panel storyboard for a simple conversation:
 
 ### For Next Week (Week 4: Soviet Montage – Kuleshov Effect)
 
-#### 1. Complete and Submit Continuity Scene
-
-- Finish editing if not completed in class
-- Ensure perfect continuity (no errors)
-- Export: H.264, 1080p
-- Upload to course platform
-- **Due:** Before Week 4, Session A
-
-#### 2. Written Reflection (150-200 words)
-
-Answer:
-
-- What was most challenging about maintaining continuity?
-- How did the 180-degree rule help or constrain you?
-- What did you learn about how viewers perceive edits?
-- How might continuity editing serve advertising clarity?
-
-#### 3. Analysis Assignment DUE NEXT WEEK
+#### 1. Analysis Assignment DUE NEXT WEEK
 
 - **Final submission:** Critical analysis of advertisement
 - 1000-1500 word essay OR 10-minute presentation OR 3-5 minute video essay
@@ -832,50 +572,22 @@ Answer:
 - Must address ethical dimensions
 - **Due:** Week 4, Session A (presentations during class)
 
-#### 4. Reading: Soviet Montage Theory
+#### 2. Reading: Soviet Montage Theory
 
 - "The Kuleshov Effect Explained" (handout)
 - Eisenstein: "Methods of Montage" (excerpt)
 - Vertov: "Kino-Eye Manifesto" (excerpt)
 
-#### 5. Viewing: Montage Examples
+#### 3. Viewing: Montage Examples
 
 - Kuleshov Effect demonstration (YouTube, link provided)
-
 - _Battleship Potemkin_ — Odessa Steps sequence (embedded in Week 4)
 - _Man with a Movie Camera_ — City montage excerpt (embedded in Week 4)
 
----
+#### 4. Form Groups for Capstone Project
 
-## Assessment Criteria: Week 3 Continuity Scene
-
-### Rubric (10 points total)
-
-**Technical Continuity (4 points)**
-
-- ✓ 180-degree rule maintained throughout
-- ✓ Eyelines match correctly
-- ✓ Screen direction consistent
-- ✓ No continuity errors (props, positions, lighting)
-
-**Editing Execution (3 points)**
-
-- ✓ Smooth cuts (invisible editing)
-- ✓ Appropriate shot variety (wide, medium, close-up)
-- ✓ J-cuts and/or L-cuts used effectively
-- ✓ Audio transitions are clean
-
-**Storytelling (2 points)**
-
-- ✓ Clear narrative or interaction
-- ✓ Editing serves the emotion/story
-- ✓ Appropriate pacing (not too fast or slow)
-
-**Polish (1 point)**
-
-- ✓ Proper length (30 seconds ±5 seconds)
-- ✓ Clean audio (no pops, consistent levels)
-- ✓ Exported correctly and submitted on time
+- Groups of three
+- Prepare to decide in Week 4: product vs. idea, persuasion vs. convincing
 
 ---
 

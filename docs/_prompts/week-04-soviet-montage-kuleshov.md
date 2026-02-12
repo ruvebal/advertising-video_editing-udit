@@ -383,20 +383,20 @@ By the end of Week 4, students should be able to:
 
 ---
 
-## Session B: Creating Your Own Kuleshov Experiment (2 hours)
+## Session B: Capstone Group Project – Introduction & Phase 1 (2 hours)
 
 ### Opening (10 minutes)
 
-> _"Today you become Kuleshov. You will prove that context creates meaning. You will wield the power of juxtaposition."_
+> _"Today you integrate everything: from Lumière's reality to Kuleshov's juxtaposition. You will create a persuasive piece using only images, music, and text—no speech."_
 
 **Recap Session A:**
 
 - Kuleshov Effect: Same shot + different contexts = different meanings
 - Montage creates meaning through collision
-- Advertising uses this constantly
+- Continuity vs. montage: both tools for persuasion
 
-**Today's Challenge:**
-"Create your own Kuleshov-style experiment AND an intellectual montage sequence."
+**Today's Capstone:**
+"Work in groups of three. Sell a product or an idea. Choose persuasion or convincing. Film for one hour on campus with cell phones. Edit to a maximum of two minutes—with music, no speech."
 
 ---
 
@@ -409,220 +409,188 @@ By the end of Week 4, students should be able to:
 
 ---
 
-### Technical Workshop: Montage Techniques in Premiere Pro (20 minutes)
+## Capstone Group Project: Persuasive Piece (Weeks 1–4 Synthesis)
 
-#### 1. Juxtaposition Editing
+### Overview
 
-**Basic Technique:**
-
-- Shot A (2-3 seconds)
-- Shot B (2-3 seconds)
-- Return to Shot A or move to Shot C
-- Meaning emerges from sequence
-
-**Timing Considerations:**
-
-- Too fast: Viewers can't process
-- Too slow: Loses impact
-- Sweet spot: 2-4 seconds per shot for contemplation
-
-#### 2. Rhythmic Cutting to Music
-
-**Workflow:**
-
-1. Import music track
-2. Add markers on beats (M key)
-3. Cut footage to align with markers
-4. Creates visual rhythm matching audio rhythm
-
-**Adobe Premiere Technique:**
-
-```
-1. Play music, tap M on each beat
-2. Markers appear on timeline
-3. Use markers as cut points
-4. Snap clips to markers (S key toggles snapping)
-```
-
-#### 3. Rapid Montage Assembly
-
-**Efficient Workflow:**
-
-1. Gather all clips in bin
-2. Set In/Out points for best moments (short, 1-2 seconds each)
-3. Drag to timeline rapidly
-4. Refine timing after initial assembly
-
-**Keyboard Shortcuts:**
-
-- `I` / `O`: In/Out points
-- `,`: Insert edit
-- `.`: Overwrite edit
-- `Shift+Delete`: Ripple delete
-
-#### 4. Split Screen (Vertov Style)
-
-**Method 1: Crop Effect**
-
-```
-1. Stack two clips on V1 and V2
-2. Select top clip
-3. Effect Controls > Position & Scale
-4. Adjust position to show both clips
-5. Add crop if needed
-```
-
-**Method 2: Masking**
-
-```
-1. Stack clips
-2. Top clip: Effects > Video Effects > Keying > Track Matte Key
-3. Or use Opacity > Mask tools
-4. Draw mask to reveal bottom layer
-```
-
-**Demonstrate live:** Create simple split screen showing two simultaneous actions
+| **Element**            | **Requirement**                                                                 |
+| ---------------------- | ------------------------------------------------------------------------------- |
+| **Teams**              | Groups of three                                                                 |
+| **Decision 1**         | Selling a **product** or an **idea**                                            |
+| **Decision 2**         | Using **persuasion** (emotional, associative) or **convincing** (logical, factual) |
+| **Filming**            | 1 hour on campus (university grounds), cell phones only                         |
+| **Final length**       | Maximum 2 minutes                                                               |
+| **Audio**              | Music required; **no speech, no dialogue, no voiceover**                        |
+| **Allowed**            | On-screen text, title cards, external resources (e.g. stock footage)             |
+| **Concepts to apply**  | All techniques from Weeks 1–4                                                   |
 
 ---
 
-### Practical Exercise: Kuleshov Experiment & Intellectual Montage (50 minutes)
+### Phase 1: Concept & Planning (In Class – 40 minutes)
 
-#### Part 1: Kuleshov Experiment (25 minutes)
+**Guiding questions for each group:**
 
-**Objective:** Prove that context changes meaning
+1. **Product or idea?**
+   - Product: tangible (campus café, reusable bottle, bike-share, etc.)
+   - Idea: abstract (sustainability, voting, mental health, diversity, etc.)
 
-**Materials Needed:**
+2. **Persuasion or convincing?**
+   - **Persuasion:** emotional appeal, lifestyle, association, Kuleshov-style juxtaposition
+   - **Convincing:** logical, evidence-based, before/after, clear argument
 
-- One "neutral" shot (face, object, or scene)
-- 3-4 different "context" shots
+3. **Rough concept & storyboard**
+   - 6–8 panel storyboard (pencil/sketch OK)
+   - Beginning, middle, end
+   - Key shots: wide, medium, close-up
+   - Where will text appear? What music mood?
 
-**Options:**
+4. **Concepts checklist (Weeks 1–4)**
+   - **Week 1:** McLuhan, platform, persuasive editing
+   - **Week 2:** Lumière (reality), Méliès (trick/transition), in-camera choices
+   - **Week 3:** Continuity, 180° rule, match on action, Gestalt
+   - **Week 4:** Kuleshov, montage, juxtaposition, rhythm
 
-**Option A: Classic Kuleshov (Face + Contexts)**
-
-1. Film someone with neutral expression (5 seconds)
-2. Film 3 different objects/scenes:
-   - Food (suggests hunger)
-   - Sad scene (suggests empathy)
-   - Happy scene (suggests joy)
-   - Threatening scene (suggests fear)
-3. Edit: Face → Context 1 → Face → Context 2 → Face → Context 3
-
-**Option B: Product Kuleshov (Advertising Style)**
-
-1. Film product in neutral setting (5 seconds)
-2. Film 3 different lifestyle contexts:
-   - Luxury setting (suggests premium)
-   - Nature setting (suggests natural/eco)
-   - Active setting (suggests energy/performance)
-3. Edit: Product → Context 1 → Product → Context 2 → Product → Context 3
-
-**Option C: Abstract Kuleshov**
-
-1. Film neutral object (book, cup, phone)
-2. Film 3 emotional contexts:
-   - Joyful scene
-   - Tense scene
-   - Peaceful scene
-3. See how object "inherits" emotion
-
-**Editing Guidelines:**
-
-- Each shot: 2-3 seconds
-- Total length: 30-45 seconds
-- No transitions (straight cuts)
-- No music (let juxtaposition speak)
-- Add title cards explaining each version (optional)
-
-**Test Your Experiment:**
-
-- Show to classmate without explaining
-- Ask: "What emotion/quality do you see in the [face/product/object]?"
-- Did it work? Did context change perception?
-
-#### Part 2: Intellectual Montage (25 minutes)
-
-**Objective:** Create abstract meaning through juxtaposition
-
-**Challenge:** Use 4-6 shots to express an abstract concept WITHOUT WORDS
-
-**Concept Options:**
-
-- Freedom
-- Oppression
-- Progress
-- Decay
-- Hope
-- Anxiety
-- Connection
-- Isolation
-
-**Approach:**
-
-1. Choose your concept
-2. Gather symbolic imagery (shoot or use stock footage)
-3. Juxtapose to create the idea
-4. No literal representation—use metaphor
-
-**Example: "Progress"**
-
-- Shot 1: Old technology (typewriter, flip phone)
-- Shot 2: Hands typing
-- Shot 3: Modern technology (smartphone, laptop)
-- Shot 4: City skyline (growth)
-- Shot 5: Fast-moving traffic
-- Meaning: Technology drives progress and speed
-
-**Example: "Isolation"**
-
-- Shot 1: Crowded street
-- Shot 2: Single person in crowd (slow motion)
-- Shot 3: Empty room
-- Shot 4: Phone screen (no notifications)
-- Shot 5: Window view of outside world
-- Meaning: Alone even in crowds, disconnected
-
-**Editing Techniques:**
-
-- Vary shot lengths for rhythm
-- Consider adding music (emotional tone)
-- Use speed ramping (slow motion for emphasis)
-- Color grading for mood (desaturate for sadness, warm for hope)
-
-**Adobe Premiere Techniques:**
-
-- Speed/Duration: Right-click clip > Speed/Duration
-- Reverse: Speed/Duration > check "Reverse Speed"
-- Color: Lumetri Color panel
-- Slow Motion: 50% speed or lower
+**Deliverable by end of Phase 1:** One-page concept + storyboard (can be photographed and submitted digitally)
 
 ---
 
-### Screening & Critique (10 minutes)
+### Phase 2: Pre-Production (Homework – before filming)
 
-**Format:**
+**Shot list**
 
-- Screen 4-5 Kuleshov experiments (30-45 seconds each)
-- Screen 3-4 intellectual montages (30-60 seconds each)
+- List every shot: WIDE of location, MEDIUM of subject, CLOSE-UP of detail
+- Note screen direction and 180° line if applicable
+- Plan for cutaways (hands, objects, reactions)
 
-**Discussion:**
+**Roles**
 
-**For Kuleshov Experiments:**
+- **Director:** Framing, story, decisions
+- **Camera:** Phone operation, stability, lighting awareness
+- **Continuity / script:** Shot list, timing, ensures no dialogue
 
-- "Did the context change your perception?"
-- "Which juxtaposition was most effective?"
-- "How could this technique be used in advertising?"
+**Location scouting**
 
-**For Intellectual Montages:**
+- Confirm 2–3 campus locations
+- Check light, background, foot traffic
+- No dialogue spaces if possible (reduces temptation to add speech)
 
-- "What concept did you perceive?"
-- "Which shots created that meaning?"
-- "Were there unintended interpretations?"
+**Music & resources**
 
-**Key Insight:**
-"You've now experienced what Kuleshov discovered: The cut is not neutral. Every juxtaposition is an argument, a statement, a creation of meaning."
+- Choose 1–2 music tracks (royalty-free; e.g. Pixabay, Free Music Archive, YouTube Audio Library)
+- Identify any stock footage or external images needed
+- Plan text overlays: key words, titles, CTA
 
-> _"The editor does not merely arrange shots. The editor creates reality itself through the power of juxtaposition."_
+---
+
+### Phase 3: Production – 1 Hour on Campus
+
+**Rules**
+
+- **Exactly 1 hour** of scheduled filming
+- **Cell phones only** (no dedicated cameras)
+- **No speech, no dialogue** – everything visual or via text
+- Use tripod/rig if available; otherwise stable hands or surface
+
+**Coverage**
+
+- Wide establishing shots
+- Medium shots (product, people, actions)
+- Close-ups (details, reactions, text-friendly moments)
+- Cutaways for editing flexibility
+- Overlap actions for match-on-action
+
+**Tips**
+
+- Film more than you think you need
+- Hold each shot 5–10 seconds
+- Avoid crossing the line; maintain screen direction
+- Capture B-roll: campus life, objects, textures
+
+---
+
+### Phase 4: Post-Production (Homework)
+
+**Edit to a maximum of 2 minutes**
+
+- Music from start to finish (drives mood and rhythm)
+- Cut to the beat where appropriate
+- Use continuity where it helps clarity; use montage where it builds meaning
+
+**Allowed**
+
+- On-screen text, titles, captions
+- Stock footage or images (credited)
+- Color grading, speed changes
+- J-cuts, L-cuts (music into next scene)
+
+**Not allowed**
+
+- Speech, dialogue, voiceover
+
+**Export:** H.264, 1080p
+
+---
+
+### Phase 5: Review & Submission
+
+**Written reflection (150–200 words) per group**
+
+- What product or idea did you sell, and did you use persuasion or convincing?
+- Which techniques from Weeks 1–4 did you apply? Give one example each.
+- What would you improve?
+
+**Submission**
+
+- Video file (max 2 min)
+- One-page concept + storyboard (scanned or photographed)
+- Written reflection
+- **Due:** Before Week 5, Session A
+
+---
+
+### Technical Workshop: Montage & Rhythm for Your Edit (20 minutes)
+
+**Rhythmic cutting to music**
+
+1. Import music; add markers on beats (M key)
+2. Align cuts to markers
+3. Vary shot length: 1–3 seconds for energy, 3–5 for contemplation
+
+**Juxtaposition (Kuleshov)**
+
+- Product + lifestyle = aspiration
+- Problem + solution = convincing
+- Contrasting images = argument
+
+**Continuity when needed**
+
+- Match on action for clarity
+- 180° rule for spatial coherence
+- J-cuts and L-cuts for smooth flow (with music)
+
+---
+
+### In-Class Time: Phase 1 Work (30 minutes)
+
+- Groups form and begin Phase 1
+- Instructor circulates: concept clarity, storyboard, technique choices
+- End of session: each group states product/idea, persuasion/convincing, and one technique they will emphasize
+
+---
+
+### Assessment Criteria: Capstone Project (15 points total)
+
+| **Criterion**                | **Points** | **Description**                                                                 |
+| ---------------------------- | ---------- | ------------------------------------------------------------------------------- |
+| Concept & decisions          | 3          | Clear product/idea; clear persuasion vs. convincing; coherent concept            |
+| Application of techniques    | 4          | Visible use of concepts from Weeks 1–4 (continuity, montage, Gestalt, etc.)      |
+| Filming quality              | 3          | Stable shots, coverage, no speech; respects 1 hr / cell phone rules              |
+| Editing & music              | 3          | Max 2 min; music throughout; effective pacing and rhythm                         |
+| Reflection                   | 2          | Thoughtful, cites techniques, identifies improvements                            |
+
+---
+
+> _"You have now combined Lumière's reality, Méliès's magic, Griffith's continuity, and Kuleshov's juxtaposition into a single persuasive piece. The editor does not merely arrange shots—the editor creates meaning."_
 
 ---
 
@@ -745,39 +713,33 @@ By the end of Week 4, students should be able to:
 
 ## Assignment & Homework
 
+### Capstone Group Project (Due Before Week 5)
+
+Complete Phases 2–5 of the Capstone Group Project:
+
+- **Phase 2:** Pre-production (shot list, roles, location scouting, music)
+- **Phase 3:** 1 hour filming on campus with cell phones (no speech)
+- **Phase 4:** Edit to max 2 minutes with music
+- **Phase 5:** Submit video + concept/storyboard + written reflection (150–200 words)
+
+**Due:** Before Week 5, Session A
+
 ### For Next Week (Week 5: Breaking the Rules – Experimental Editing)
 
-#### 1. Complete and Submit Montage Exercises
-
-- Kuleshov Experiment (30-45 seconds)
-- Intellectual Montage (30-60 seconds)
-- Export both: H.264, 1080p
-- Upload to course platform
-- **Due:** Before Week 5, Session A
-
-#### 2. Written Reflection (200-250 words)
-
-Answer:
-
-- How did context change meaning in your Kuleshov experiment?
-- What challenges did you face creating intellectual montage?
-- How might you use montage techniques in advertising?
-- What ethical considerations arise from the power of juxtaposition?
-
-#### 3. Reading: Experimental Editing
+#### 1. Reading: Experimental Editing
 
 - "Jump Cuts and the French New Wave" (handout)
 - "Tarantino's Nonlinear Narratives" (article)
 - "MTV and the Music Video Aesthetic" (excerpt)
 
-#### 4. Viewing: Rule-Breaking Examples
+#### 2. Viewing: Rule-Breaking Examples
 
-- _Breathless_ (Godard) - Jump cut sequence (YouTube clip)
-- _Pulp Fiction_ - Nonlinear structure analysis
+- _Breathless_ (Godard) — Jump cut sequence (YouTube clip)
+- _Pulp Fiction_ — Nonlinear structure analysis
 - Modern music video with experimental editing
 - **Hitchcock on Kuleshov (1964):** Classic explanation of the effect
 
-#### 5. Begin Final Project Concept
+#### 3. Begin Final Project Concept
 
 - Start thinking about your final advertising video
 - What product/cause will you promote?
@@ -789,19 +751,9 @@ Answer:
 
 ## Assessment Criteria
 
-### Week 4 Montage Exercises (10 points total)
+### Capstone Group Project (15 points total)
 
-**Kuleshov Experiment (5 points)**
-
-- ✓ Uses same neutral shot with different contexts (2 pts)
-- ✓ Contexts clearly create different meanings (2 pts)
-- ✓ Demonstrates understanding of juxtaposition principle (1 pt)
-
-**Intellectual Montage (5 points)**
-
-- ✓ Expresses abstract concept through imagery (2 pts)
-- ✓ Effective use of juxtaposition and rhythm (2 pts)
-- ✓ Creative and original approach (1 pt)
+See Phase 5 and assessment table in Session B above.
 
 ### Analysis Assignment (25% of final grade)
 
