@@ -14,7 +14,7 @@ description: 'Group assignment (Weeks 1–4 synthesis): create a max-2-minute pe
 
 # Capstone Group Project: Persuasive Piece (Weeks 1–4 Synthesis)
 
-Group project integrating concepts from Weeks 1–4. In groups of three, create a single persuasive piece (max 2 minutes): sell a **product** or an **idea**, using either **persuasion** (emotional, associative) or **convincing** (logical, factual). Film for one hour on campus with cell phones; edit with music only—**no speech, no dialogue, no voiceover**.
+Group project integrating concepts from Weeks 1–4. In groups of three, create a single persuasive piece (max 2 minutes): sell a **product** or an **idea**, using either **persuasion** (emotional, associative) or **convincing** (logical, factual). Film for one hour on campus with cell phones; edit with music only—**no speech, no dialogue**, only **voiceover** allowed.
 
 ---
 
@@ -27,7 +27,7 @@ Group project integrating concepts from Weeks 1–4. In groups of three, create 
 | **Decision 2**        | Using **persuasion** (emotional, associative) or **convincing** (logical, factual) |
 | **Filming**           | 1 hour on campus (university grounds), cell phones only                            |
 | **Final length**      | Maximum 2 minutes                                                                  |
-| **Audio**             | Music required; **no speech, no dialogue, no voiceover**                           |
+| **Audio**             | Music required; **no speech, no dialogue** **only voiceover allowed**                           |
 | **Allowed**           | On-screen text, title cards, external resources (e.g. stock footage)               |
 | **Concepts to apply** | All techniques from Weeks 1–4                                                      |
 
@@ -132,7 +132,7 @@ Group project integrating concepts from Weeks 1–4. In groups of three, create 
 
 **Not allowed**
 
-- Speech, dialogue, voiceover
+- Speech, dialogue
 
 **Export:** H.264, 1080p
 

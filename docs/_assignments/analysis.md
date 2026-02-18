@@ -1,7 +1,7 @@
 ---
 title: Analysis Assignment
 layout: lesson
-description: 'Select one complete piece and deliver a final oral analysis (screening + pitch) to demonstrate persuasive/conviction logics and concepts from Weeks 1–4.'
+description: 'Select one complete piece (max. 3min) and deliver a final oral analysis (screening + pitch) to demonstrate persuasive/conviction logics and concepts from Weeks 1–4.'
 ---
 
 <!-- prettier-ignore-start -->
@@ -33,7 +33,7 @@ description: 'Select one complete piece and deliver a final oral analysis (scree
 
 | Part                         | Time              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ---------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Screening**                | **Max 3 minutes** | Show the piece (or a focused segment if the full piece is long). You may show the full piece and then speak, or screen key moments within the 3-minute limit.                                                                                                                                                                                                                                                                              |
+| **Screening**                | **Max 3 minutes** | Show the piece. You may show the full piece and then speak, or screen key moments within the 3-minute limit.                                                                                                                                                                                                                                                                              |
 | **Defense (analysis pitch)** | **5 minutes**     | Oral analysis: techniques, persuasive vs. convincing logic, ethical considerations, and explicit links to course concepts (Weeks 1–4). Use the **film editing terms glossary** from **Lesson 1** ([NYFA Film Editing Vocabulary](https://www.nyfa.edu/student-resources/a-beginners-guide-to-film-editing-vocabulary/)) to name techniques precisely and to **impulse critical thinking** — why cuts work, for whom, and with what effect. |
 | **Q&A**                      | **2 minutes**     | Questions from instructor and class.                                                                                                                                                                                                                                                                                                                                                                                                       |
 
@@ -46,7 +46,7 @@ description: 'Select one complete piece and deliver a final oral analysis (scree
 ### Written guide (mandatory)
 
 - Submit a **written guide** (structured notes, outline, or short essay) that supports your oral defense.
-- **Resume notions more than authors:** focus on **concepts and techniques** (continuity, montage, Kuleshov, Gestalt, persuasion vs. convincing, etc.) rather than citing directors or theorists. Summarize _what_ the piece does and _how_ it uses editing; use the **film editing terms glossary** from **Lesson 1** to keep language precise and to support critical reflection.
+- **Resume notions more than authors:** focus on **concepts and techniques** (continuity, montage, Kuleshov, Gestalt, persuasion vs. convincing, etc.) rather than citing directors or theorists. Summarize _what_ the piece does and _how_ it uses editing; use the [NYFA Film Editing Vocabulary Guide](https://www.nyfa.edu/student-resources/a-beginners-guide-to-film-editing-vocabulary/) to keep language precise and to support critical reflection.
 - Reference: Kuleshov Effect, Gestalt principles, continuity vs. montage, and ethical dimensions of the piece.
 
 ### USB with samples (mandatory)
@@ -77,14 +77,6 @@ Address both **how** the piece is cut and **why** — i.e. how editing supports 
 | --------------------- | -------- | ---------------------------------------------------------------------------------- |
 | **Oral presentation** | Yes      | 3 min screening + 5 min defense + 2 min Q&A (Week 4, Session A/B as scheduled).    |
 | **Written guide**     | **Yes**  | Submit per defense; focus on notions/concepts, not authors; use Lesson 1 glossary. |
-| **USB with samples**  | **Yes**  | Bring USB with reconstruction/loop files for in-class playback at your defense.    |
-
----
-
-## Due
-
-- **Presentations:** Week 4 (Session A and, if needed, Session B).
-- **Written guide and USB:** Same week; guide by the deadline set by the instructor; USB at the time of your defense.
 
 ---
 
