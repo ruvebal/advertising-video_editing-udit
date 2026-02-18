@@ -49,7 +49,7 @@ defaults:
   - scope:
       path: '_assignments'
     values:
-      layout: 'default'
+      layout: 'lesson'
   - scope:
       path: ''
     values:
