@@ -560,37 +560,6 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 
 ---
 
-## Assignment & Homework
-
-### For Next Week (Week 4: Soviet Montage – Kuleshov Effect)
-
-#### 1. Analysis Assignment DUE NEXT WEEK
-
-- **Final submission:** Critical analysis of advertisement
-- 1000-1500 word essay OR 10-minute presentation OR 3-5 minute video essay
-- Must reference: Kuleshov Effect, Gestalt principles, continuity/montage
-- Must address ethical dimensions
-- **Due:** Week 4, Session A (presentations during class)
-
-#### 2. Reading: Soviet Montage Theory
-
-- "The Kuleshov Effect Explained" (handout)
-- Eisenstein: "Methods of Montage" (excerpt)
-- Vertov: "Kino-Eye Manifesto" (excerpt)
-
-#### 3. Viewing: Montage Examples
-
-- Kuleshov Effect demonstration (YouTube, link provided)
-- _Battleship Potemkin_ — Odessa Steps sequence (embedded in Week 4)
-- _Man with a Movie Camera_ — City montage excerpt (embedded in Week 4)
-
-#### 4. Form Groups for Capstone Project
-
-- Groups of three
-- Prepare to decide in Week 4: product vs. idea, persuasion vs. convincing
-
----
-
 ## Additional Resources
 
 ### Continuity Editing Theory

@@ -35,6 +35,9 @@ collections:
   prompts:
     output: true
     permalink: /prompts/:slug/
+  assignments:
+    output: true
+    permalink: /assignments/:name/
 
 defaults:
   - scope:
@@ -43,6 +46,10 @@ defaults:
     values:
       layout: 'lesson'
       status: draft
+  - scope:
+      path: '_assignments'
+    values:
+      layout: 'default'
   - scope:
       path: ''
     values:
