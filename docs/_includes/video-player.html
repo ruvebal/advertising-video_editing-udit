@@ -79,6 +79,11 @@
 	</video>
 </div>
 {% endif %}
+{% if include.title %}
+<div class="video-title">
+<h4>{{ include.title }}</h4>
+</div>
+{% endif %}
 {% if include.timestamps %}
 <div class="video-timestamps">
 <h4>Key Moments:</h4>

@@ -3,8 +3,8 @@
 PORT ?= 4001
 CONFIG ?= _config.yml
 
-RUBY_BIN := /usr/local/opt/ruby@3.3/bin
-GEM_BIN := /usr/local/lib/ruby/gems/3.3.0/bin
+RUBY_BIN := /opt/homebrew/opt/ruby@3.3/bin
+GEM_BIN := /opt/homebrew/lib/ruby/gems/3.3.0/bin
 
 ENV := PATH="$(RUBY_BIN):$(GEM_BIN):$(PATH)"
 
