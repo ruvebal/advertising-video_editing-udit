@@ -28,7 +28,7 @@ next_week:
 
 ## Lesson Development Prompt for Instructors
 
-> _"In limitation, the master reveals mastery. Thirty seconds can contain infinity."_  
+> _"In limitation, the master reveals mastery. Thirty seconds can contain infinity."_
 > — Tao of the Video Editor
 
 ---
@@ -424,35 +424,6 @@ By the end of Week 6, students should be able to:
 
 ### Screening & Analysis: Deconstructing Great Ads (40 minutes)
 
-#### Masterpiece Analysis: Apple "1984"
-
-{% include video-player.html platform="vimeo" id="6733914"
-   title="Apple 1984 (D&AD / Ridley Scott) — 60s structure under spectacle"
-   timestamps="0:00|World setup,0:40|Climax,0:55|Brand reveal" %}
-
-**Deconstruction Guide:**
-
-- **Structure:** Emotional appeal + surprise
-- **0-40s:** Build dystopian world (problem)
-- **40-55s:** Heroine destroys screen (solution/revolution)
-- **55-60s:** Text reveal (brand + message)
-
-**Editing Analysis:**
-
-- Slow build (can afford it at 60 seconds)
-- Montage of gray workers vs. colorful athlete
-- Slow motion at climax (emphasis)
-- Minimal dialogue (visual storytelling)
-
-**Why It's Great:**
-
-- Tells complete story
-- Memorable imagery
-- Clear brand positioning (Apple = rebel)
-- Aired once (Super Bowl 1984) but became legend
-
-**Discussion:** "Could this work as a 30-second spot? What would you cut?"
-
 #### Emotional Structure: Delayed Branding
 
 {% include video-player.html platform="vimeo" id="64077961"
@@ -497,34 +468,7 @@ By the end of Week 6, students should be able to:
   </figcaption>
 </figure>
 
-#### Example 1: Apple "1984" (60 seconds - Classic TV) (15 min)
-
-**Screen:** Full ad
-
-**Deconstruction:**
-
-- **Structure:** Emotional appeal + surprise
-- **0-40s:** Build dystopian world (problem)
-- **40-55s:** Heroine destroys screen (solution/revolution)
-- **55-60s:** Text reveal (brand + message)
-
-**Editing Analysis:**
-
-- Slow build (can afford it at 60 seconds)
-- Montage of gray workers vs. colorful athlete
-- Slow motion at climax (emphasis)
-- Minimal dialogue (visual storytelling)
-
-**Why It's Great:**
-
-- Tells complete story
-- Memorable imagery
-- Clear brand positioning (Apple = rebel)
-- Aired once (Super Bowl 1984) but became legend
-
-**Discussion:** "Could this work as a 30-second spot? What would you cut?"
-
-#### Example 2: Modern 30-Second Spot (15 min)
+#### Example 1: Modern 30-Second Spot (15 min)
 
 **Screen:** Recent award-winning commercial (Cannes Lions winner)
 
@@ -545,7 +489,7 @@ By the end of Week 6, students should be able to:
 
 **Discussion:** "What makes this effective for its platform and audience?"
 
-#### Example 3: TikTok Native Ad (10 min)
+#### Example 2: TikTok Native Ad (10 min)
 
 **Screen:** Successful TikTok brand ad
 

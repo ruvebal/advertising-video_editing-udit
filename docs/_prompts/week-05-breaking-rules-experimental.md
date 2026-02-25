@@ -28,7 +28,7 @@ next_week:
 
 ## Lesson Development Prompt for Instructors
 
-> _"First learn the rules like a master, then break them like an artist."_  
+> _"First learn the rules like a master, then break them like an artist."_
 > — Tao of the Video Editor
 
 ---
@@ -102,18 +102,26 @@ By the end of Week 5, students should be able to:
 **Historical Context:**
 
 - Post-WWII France, young critics turned filmmakers
-- Rejected Hollywood polish and studio system
+- Rejected from Hollywood and studio system
 - Embraced spontaneity, location shooting, handheld cameras
 - Limited budgets forced creative solutions
 
 **Jean-Luc Godard and _Breathless_ (1960):**
 
 <figure class="spectacle-image">
-  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/%C3%80_bout_de_souffle_movie_logo.png" alt="À bout de souffle (1960) movie logo" loading="lazy" />
-  <figcaption>
-    <p>Logo from Jean-Luc Godard's *À bout de souffle* (1960), often used to discuss the introduction of jump cuts in French New Wave editing.</p>
-    <p class="image-credit">Public Domain via Wikimedia Commons</p>
-  </figcaption>
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%C3%80_bout_de_souffle_movie_logo.png" alt="À bout de souffle (1960) movie logo" loading="lazy" style="background-color:white;"/>
+<figcaption>
+<p><strong>À bout de souffle</strong> (1960) — Logo from Jean-Luc Godard's film, often used to discuss the introduction of jump cuts in French New Wave editing.</p>
+<p class="image-credit">Public Domain via Wikimedia Commons</p>
+</figcaption>
+</figure>
+
+<figure class="spectacle-image">
+<img src="https://upload.wikimedia.org/wikipedia/en/3/3f/%C3%80_bout_de_souffle_%28movie_poster%29.jpg" alt="À bout de souffle (1960) movie poster" loading="lazy" />
+<figcaption>
+<p><strong>À bout de souffle</strong> (1960) — Poster from Jean-Luc Godard's film, often used to discuss the introduction of jump cuts in French New Wave editing.</p>
+<p class="image-credit">Public Domain via Wikimedia Commons</p>
+</figcaption>
 </figure>
 
 **The Famous Jump Cut Sequence:**
@@ -137,7 +145,12 @@ By the end of Week 5, students should be able to:
 - Violates match-on-action and spatial continuity
 - Draws attention to the edit itself
 
-**Screen:** _Breathless_ jump cut sequence (3-5 minutes)
+[Jump cut – Wikipedia](https://en.wikipedia.org/wiki/Jump_cut)
+
+{% include video-player.html
+ platform="youtube"
+ id="5uGcbjUFMs8"
+ title="À bout de souffle (Breathless) — jump cut sequence (educational/academic reference)" %}
 
 **Analysis:**
 
@@ -153,9 +166,16 @@ By the end of Week 5, students should be able to:
 - Keeps pace fast, maintains attention
 - Feels authentic, unpolished
 
+**Limits of vectorized (predictive) search when using AI:**
+The clip below is kept on purpose to show a limitation of semantic/vector search. In it, "cut" appears in the **literal** sense (e.g. cutting with scissors), not as an editing term. Tools that rely on vector similarity may retrieve this when you search for "jump cut" or "smash cut," because the word "cut" matches literally. Use this example in class to discuss why AI-assisted search can return the "wrong" kind of cut and how to refine queries or verify results.
+
 {% include video-player.html platform="vimeo" id="78078299"
    title="GEICO: Assistant (humor + smash-cut timing)"
    timestamps="0:00|Setup,0:12|Twist,0:25|CTA cadence" %}
+
+**"Everybody Have Fun Tonight"** — Wang Chung (1986). Directed by **Godley & Creme**. _Reception:_ Banned from broadcast by the BBC after a medical expert advised it could trigger epileptic fits ([Wikipedia](https://en.wikipedia.org/wiki/Everybody_Have_Fun_Tonight)). _Use of cuts:_ Very rapid editing between different takes of the same performance; shots flip through up to four takes with some edits as short as 1/25th of a second. Useful for discussing extreme rhythmic cutting and its physiological impact.
+
+[https://www.youtube.com/watch?v=BoXu6QmxpJE](https://www.youtube.com/watch?v=BoXu6QmxpJE)
 
 **Analysis Guide:**
 
@@ -163,6 +183,17 @@ By the end of Week 5, students should be able to:
 - How does timing create comedic effect?
 - Would this work for a serious product? Why/why not?
 - Target audience: Who finds this appealing?
+
+**Gilligan cut (smash cut for irony):**
+The [Gilligan cut](https://www.videomaker.com/how-to/editing/editing-technique/what-is-a-smash-cut/) is a specific type of smash cut that creates humor through irony: a character confidently states something, and the next cut immediately shows the opposite. As Videomaker defines it: _"The 'Gilligan cut,' a specific type of smash cut, creates humor through irony."_
+
+{% include video-player.html
+ platform="youtube"
+ id="EiDpaM2r72A"
+ title="Indiana Jones and the Last Crusade (1989) — Marcus Brody Gilligan cut"
+ timestamps="0:00|Indy's boast about Brody,0:15|Smash cut to Brody lost" %}
+
+_Indiana Jones and the Last Crusade_ (1989): Indy tells the villains they will never find Brody—"he's got a two-day head start, he's got 50 languages," etc. The scene smash-cuts to Brody in a foreign crowd, lost and asking if anyone speaks English. The cut undercuts the dialogue for comedic effect.
 
 **2. TikTok/Instagram:**
 
@@ -316,11 +347,11 @@ By the end of Week 5, students should be able to:
 **Soviet Montage Influence:**
 
 <figure class="spectacle-image">
-  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jump_Cut_%28journal%29_logo.png" alt="Jump Cut journal logo" loading="lazy" />
-  <figcaption>
-    <p>Logo of *Jump Cut: A Review of Contemporary Media* — scholarly journal exploring video and film editing theory and practice.</p>
-    <p class="image-credit">Public Domain via Wikimedia Commons</p>
-  </figcaption>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Jump_Cut_%28journal%29_logo.png" alt="Jump Cut: A Review of Contemporary Media logo" loading="lazy" style="background-color:white;"/>
+<figcaption>
+<p><strong>Jump Cut: A Review of Contemporary Media</strong> — Logo of the scholarly journal known for its critical exploration of film and video editing theory and practice, influential in experimental film circles.</p>
+<p class="image-credit">Public Domain via Wikimedia Commons</p>
+</figcaption>
 </figure>
 
 {% include video-player.html platform="file"
