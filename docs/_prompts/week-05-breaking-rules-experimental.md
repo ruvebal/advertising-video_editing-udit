@@ -16,8 +16,6 @@ next_week:
 
 <!-- prettier-ignore-start -->
 
-## 📋 Tabla de contenidos
-
 {: .no_toc }
 
 - TOC
@@ -26,10 +24,28 @@ next_week:
 
 # Week 5: Breaking the Rules – Experimental Editing
 
-## Lesson Development Prompt for Instructors
-
 > _"First learn the rules like a master, then break them like an artist."_
 > — Tao of the Video Editor
+
+<figure class="spectacle-image">
+<a href="https://www.routledge.com/Film-and-Video-Editing-Theory-How-Editing-Creates-Meaning/Frierson/p/book/9781138202078" target="_blank" rel="noopener noreferrer">
+<img src="https://images.routledge.com/common/jackets/amazon/978113820/9781138202078.jpg" alt="Film and Video Editing Theory: How Editing Creates Meaning — Michael Frierson (Routledge)" loading="lazy" />
+</a>
+<figcaption>
+<p><strong>Film and Video Editing Theory: How Editing Creates Meaning</strong> — Michael Frierson (Routledge, 2018). An accessible guide to the practices that create meaning through editing. Frierson synthesizes theories from Herbert Zettl, Sergei Eisenstein, Noël Burch, and Hollywood editors like Walter Murch and Edward Dmytryk, mapping craft principles for choices such as flashbacks, spatial clarity of a cut, or shot length. The book unifies theory and practice, explaining how and why cuts work or don’t, beyond software proficiency.</p>
+<p class="image-credit"><a href="https://www.routledge.com/Film-and-Video-Editing-Theory-How-Editing-Creates-Meaning/Frierson/p/book/9781138202078">Routledge</a></p>
+</figcaption>
+</figure>
+
+<figure class="spectacle-image">
+<a href="https://www.peachpit.com/store/adobe-premiere-pro-classroom-in-a-book-2025-release-9780135382912" target="_blank" rel="noopener noreferrer">
+<img src="https://www.peachpit.com/ShowCover.aspx?isbn=0135382912" alt="Adobe Premiere Pro Classroom in a Book 2025 Release — Maxim Jago (Adobe Press)" loading="lazy" />
+</a>
+<figcaption>
+<p><strong>Adobe Premiere Pro Classroom in a Book 2025 Release</strong> — Maxim Jago (Adobe Press / Peachpit). Contains 17 lessons that use real-world, project-based learning to cover the basics and beyond, providing countless tips and techniques to help you become more productive with the program.</p>
+<p class="image-credit"><a href="https://www.peachpit.com/store/adobe-premiere-pro-classroom-in-a-book-2025-release-9780135382912">Peachpit</a></p>
+</figcaption>
+</figure>
 
 ---
 
@@ -460,24 +476,9 @@ Create chart on board:
 
 ---
 
-## Assignment for Session B
+## Session B: Rapid Workshop (2 hours)
 
-**Complete before Session B:**
-
-📋 **[Week 5 Experimental Edit Assignment](../_assignments/week-05-experimental-edit.md)**
-
-- Create a 30-second experimental edit
-- Choose one approach: Jump cuts, nonlinear, or MTV-style
-- Use techniques from Session A
-- Submit video + written reflection
-
-**Due:** Week 6, Session A
-
----
-
-## Session B: Rapid Storyboarding Workshop (2 hours)
-
-### Opening (10 minutes)
+### Opening
 
 > _"Today you are free. Free to break every rule you've learned. But remember: Break with purpose, not ignorance."_
 
@@ -597,108 +598,15 @@ Animate block size for glitch effect
 
 > _"Speed ramping is the editor's time machine. Glitches are the editor's rebellion. Whip pans are the editor's exclamation point."_
 
----
-
-### Practical Exercise: Create Your Experimental Edit (60 minutes)
-
-#### Exercise Overview
-
-**Objective:** Create a 30-second experimental edit that intentionally breaks conventions while remaining purposeful.
-
-**Requirements:**
-
-- Must use at least ONE experimental technique (jump cuts, speed ramping, glitches, etc.)
-- Must have clear concept or emotion
-- Must be 30 seconds (±5 seconds)
-- Can add music (encouraged for rhythm)
-
-#### Production/Editing Phase (50 minutes)
-
-**Students work on their chosen approach:**
-
-**Option A: Jump Cut Montage**
-
-- Import all footage
-- Identify best moments
-- Cut out pauses, transitions, boring parts
-- Create rapid, energetic sequence
-- Add music if desired
-
-**Option B: Nonlinear Narrative**
-
-- Lay out shots in chronological order first
-- Identify key moments
-- Rearrange for intrigue or artistic effect
-- Test on classmate: Is it comprehensible?
-
-**Option C: MTV-Style Music Video**
-
-- Import music (30-second excerpt)
-- Add beat markers (M key)
-- Cut footage to beats
-- Add effects and transitions
-- Maximize energy and rhythm
-
-**Instructor Circulates:**
-
-- Help with technical issues
-- Encourage bold choices
-- Remind: "Purpose over chaos"
-- Suggest refinements
-
-**Advanced Techniques (For Fast Finishers):**
-
-**Combination Approach:**
-
-- Mix multiple techniques
-- Jump cuts + speed ramping
-- Nonlinear + glitch effects
-- Create complex experimental piece
-
-**Color Grading for Mood:**
-
-- Lumetri Color > Creative
-- Apply stylized looks
-- High contrast, desaturated, or vibrant
-- Match aesthetic to concept
-
----
-
-### Screening & Critique (20 minutes)
-
-**Format:**
-
-- Screen all student experiments (30 seconds each)
-- Class of 20 = 10 minutes of screening
-- Group discussion after
-
-**Critique Discussion:**
-
-**Guiding Questions:**
-
-- "What technique was used? How did it affect the feeling?"
-- "Did the rule-breaking serve a purpose?"
-- "Was it comprehensible or confusing?"
-- "What audience/brand would this work for?"
-- "What could be refined?"
-
-**Celebrate:**
-
-- Bold choices
-- Creative problem-solving
-- Effective use of techniques
-- Unique approaches
-
-**Constructive Feedback:**
-
-- Where did chaos overwhelm message?
-- Where could technique be pushed further?
-- How could it be adapted for advertising?
-
-**Key Takeaway:**
-"You now have permission to break rules—but only when you know WHY you're breaking them."
-
 > _"The master knows: Rules are training wheels. Once you can ride, you may remove them. But never forget they taught you balance."_
+
+## Assignment for Session B
+
+Complete the experimental edit before Session B. Full brief, options, and submission details:
+
+📋 **[Week 5: Experimental Edit Assignment]({{ '/assignments/week-05-experimental-edit/' | relative_url }})**
+
+**Due:** Week 6, Session A
 
 ---
 
@@ -818,83 +726,6 @@ Animate block size for glitch effect
 - Balance trendy with timeless
 
 > _"The ethical experimental editor asks: Am I breaking rules to serve the audience, or to serve my ego?"_
-
----
-
-## Assignment & Homework
-
-### For Next Week (Week 6: Advertising Formats & Storytelling)
-
-#### 1. Complete and Submit Experimental Edit
-
-- Finish your 30-second experimental piece
-- Add title card explaining your approach
-- Export: H.264, 1080p
-- Upload to course platform
-- **Due:** Before Week 6, Session A
-
-#### 2. Written Reflection (200-250 words)
-
-Answer:
-
-- Which experimental technique did you use? Why?
-- What was challenging about breaking conventions?
-- How did your technique serve your concept?
-- How might you adapt this for a real advertising brief?
-
-#### 3. Reading: Advertising Formats
-
-- "The Anatomy of a 30-Second Spot" (handout)
-- "Storytelling in Short-Form Video" (article)
-- "Platform-Specific Editing Strategies" (guide)
-
-#### 4. Viewing: Commercial Structures
-
-Watch 10 different commercials (links provided):
-
-- Identify narrative structure (problem/solution, emotional arc, etc.)
-- Note length and pacing
-- Consider target audience and platform
-
-#### 5. Final Project Concept Development
-
-- Refine your idea for final advertising video
-- Write 1-paragraph concept:
-  - Product/cause
-  - Target audience
-  - Platform
-  - Key message
-  - Editing approach
-- **Due:** Week 6, Session A (for feedback)
-
----
-
-## Assessment Criteria: Week 5 Experimental Edit
-
-### Rubric (10 points total)
-
-**Technical Execution (3 points)**
-
-- ✓ Experimental technique applied correctly
-- ✓ Clean execution (no technical errors)
-- ✓ Appropriate length and pacing
-
-**Creative Concept (4 points)**
-
-- ✓ Clear purpose for rule-breaking (not random)
-- ✓ Technique serves emotion or message
-- ✓ Original and bold approach
-- ✓ Demonstrates understanding of when to break rules
-
-**Effectiveness (2 points)**
-
-- ✓ Comprehensible despite experimentation
-- ✓ Engages viewer (not boring or confusing)
-
-**Polish (1 point)**
-
-- ✓ Proper export and submission
-- ✓ Title card or context provided
 
 ---
 
