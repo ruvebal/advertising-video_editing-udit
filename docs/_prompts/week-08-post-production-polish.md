@@ -243,12 +243,6 @@ Lumetri Scopes (Window > Lumetri Scopes):
 </figcaption>
 </figure>
 
-{% include video-player.html
- platform="file"
- url="https://upload.wikimedia.org/wikipedia/commons/d/d8/Big_buck_bunny_mcu.ogv"
- title="Big Buck Bunny — short dialogue/music ducking drill (CC BY)"
- timestamps="0:00|Set dialogue target,0:04|Duck music" %}
-
 **Why Sound Matters:**
 
 **Statistics:**
@@ -257,7 +251,7 @@ Lumetri Scopes (Window > Lumetri Scopes):
 - Viewers forgive bad video more than bad audio
 - Professional audio = professional perception
 
-**The Three Layers:**
+**The Four Layers:**
 
 **Layer 1: Dialogue/Voiceover**
 
@@ -276,9 +270,18 @@ Lumetri Scopes (Window > Lumetri Scopes):
 **Layer 3: Sound Effects (SFX)**
 
 - Adds realism and impact
-- Whooshes, impacts, ambience
+- Whooshes, impacts, designed sounds
 - Subtle but noticeable
 - Target: -12 to -6 dB (contextual)
+
+**Layer 4: Live Sound from the Scene (Wild Sound / Atmos)**
+
+- **Room tone / ambience:** Continuous sound of the location (air, hum, crowd murmur). Record 30–60 seconds of "silence" on set; use under edits to avoid dead gaps and to smooth dialogue cuts.
+- **Wildtracks:** Non-sync recordings from the same location (footsteps, cloth, props, off-camera activity). Cut in to support picture or hide edits.
+- **Production sound:** Use clean production ambience when dialogue is absent; layer with subtle room tone so scenes don’t drop into a vacuum.
+- **In advertising:** Same principles—product handling, environment (store, street, kitchen), and "presence" make spots feel real and premium.
+- Target: -24 to -18 dB (bed); raise briefly for emphasis, never competing with dialogue or music.
+- **Cinema/video theory:** This layer is what separates "recording" from "world-building"; it preserves continuity of space and time and supports suspension of disbelief (Michel Chion, Walter Murch).
 
 **Adobe Premiere Pro: Essential Sound Panel**
 
@@ -1029,6 +1032,8 @@ Answer:
 - **Adobe Sensei:** Built into Creative Cloud
 - **Runway ML:** AI video tools
 - **Descript:** AI transcription and editing
+
+For books and academic references (including sound and post-production theory), see [Resources → Books, Articles & Academic References]({{ '/resources/' | relative_url }}#books-articles--academic-references).
 
 ---
 

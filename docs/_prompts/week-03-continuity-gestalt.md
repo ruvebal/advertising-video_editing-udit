@@ -615,4 +615,6 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 - **Similarity diagram:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Similar-geometric-shapes.svg) — Public Domain
 - **Figure–ground diagram:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Figur_Grund_Wahrnehmung.svg) — CC BY-SA 4.0
 
+Full list of course references (books, articles with DOI, professional papers): [Resources — Books, Articles & Academic References]({{ '/resources/' | relative_url }}#books-articles--academic-references).
+
 ---

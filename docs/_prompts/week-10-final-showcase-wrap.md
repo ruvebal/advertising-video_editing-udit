@@ -9,9 +9,9 @@ prev_week:
   title: "Digital Platforms, Algorithms & Ethics in Advertising"
   url: /prompts/week-09/
 next_week:
-  number: null
-  title: ""
-  url: null
+  number: 11
+  title: "Audio Mixing for Advertisement – Video, Cinema & Advertising"
+  url: /prompts/week-11/
 ---
 
 <!-- prettier-ignore-start -->

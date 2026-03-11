@@ -632,4 +632,6 @@ See Phase 5 and assessment table in Session B above.
 - **Battleship Potemkin (full film):** [Wikimedia Commons](<https://commons.wikimedia.org/wiki/File:Battleship_Potemkin_(1925)_by_Sergei_Eisenstein.webm>) — Public Domain
 - **Man with a Movie Camera (full film):** [Wikimedia Commons](<https://commons.wikimedia.org/wiki/File:Man_With_A_Movie_Camera_(Dziga_Vertov,_1929).webm>) — Public Domain
 
+Full list of course references (books, articles with DOI, professional papers): [Resources — Books, Articles & Academic References]({{ '/resources/' | relative_url }}#books-articles--academic-references).
+
 ---
