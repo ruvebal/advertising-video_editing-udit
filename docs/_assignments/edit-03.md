@@ -37,13 +37,59 @@ The objective is to create **a piece that represents you and that you feel proud
 
 ---
 
-## The Pitch — Applying Course Concepts (Weeks 1–10)
+## Partial assignments (weekly milestones) {#edit-03-milestones}
 
-Your **pitch** is a short document (about one page) that describes your self-portrait idea and **explicitly shows how it will apply** the main theoretical and practical concepts from the course. It should accomplish the following.
+These are the **partial assignments** you will submit during the 5-week process. Treat them as checkpoints that keep the final edit under control.
 
-### Pitch checklist — concepts to address
+| **Milestone (partial assignment)**                                          | **When**      |
+| --------------------------------------------------------------------------- | ------------- |
+| Pitch (Week 1 checklist + course concept integration)                       | End of Week 1 |
+| Mood board                                                                  | End of Week 1 |
+| Three-column script (Visual / Audio / Technical)                            | End of Week 1 |
+| Storyboard #1 (first full pass)                                             | End of Week 2 |
+| Storyboard #2 (refined pass)                                                | End of Week 2 |
+| Rough cut (full structure + **all four audio layers present**)              | End of Week 3 |
+| Fine cut (tight picture + mixed audio + basic color)                        | End of Week 4 |
+| **Final delivery:** three exports (YouTube, Instagram, TikTok) + reflection | End of Week 5 |
 
-Use this as a guide when writing your pitch. You do not need to write a paragraph per item; you can group them, but each area below should be **reflected** in your concept and later in your edit.
+---
+
+## The Pitch — Applying Course Concepts (Weeks 1–10) {#edit-03-pitch}
+
+Your **pitch** is a short document (about one page) that makes your project **real and executable**. It is not only a list of course concepts: it is a clear summary of your **intentions**, your **narrative strategy**, the **materials** you will use, and how you will design the experience across the **three platform versions**.
+
+### Pitch checklist — what to include (Week 1)
+
+Include these items in your pitch (bullet points are fine). Aim for clarity, not length.
+
+- **Title + logline (1–2 sentences)**: What is this self-portrait *about*, in plain language?
+- **Intentions (your “why”)**: What do you want the viewer to feel, understand, or remember about you?
+- **Persuasion vs. convincing (Week 1 strategy)**:
+  - Are you using **persuasion** (associative, emotional, atmospheric) or **convincing** (logical, structured, evidence/argument)?
+  - What is your main rhetorical tool: contrast, repetition, escalation, intimacy, surprise, irony, confession, etc.?
+- **Narrative strategy (shape + climax)**:
+  - What is the structure? (e.g. montage poem, three acts, problem→shift→resolution, question→search→answer, before/after, spiral, diary, letter, manifesto.)
+  - What is the **climax / turning point** (the moment the meaning crystallizes), and where does it happen roughly (timecode estimate)?
+  - What is the ending gesture (resolution, open question, loop, call-back)?
+- **Platform strategy (three versions)**:
+  - What changes across **YouTube (16:9)** vs **Instagram (9:16/1:1)** vs **TikTok (9:16)**?
+  - Where is the **hook** in each version (first 2–5 seconds), and how will you maintain clarity with captions/text where needed?
+- **Materials inventory (initial list)**:
+  - What do you already have (photos, archives, screen recordings, previous work, text fragments)?
+  - What will you create or capture in the next 1–2 weeks (shots, voice-over, ambience recordings, graphics)?
+  - What external resources will you use (music, SFX, stock) and how will you credit them?
+- **Sound plan (four layers, mandatory)**:
+  - What will be your **voice** (script idea, tone, language, distance/intimacy)?
+  - What kind of **music** (tempo, mood) and how will it shape rhythm?
+  - What kinds of **SFX** will you design (punctuation, transitions, textures)?
+  - What **ambience** will define your “world” (room tone, city, nature, studio)?
+- **Editing plan (workflow)**:
+  - What is your plan for Week 3 (rough cut) and Week 4 (fine cut + mix)?
+  - Which parts do you expect to be the hardest (clarity, pacing, voice recording, sound mix, reframing to vertical), and how will you handle them?
+
+### Pitch checklist — course concepts to integrate (Weeks 1–10)
+
+Use this as a guide when writing your pitch. You do not need a paragraph per item; you can group them, but each area below should be **reflected** in your concept and later in your edit.
 
 **Week 1 – Persuasion & the medium**
 
@@ -98,7 +144,7 @@ Use this as a guide when writing your pitch. You do not need to write a paragrap
 
 - **Presentation:** How will you introduce and contextualize this piece when you present it?
 
-**Deliverable:** One-page pitch (or equivalent) that covers the above. Submit by the end of **Week 1** of the project (see timeline).
+**Deliverable:** One-page pitch (or equivalent) that covers both sections above: (1) **intentions + strategy + materials**, and (2) **course concept integration**. Submit by the end of **Week 1** of the project (see timeline).
 
 ---
 
@@ -251,21 +297,6 @@ The process is divided into **pre-production**, **production**, and **post-produ
   - How you adapted the piece for YouTube, Instagram, and TikTok (format, duration, captions).
   - What you would improve next time.
 - **Deliverables (end of Week 5):** **Three final video files** (YouTube, Instagram, TikTok) + written reflection. Ready for final showcase (Week 10).
-
----
-
-## Deliverables Summary
-
-| **Deliverable**                                                               | **When**      |
-| ----------------------------------------------------------------------------- | ------------- |
-| Pitch (one page, concepts checklist)                                          | End of Week 1 |
-| Mood board                                                                    | End of Week 1 |
-| Three-column script (Visual / Audio / Technical)                              | End of Week 1 |
-| First storyboard                                                              | End of Week 2 |
-| Second storyboard                                                             | End of Week 2 |
-| Rough cut (all four audio layers, mixed materials)                            | End of Week 3 |
-| Fine cut (mixed audio, basic color)                                           | End of Week 4 |
-| **Three final video exports** (YouTube, Instagram, TikTok) + short reflection | End of Week 5 |
 
 ---
 
