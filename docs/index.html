@@ -46,6 +46,7 @@ description: A comprehensive course blending theory, technique, and ethics in vi
 	<div class="week-cards">
 		{% assign prompts = site.prompts | sort: 'week' %}
 		{% for prompt in prompts %}
+		{% if prompt.week %}
 		<article class="week-card">
 			<div class="week-number">Week {{ prompt.week }}</div>
 			<h3>
@@ -75,6 +76,26 @@ description: A comprehensive course blending theory, technique, and ethics in vi
 			<p>{{ prompt.description }}</p>
 			<a href="{{ prompt.url | relative_url }}" class="read-more">Read lesson →</a>
 		</article>
+		{% endif %}
+		{% endfor %}
+	</div>
+</section>
+
+<section class="weeks-grid">
+	<h2>Special Modules</h2>
+	<div class="week-cards">
+		{% assign prompts = site.prompts | sort: 'title' %}
+		{% for prompt in prompts %}
+		{% unless prompt.week %}
+		<article class="week-card">
+			<div class="week-number">Monograph</div>
+			<h3>
+				<a href="{{ prompt.url | relative_url }}">{{ prompt.title }}</a>
+			</h3>
+			<p>{{ prompt.description }}</p>
+			<a href="{{ prompt.url | relative_url }}" class="read-more">Read module →</a>
+		</article>
+		{% endunless %}
 		{% endfor %}
 	</div>
 </section>

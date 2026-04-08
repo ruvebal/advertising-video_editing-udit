@@ -10,8 +10,8 @@ prev_week:
   url: /prompts/week-10/
 next_week:
   number: null
-  title: ""
-  url: null
+  title: "The Video Essay Monograph"
+  url: /prompts/video-essay-monograph/
 ---
 
 <!-- prettier-ignore-start -->
