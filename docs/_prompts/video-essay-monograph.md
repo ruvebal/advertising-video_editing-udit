@@ -1,17 +1,17 @@
 ---
 layout: lesson
-title: "The Video Essay: Thinking with Cuts — From Persuasion to Scholarship"
+title: 'The Video Essay: Thinking with Cuts — From Persuasion to Scholarship'
 week: null
-description: "Compact monograph on the video essay genre: history, analytic tools linking advertising persuasion to editing craft and scholarly discourse, and a scaffolded production path."
+description: 'Compact monograph on the video essay genre: history, analytic tools linking advertising persuasion to editing craft and scholarly discourse, and a scaffolded production path.'
 permalink: /prompts/video-essay-monograph/
 prev_week:
-  number: 11
-  title: "Audio Mixing for Advertisement"
-  url: /prompts/week-11/
+ number: 11
+ title: 'Audio Mixing for Advertisement'
+ url: /prompts/week-11/
 next_week:
-  number: null
-  title: ""
-  url: null
+ number: null
+ title: ''
+ url: null
 ---
 
 <!-- prettier-ignore-start -->
@@ -42,14 +42,14 @@ This monograph gives students: (a) a usable genre history, (b) analytic tools li
 
 ## 1. Genre Definition
 
-The **video essay** (also *audiovisual essay* or *videographic essay*) is a family of works that *argue* and *think* through moving-image materials — clips, sound, graphics, voiceover, rhythm, juxtaposition — rather than merely illustrating a written claim.
+The **video essay** (also _audiovisual essay_ or _videographic essay_) is a family of works that _argue_ and _think_ through moving-image materials — clips, sound, graphics, voiceover, rhythm, juxtaposition — rather than merely illustrating a written claim.
 
 **Two broad families:**
 
-| Family | Traits | Validation |
-|--------|--------|------------|
-| **Public-facing** (YouTube/Vimeo) | Voiceover-led, fast-paced, persona-driven, platform-optimized | Metrics, audience community |
-| **Videographic criticism** (academic) | Method-forward, peer-reviewed, often experimental | Journals, festivals, institutional review |
+| Family                                | Traits                                                        | Validation                                |
+| ------------------------------------- | ------------------------------------------------------------- | ----------------------------------------- |
+| **Public-facing** (YouTube/Vimeo)     | Voiceover-led, fast-paced, persona-driven, platform-optimized | Metrics, audience community               |
+| **Videographic criticism** (academic) | Method-forward, peer-reviewed, often experimental             | Journals, festivals, institutional review |
 
 The key pedagogical move: treat these not as "good vs. bad" but as **different legitimacy machines** — platforms validate via metrics; academia via peer review; festivals via curatorial selection.
 
@@ -59,19 +59,19 @@ The key pedagogical move: treat these not as "good vs. bad" but as **different l
 
 ## 2. Brief History
 
-| Period | Milestone |
-|--------|-----------|
-| 1920s–30s | Montage theory formalizes argumentative editing |
-| 2011 | Corrigan publishes [*The Essay Film: From Montaigne, After Marker*](https://openlibrary.org/works/OL15901906W/The_essay_film) (OUP) |
-| 2014 | [\[in\]Transition](https://intransition.openlibhums.org/site/about) founded as peer-reviewed videographic journal |
-| 2015+ | [Scholarship in Sound & Image workshops](https://sites.middlebury.edu/videoworkshop/) expand videographic pedagogy (Middlebury College) |
-| 2016–19 | [*The Videographic Essay*](https://videographicessay.org/works/videographic-essay/contents.11) consolidates methods, examples, and pedagogy |
-| 2017 | [Filmadrid](https://filmadrid.com/en/the-video-essay/) launches "The Video Essay" section with MUBI |
-| 2020 | [Learning on Screen](https://learningonscreen.ac.uk/dissemination/) publishes Introductory Guide to Video Essays |
-| 2024 | \[in\]Transition migrates to Open Library of Humanities |
-| 2025 | [BAFTSS](https://www.baftss.org/winners-prac-2025.html) and [Marienbad Film Festival](https://marienbadfilmfestival.com/program/en/open-call-copy-2/) award videographic/audiovisual essays |
+| Period    | Milestone                                                                                                                                                                                   |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1920s–30s | Montage theory formalizes argumentative editing                                                                                                                                             |
+| 2011      | Corrigan publishes [_The Essay Film: From Montaigne, After Marker_](https://openlibrary.org/works/OL15901906W/The_essay_film) (OUP)                                                         |
+| 2014      | [\[in\]Transition](https://intransition.openlibhums.org/site/about) founded as peer-reviewed videographic journal                                                                           |
+| 2015+     | [Scholarship in Sound & Image workshops](https://sites.middlebury.edu/videoworkshop/) expand videographic pedagogy (Middlebury College)                                                     |
+| 2016–19   | [_The Videographic Essay_](https://videographicessay.org/works/videographic-essay/contents.11) consolidates methods, examples, and pedagogy                                                 |
+| 2017      | [Filmadrid](https://filmadrid.com/en/the-video-essay/) launches "The Video Essay" section with MUBI                                                                                         |
+| 2020      | [Learning on Screen](https://learningonscreen.ac.uk/dissemination/) publishes Introductory Guide to Video Essays                                                                            |
+| 2024      | \[in\]Transition migrates to Open Library of Humanities                                                                                                                                     |
+| 2025      | [BAFTSS](https://www.baftss.org/winners-prac-2025.html) and [Marienbad Film Festival](https://marienbadfilmfestival.com/program/en/open-call-copy-2/) award videographic/audiovisual essays |
 
-Rascaroli's [*How the Essay Film Thinks*](https://academic.oup.com/book/1766) (OUP) frames the essay film as a mode of cinematic thinking — thinking that happens "at the juncture of images," montage, sound, and framing.
+Rascaroli's [_How the Essay Film Thinks_](https://academic.oup.com/book/1766) (OUP) frames the essay film as a mode of cinematic thinking — thinking that happens "at the juncture of images," montage, sound, and framing.
 
 ---
 
@@ -79,7 +79,7 @@ Rascaroli's [*How the Essay Film Thinks*](https://academic.oup.com/book/1766) (O
 
 This intersection forces students to confront a shared technical substrate — **editing as meaning-making** — while comparing diverging aims:
 
-- **Advertising:** persuade, brand, convert; editing engineers *attention* and *association*.
+- **Advertising:** persuade, brand, convert; editing engineers _attention_ and _association_.
 - **Videographic scholarship:** inquire, explain, critique; editing exposes structure and tests claims against evidence.
 - **Platform video essays:** hybridize these logics (education, entertainment, sponsorship).
 
@@ -91,21 +91,21 @@ A single classroom activity — dissecting an ad's rhythm then re-editing those 
 
 ### Kuleshov Effect (Contextual Framing)
 
-Identical faces paired with different contextual "movies" shift viewers' emotional attributions. Montage operates at the level of perception and inference. Both ads and video essays activate this; scholarship must teach students to *name* the framing and evaluate its ethical stakes.
+Identical faces paired with different contextual "movies" shift viewers' emotional attributions. Montage operates at the level of perception and inference. Both ads and video essays activate this; scholarship must teach students to _name_ the framing and evaluate its ethical stakes.
 
-**Source:** Mobbs et al., ["The Kuleshov Effect: the influence of contextual framing on emotional attributions"](https://academic.oup.com/scan/article-abstract/1/2/95/2362814) — *Social Cognitive and Affective Neuroscience*, 1(2), 95–106.
+**Source:** Mobbs et al., ["The Kuleshov Effect: the influence of contextual framing on emotional attributions"](https://academic.oup.com/scan/article-abstract/1/2/95/2362814) — _Social Cognitive and Affective Neuroscience_, 1(2), 95–106.
 
 ### Continuity & Attention Management
 
 The Attentional Theory of Cinematic Continuity argues that continuity editing depends on attention management and perceptual expectation matching — explaining why many ad edits "work" even when spatially incoherent. Students can analyze how ad editors exploit continuity conventions to reduce cognitive load while inserting persuasive associations.
 
-**Source:** Smith, T.J., ["The attentional theory of cinematic continuity"](https://eprints.bbk.ac.uk/6679/) — *Projections*, 6(1), 1–27.
+**Source:** Smith, T.J., ["The attentional theory of cinematic continuity"](https://eprints.bbk.ac.uk/6679/) — _Projections_, 6(1), 1–27.
 
 ### Edit Blindness
 
 Viewers often fail to notice large visual changes during cuts, creating a cognitive window in which persuasion or argument can be smuggled in via rhythm and expectation. In pedagogy, this becomes a critical literacy objective: students learn to slow down, replay, annotate, and make the invisible visible.
 
-**Source:** Smith & Henderson, ["Edit Blindness: The Relationship Between Attention and Global Change Blindness in Dynamic Scenes"](https://www.researchgate.net/publication/230560827_Edit_Blindness_The_Relationship_Between_Attention_and_Global_Change_Blindness_in_Dynamic_Scenes) — *Journal of Eye Movement Research*, 2(2), 1–17.
+**Source:** Smith & Henderson, ["Edit Blindness: The Relationship Between Attention and Global Change Blindness in Dynamic Scenes"](https://www.researchgate.net/publication/230560827_Edit_Blindness_The_Relationship_Between_Attention_and_Global_Change_Blindness_in_Dynamic_Scenes) — _Journal of Eye Movement Research_, 2(2), 1–17.
 
 ### Platform Conditions as Rhetorical Constraints
 
@@ -115,14 +115,14 @@ Academia, festivals, and YouTube each shape length, pacing, tone, and citation p
 
 ## 5. Case-Study Method (Repeatable Workflow)
 
-| Step | Action |
-|------|--------|
-| **1. Define** | What is the smallest unit you can defend — a 30s ad? a single scene? a repeated editing pattern? |
-| **2. Inventory** | List shots, sounds, text overlays, transitions. Note what is added/removed by the maker. |
-| **3. Annotate** | Identify rhetorical moves: juxtaposition, repetition, speed, music cues, silence, graphic emphasis, voiceover. |
-| **4. Separate** | "The edit cuts from X to Y" (description) vs. "the edit implies X causes Y" (inference). |
-| **5. Context** | How would the same edit function in a festival screening vs. YouTube vs. an ad slot? |
-| **6. Ethics** | What is potentially manipulative? What is omitted? What would a responsible maker disclose? |
+| Step             | Action                                                                                                         |
+| ---------------- | -------------------------------------------------------------------------------------------------------------- |
+| **1. Define**    | What is the smallest unit you can defend — a 30s ad? a single scene? a repeated editing pattern?               |
+| **2. Inventory** | List shots, sounds, text overlays, transitions. Note what is added/removed by the maker.                       |
+| **3. Annotate**  | Identify rhetorical moves: juxtaposition, repetition, speed, music cues, silence, graphic emphasis, voiceover. |
+| **4. Separate**  | "The edit cuts from X to Y" (description) vs. "the edit implies X causes Y" (inference).                       |
+| **5. Context**   | How would the same edit function in a festival screening vs. YouTube vs. an ad slot?                           |
+| **6. Ethics**    | What is potentially manipulative? What is omitted? What would a responsible maker disclose?                    |
 
 ---
 
@@ -151,13 +151,13 @@ Academia, festivals, and YouTube each shape length, pacing, tone, and citation p
 
 ### Compact Syllabus
 
-| Lesson | Focus | Activity | Assessment |
-|--------|-------|----------|------------|
-| **Foundations** | Definitions, ecosystems, legitimacy | Guided screening + "genre boundary" discussion | 300–500 word "definition memo" with 2 examples |
-| **Editing as Argument** | Montage, continuity, attention | Mini Kuleshov edit exercise; annotation worksheet | 2–3 min "micro video essay" or annotated timeline |
-| **Advertising Lab** | Persuasion, branding, ethics | Ad deconstruction + "re-edit as critique" workshop | "Ad argument map" + 1-min critical re-cut with disclosure note |
-| **Scholarly Videographics** | Research methods, publishing venues | Explore \[in\]Transition / NECSUS; peer-review simulation | Thesis + evidence plan + copyright plan |
-| **Capstone Studio** | Production + critique | Rough-cut clinic; peer feedback with rubric | **4–8 min video essay** + 500–800 word reflective methods statement |
+| Lesson                      | Focus                               | Activity                                                  | Assessment                                                          |
+| --------------------------- | ----------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------- |
+| **Foundations**             | Definitions, ecosystems, legitimacy | Guided screening + "genre boundary" discussion            | 300–500 word "definition memo" with 2 examples                      |
+| **Editing as Argument**     | Montage, continuity, attention      | Mini Kuleshov edit exercise; annotation worksheet         | 2–3 min "micro video essay" or annotated timeline                   |
+| **Advertising Lab**         | Persuasion, branding, ethics        | Ad deconstruction + "re-edit as critique" workshop        | "Ad argument map" + 1-min critical re-cut with disclosure note      |
+| **Scholarly Videographics** | Research methods, publishing venues | Explore \[in\]Transition / NECSUS; peer-review simulation | Thesis + evidence plan + copyright plan                             |
+| **Capstone Studio**         | Production + critique               | Rough-cut clinic; peer feedback with rubric               | **4–8 min video essay** + 500–800 word reflective methods statement |
 
 ### Assessment Rubric (1–5 each)
 
@@ -169,7 +169,7 @@ Academia, festivals, and YouTube each shape length, pacing, tone, and citation p
 
 ### Teaching Notes
 
-**"Persuasion" as mechanism, not moral label.** Students often start with "ads are manipulative." The stronger scholarly move: name *how* persuasion is constructed (montage association, continuity smoothing, music cues, pacing). Anchor critique in observable mechanisms.
+**"Persuasion" as mechanism, not moral label.** Students often start with "ads are manipulative." The stronger scholarly move: name _how_ persuasion is constructed (montage association, continuity smoothing, music cues, pacing). Anchor critique in observable mechanisms.
 
 **Double-entry annotation.** Craft column (shot length, transition type, rhythm, sound) + Discourse column (implied values, normalized identities, insinuated causal links). Keeps formal description separate from interpretive inference.
 
@@ -181,26 +181,26 @@ Academia, festivals, and YouTube each shape length, pacing, tone, and citation p
 
 ### BAFTSS Practice Awards — Videographic Criticism
 
-| Recognition | Work | Link |
-|-------------|------|------|
-| **Winner** | *Cycles of Labour: In the Metaverse, We Will Be Housewives* (Hanáková, Tremčinský, Anger) | [NECSUS](https://necsus-ejms.org/cycles-of-labour-in-the-metaverse-we-will-be-housewives/) |
-| Runner-up | *Reverie* (Levin, Shongwe) | [KCL profile](https://www.kcl.ac.uk/people/nobunye-levin) |
-| Hon. mention | *Humanitarian Gaze in Refugee Documentary* (Leo Wang) | [BAFTSS winners](https://www.baftss.org/winners-prac-2025.html) |
+| Recognition  | Work                                                                                      | Link                                                            |
+| ------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| **Winner**   | _Cycles of Labour: In the Metaverse, We Will Be Housewives_ (Hanáková, Tremčinský, Anger) | [Film – Vimeo](https://vimeo.com/872459036)                     |
+| Runner-up    | _Reverie_ (Levin, Shongwe)                                                                | [KCL profile](https://www.kcl.ac.uk/people/nobunye-levin)       |
+| Hon. mention | _Humanitarian Gaze in Refugee Documentary_ (Leo Wang)                                     | [BAFTSS winners](https://www.baftss.org/winners-prac-2025.html) |
 
 ### Marienbad Film Festival — Audiovisual Essay Competition
 
-| Recognition | Work | Link |
-|-------------|------|------|
-| **Joint winner** | *(dis)Orienting horror: feeling queerly* (Lucy Fife Donaldson) | [Festival page](https://marienbadfilmfestival.com/program/en/disorienting-horror-feeling-queerly/) |
-| **Joint winner** | *Shadow Self: On Agnès Varda's Documenteur* (Sadia Quraeshi Shepard) | [St Andrews announcement](https://www.st-andrews.ac.uk/film-studies/news/title-294093-en.php) |
-| Special recognition | *The Allure and Threat of the Cine-Computer* (Dan O'Brien) | [Marienbad AV II program](https://marienbadfilmfestival.com/program/en/programova_pasma/forum-marienbad-av-ii-eng/) |
+| Recognition         | Work                                                                 | Link                                                                                                                |
+| ------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Joint winner**    | _(dis)Orienting horror: feeling queerly_ (Lucy Fife Donaldson)       | [Festival page](https://marienbadfilmfestival.com/program/en/disorienting-horror-feeling-queerly/)                  |
+| **Joint winner**    | _Shadow Self: On Agnès Varda's Documenteur_ (Sadia Quraeshi Shepard) | [St Andrews announcement](https://www.st-andrews.ac.uk/film-studies/news/title-294093-en.php)                       |
+| Special recognition | _The Allure and Threat of the Cine-Computer_ (Dan O'Brien)           | [Marienbad AV II program](https://marienbadfilmfestival.com/program/en/programova_pasma/forum-marienbad-av-ii-eng/) |
 
 ---
 
 ## 9. Exemplars for Teaching
 
 - **Cycles of Labour** (~12 min) — connects editing, interface capture, and targeted advertising/value extraction. Strong bridge between advertising logics and scholarly critique. [Watch on NECSUS/Vimeo](https://necsus-ejms.org/cycles-of-labour-in-the-metaverse-we-will-be-housewives/).
-- **(dis)Orienting horror** (8 min) — method-forward; form (repetition, orientation/disorientation) *is* the argument. [Festival page](https://marienbadfilmfestival.com/program/en/disorienting-horror-feeling-queerly/).
+- **(dis)Orienting horror** (8 min) — method-forward; form (repetition, orientation/disorientation) _is_ the argument. [Film - Vimeo](https://vimeo.com/1034585051).
 - **Press the Button** (12 min) — builds a single motif ("pressing a button") across archives into a thematic argument. Strong model for motif-driven structure. [Filmadrid listing](https://filmadrid.com/en/the-video-essay/).
 - **Hong Sang-soo: Gravity and Grace** (18 min) — longitudinal auteur-pattern tracing over a decade. [Filmadrid listing](https://filmadrid.com/en/the-video-essay/).
 - **Playing at Criticism: Videographic Performativity** — persona/performance as scholarly method. [NECSUS](https://necsus-ejms.org/playing-at-criticism-videographic-performativity/).
@@ -209,14 +209,14 @@ Academia, festivals, and YouTube each shape length, pacing, tone, and citation p
 
 ## 10. Key Journals & Venues
 
-| Venue | Scope | Access | Why it matters |
-|-------|-------|--------|----------------|
-| [\[in\]Transition](https://intransition.openlibhums.org/site/about) | Peer-reviewed videographic film & moving image studies | Fully open access, no fees | Best single venue for "videographic essay as scholarship" norms |
-| [NECSUS](https://necsus-ejms.org/cycles-of-labour-in-the-metaverse-we-will-be-housewives/) | European journal with dedicated audiovisual essay sections | Open access | Strong for method diversity + festival crossover |
-| [The Videographic Essay](https://videographicessay.org/works/videographic-essay/contents.11) | Curated scholarly resources + examples | Open web resource | Best "how the field describes itself" teaching artifact |
-| [Sight and Sound](https://www.bfi.org.uk/sight-and-sound/polls/best-video-essays-2025) | Annual video essay poll | Public-facing | Best for bridging academia and public criticism |
-| [Filmadrid / MUBI](https://filmadrid.com/en/the-video-essay/) | Festival section + curated releases | Public-facing | Festival-publication circulation routes |
-| [In Media Res](https://mediacommons.org/imr/content/introduction-special-issue-audiovisual-criticism) | MediaCommons-based special issues | Open web | Discourse history and debate framing |
+| Venue                                                                                                 | Scope                                                      | Access                     | Why it matters                                                  |
+| ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------- | --------------------------------------------------------------- |
+| [\[in\]Transition](https://intransition.openlibhums.org/site/about)                                   | Peer-reviewed videographic film & moving image studies     | Fully open access, no fees | Best single venue for "videographic essay as scholarship" norms |
+| [NECSUS](https://necsus-ejms.org/cycles-of-labour-in-the-metaverse-we-will-be-housewives/)            | European journal with dedicated audiovisual essay sections | Open access                | Strong for method diversity + festival crossover                |
+| [The Videographic Essay](https://videographicessay.org/works/videographic-essay/contents.11)          | Curated scholarly resources + examples                     | Open web resource          | Best "how the field describes itself" teaching artifact         |
+| [Sight and Sound](https://www.bfi.org.uk/sight-and-sound/polls/best-video-essays-2025)                | Annual video essay poll                                    | Public-facing              | Best for bridging academia and public criticism                 |
+| [Filmadrid / MUBI](https://filmadrid.com/en/the-video-essay/)                                         | Festival section + curated releases                        | Public-facing              | Festival-publication circulation routes                         |
+| [In Media Res](https://mediacommons.org/imr/content/introduction-special-issue-audiovisual-criticism) | MediaCommons-based special issues                          | Open web                   | Discourse history and debate framing                            |
 
 ---
 
@@ -224,9 +224,9 @@ Academia, festivals, and YouTube each shape length, pacing, tone, and citation p
 
 ### Theory & History
 
-- Keathley, Mittell & Grant, [*The Videographic Essay: Criticism in Sound & Image*](https://videographicessay.org/works/videographic-essay/contents.11) — programmatic anchor for the field.
-- Corrigan, [*The Essay Film: From Montaigne, After Marker*](https://openlibrary.org/works/OL15901906W/The_essay_film) (OUP, 2011) — genealogy of essayistic cinema.
-- Rascaroli, [*How the Essay Film Thinks*](https://academic.oup.com/book/1766) (OUP) — essay film as cinematic thinking.
+- Keathley, Mittell & Grant, [_The Videographic Essay: Criticism in Sound & Image_](https://videographicessay.org/works/videographic-essay/contents.11) — programmatic anchor for the field.
+- Corrigan, [_The Essay Film: From Montaigne, After Marker_](https://openlibrary.org/works/OL15901906W/The_essay_film) (OUP, 2011) — genealogy of essayistic cinema.
+- Rascaroli, [_How the Essay Film Thinks_](https://academic.oup.com/book/1766) (OUP) — essay film as cinematic thinking.
 
 ### Publishing & Pedagogy
 
@@ -237,9 +237,9 @@ Academia, festivals, and YouTube each shape length, pacing, tone, and citation p
 
 ### Editing Cognition & Advertising Persuasion
 
-- Mobbs et al., ["The Kuleshov Effect"](https://academic.oup.com/scan/article-abstract/1/2/95/2362814) — *SCAN*, 1(2), 95–106.
-- Smith, ["Attentional theory of cinematic continuity"](https://eprints.bbk.ac.uk/6679/) — *Projections*, 6(1), 1–27.
-- Smith & Henderson, ["Edit Blindness"](https://www.researchgate.net/publication/230560827_Edit_Blindness_The_Relationship_Between_Attention_and_Global_Change_Blindness_in_Dynamic_Scenes) — *JEMR*, 2(2), 1–17.
+- Mobbs et al., ["The Kuleshov Effect"](https://academic.oup.com/scan/article-abstract/1/2/95/2362814) — _SCAN_, 1(2), 95–106.
+- Smith, ["Attentional theory of cinematic continuity"](https://eprints.bbk.ac.uk/6679/) — _Projections_, 6(1), 1–27.
+- Smith & Henderson, ["Edit Blindness"](https://www.researchgate.net/publication/230560827_Edit_Blindness_The_Relationship_Between_Attention_and_Global_Change_Blindness_in_Dynamic_Scenes) — _JEMR_, 2(2), 1–17.
 
 ### Public Ecosystem
 
@@ -252,10 +252,10 @@ Academia, festivals, and YouTube each shape length, pacing, tone, and citation p
 
 All links verified on 8 April 2026. Two original URLs returned 404 and were replaced with working alternatives:
 
-| Original URL | Status | Replacement |
-|--------------|--------|-------------|
-| `learningonscreen.ac.uk/resources/guides/video-essays/` | 404 | [learningonscreen.ac.uk/dissemination/](https://learningonscreen.ac.uk/dissemination/) |
-| `filmadrid.com/en/the-video-essay-2025` | 404 | [filmadrid.com/en/the-video-essay/](https://filmadrid.com/en/the-video-essay/) |
+| Original URL                                            | Status | Replacement                                                                            |
+| ------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------- |
+| `learningonscreen.ac.uk/resources/guides/video-essays/` | 404    | [learningonscreen.ac.uk/dissemination/](https://learningonscreen.ac.uk/dissemination/) |
+| `filmadrid.com/en/the-video-essay-2025`                 | 404    | [filmadrid.com/en/the-video-essay/](https://filmadrid.com/en/the-video-essay/)         |
 
 Four URLs (OUP, ResearchGate, Guardian) returned 403 due to bot protection but are valid academic/media URLs accessible via browser.
 

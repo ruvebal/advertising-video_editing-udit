@@ -33,7 +33,7 @@ The objective is to create **a piece that represents you and that you feel proud
 | **Sound**        | **Mandatory:** all **four audio layers** must be used (see below)                                                                                                                        |
 | **Process**      | 5 weeks, phased: pre-production → production → post-production (editing-focused)                                                                                                         |
 | **Outputs**      | **Three versions** of the same self-portrait, each optimized for a different platform: **YouTube**, **Instagram**, **TikTok** (different aspect ratios, duration, and format; see below) |
-| **Deliverables** | Pitch, mood board, three-column script, two storyboards, **three final video exports** (YouTube, Instagram, TikTok), short reflection                                                    |
+| **Deliverables** | Pitch, mood board, three-column script (Week 1), full textual script + two storyboards (Week 2), **three final video exports** (YouTube, Instagram, TikTok), short reflection |
 
 ---
 
@@ -46,6 +46,7 @@ These are the **partial assignments** you will submit during the 5-week process.
 | Pitch (Week 1 checklist + course concept integration)                       | End of Week 1 |
 | Mood board                                                                  | End of Week 1 |
 | Three-column script (Visual / Audio / Technical)                            | End of Week 1 |
+| **Full textual script** (every line of VO, dialogue, and on-screen text)  | End of Week 2 |
 | Storyboard #1 (first full pass)                                             | End of Week 2 |
 | Storyboard #2 (refined pass)                                                | End of Week 2 |
 | Rough cut (full structure + **all four audio layers present**)              | End of Week 3 |
@@ -215,6 +216,14 @@ Before you lock the edit, you must produce a **three-column script** that descri
 
 Produce the script **after** the mood board and **before** or alongside the first storyboard. It is the backbone of your edit.
 
+### Full textual script (due end of Week 2)
+
+In addition to the three-column script, you must submit a **full textual script**: a single continuous document that lists **every word** the audience will read or hear in order—**voice-over**, **spoken dialogue** (if any), and **on-screen text** (titles, captions, quotes, lower thirds), in **sequence** from start to finish.
+
+- **Purpose:** A readable “screenplay-style” text for recording VO, checking timing, captions, and translation; it complements the three-column script (which is visual + technical).
+- **Format:** Plain text or document (PDF/DOCX). Number sections or timecode ranges if helpful. If a line is only visual with no words, you may skip it or mark `[no dialogue]`—but every verbal and textual element must appear in full.
+- **Due:** End of **Week 2**, together with the first and second storyboards (revise the full textual script if your storyboards change the wording).
+
 ---
 
 ## Storyboard
@@ -273,9 +282,10 @@ The process is divided into **pre-production**, **production**, and **post-produ
 
 ### Week 2 — Pre-production (storyboards) + production
 
-**Goals:** First storyboard, second storyboard, finish any remaining shooting or gathering.
+**Goals:** First storyboard, second storyboard, **full textual script**, finish any remaining shooting or gathering.
 
 - **First storyboard:** Complete the first full storyboard (all panels with visual, audio, duration, notes).
+- **Full textual script:** Write the **complete** textual script (every line of VO, dialogue, and on-screen text in order). Align it with your three-column script and first storyboard; update it after the second storyboard if wording changes.
 - **Production (minimal):** Shoot or record anything still missing. Keep it focused; the emphasis is on having _enough_ to edit, not on heavy production.
 - **Second storyboard:** Refine into the second storyboard; double-check four-layer sound per section and clear pacing.
 - **Deliverables (end of Week 2):** Storyboard pass(es) + textual script (voice-over, dialogues, and/or on-screen text), and all materials ready for the edit.
@@ -345,7 +355,7 @@ You must edit and export **three versions** of your self-portrait, one for each 
 ## Assessment Criteria (summary)
 
 - **Pitch & concept:** Clear idea that addresses the course concepts (Weeks 1–10) and fits the self-portrait brief.
-- **Script & storyboards:** Three-column script and two storyboards complete, coherent, and used in the edit.
+- **Script & storyboards:** Three-column script (Week 1), **full textual script** (Week 2), and two storyboards complete, coherent, and used in the edit.
 - **Materials & form:** Effective use of mixed materials (text, motion graphics, camera, stills) and a clear structure.
 - **Sound design:** **All four layers** (voice, music, SFX, ambience) present and mixed with clear hierarchy and appropriate levels.
 - **Editing craft:** Application of continuity, montage, rhythm, and (where appropriate) rule-breaking with purpose.
