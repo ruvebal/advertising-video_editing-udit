@@ -62,7 +62,7 @@ Your **pitch** is a short document (about one page) that makes your project **re
 
 Include these items in your pitch (bullet points are fine). Aim for clarity, not length.
 
-- **Title + logline (1–2 sentences)**: What is this self-portrait *about*, in plain language?
+- **Title + logline (1–2 sentences)**: What is this self-portrait _about_, in plain language?
 - **Intentions (your “why”)**: What do you want the viewer to feel, understand, or remember about you?
 - **Persuasion vs. convincing (Week 1 strategy)**:
   - Are you using **persuasion** (associative, emotional, atmospheric) or **convincing** (logical, structured, evidence/argument)?
@@ -86,6 +86,18 @@ Include these items in your pitch (bullet points are fine). Aim for clarity, not
 - **Editing plan (workflow)**:
   - What is your plan for Week 3 (rough cut) and Week 4 (fine cut + mix)?
   - Which parts do you expect to be the hardest (clarity, pacing, voice recording, sound mix, reframing to vertical), and how will you handle them?
+
+### Pitch checklist — what to include (Week 2)
+
+Use this short Week 2 add-on to update your pitch after storyboards start taking shape.
+
+- **Storyboard alignment**: Confirm your structure matches opening, turning point, ending.
+- **Shot feasibility**: Mark which shots are already available vs. still missing, and define a realistic capture plan.
+- **Week 2 concept application**: State where you use observational/actuality logic (reality capture) and where you use trick/illusion logic (constructed effect).
+- **In-camera vs post-production split**: List what must be solved in camera and what will be built in editing.
+- **Audio-first decisions**: Confirm voice direction, music mood, and at least 2 planned SFX moments linked to key cuts.
+- **Textual script submission (required with storyboard)**: Submit the text that will appear in the piece (voice-over, dialogues, and/or on-screen text) together with your Week 2 storyboard delivery.
+- **Risk check**: Identify top 2 production risks for Week 2 (time, locations, voice recording, assets) and your fallback options.
 
 ### Pitch checklist — course concepts to integrate (Weeks 1–10)
 
@@ -205,20 +217,22 @@ Produce the script **after** the mood board and **before** or alongside the firs
 
 ---
 
-## Storyboards (Two Passes)
+## Storyboard
 
-You will create **two storyboards**, as in the Week 6 storyboarding annex.
+Create **at least one storyboard pass** (Pass 1).
+**Pass 2 is optional** but recommended if your structure, timing, or coverage still feels unclear.
 
-**First storyboard**
+**Pass 1 (required)**
 
 - **Purpose:** First pass at the full piece—structure, beats, main shots.
 - **Format:** Panels with: visual sketch or description, shot type, approximate duration, audio (dialogue/VO, music, SFX, ambience), notes.
 - **Detail level:** Enough so that you (and a reader) understand sequence and pacing. Stick figures and rough sketches are fine.
 
-**Second storyboard**
+**Pass 2 (optional refinement)**
 
-- **Purpose:** Refined version after re-reading your script and pitch. Fix clarity, timing, and coverage; ensure the four audio layers are planned per section.
-- **Format:** Same as above, but cleaner and more precise. Add any new shots or cutaways you discovered you need.
+- **When to do it:** If Pass 1 reveals missing shots, weak transitions, timing problems, or unclear audio planning.
+- **Purpose:** Refine clarity, timing, and coverage; ensure the four audio layers are planned per section.
+- **Format:** Same as Pass 1, but cleaner and more precise. Add new shots or cutaways you discover you need.
 
 **Storyboard panel reminder (from Week 6 annex):**
 
@@ -264,7 +278,7 @@ The process is divided into **pre-production**, **production**, and **post-produ
 - **First storyboard:** Complete the first full storyboard (all panels with visual, audio, duration, notes).
 - **Production (minimal):** Shoot or record anything still missing. Keep it focused; the emphasis is on having _enough_ to edit, not on heavy production.
 - **Second storyboard:** Refine into the second storyboard; double-check four-layer sound per section and clear pacing.
-- **Deliverables (end of Week 2):** First and second storyboards, all materials ready for the edit.
+- **Deliverables (end of Week 2):** Storyboard pass(es) + textual script (voice-over, dialogues, and/or on-screen text), and all materials ready for the edit.
 
 ### Week 3 — Post-production (rough cut)
 
