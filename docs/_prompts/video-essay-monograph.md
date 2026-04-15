@@ -10,8 +10,8 @@ prev_week:
  url: /prompts/week-11/
 next_week:
  number: null
- title: ''
- url: null
+ title: 'Video Art: Screen, Space, Signal'
+ url: /prompts/video-art-monograph/
 ---
 
 <!-- prettier-ignore-start -->
