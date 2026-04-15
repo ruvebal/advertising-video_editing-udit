@@ -14,6 +14,17 @@ next_week:
  url: null
 ---
 
+<!-- prettier-ignore-start -->
+
+## Table of Contents
+
+{: .no_toc }
+
+- TOC
+{:toc}
+
+<!-- prettier-ignore-end -->
+
 # Video Art: Screen, Space, Signal
 
 <figure class="quote">
@@ -85,47 +96,47 @@ Start with these. They are the most useful public-facing examples from the attac
 
 ### 1. Nam June Paik - _Paik's Video Study_ (ongoing archive)
 
-**Why use it:** Best entry point for the idea of video as archive, experiment, and artist-built media language.
-**Use in class:** Ask students to build a 3-work mini-playlist and explain the order.
-**Live link:** [Paik's Video Study](https://njpart.ggcf.kr/pages/njpvideo)
+- **Why use it:** Best entry point for the idea of video as archive, experiment, and artist-built media language.
+- **Use in class:** Ask students to build a 3-work mini-playlist and explain the order.
+- **Live link:** [Paik's Video Study](https://njpart.ggcf.kr/pages/njpvideo)
 
 ### 2. Martha Rosler - _Semiotics of the Kitchen_ (1975, excerpt)
 
-**Why use it:** Clean, direct example of parody, feminist critique, gesture, and television format sabotage.
-**Use in class:** Perfect for a first close reading of body, props, framing, and repetition.
-**Live link:** [MoMA excerpt](https://www.moma.org/multimedia/embed/video/122/800)
+- **Why use it:** Clean, direct example of parody, feminist critique, gesture, and television format sabotage.
+- **Use in class:** Perfect for a first close reading of body, props, framing, and repetition.
+- **Live link:** [MoMA excerpt](https://www.moma.org/multimedia/embed/video/122/800)
 
 ### 3. Joan Jonas - _Layers of Time_ (2016) + _Vertical Roll_ (1972)
 
-**Why use it:** Excellent bridge between performance, feedback, glitch, and feminist video history.
-**Use in class:** Show the interview first, then compare it with a clip/documentation of _Vertical Roll_.
-**Live links:** [Joan Jonas: Layers of Time](https://vimeo.com/161898589) and [Vertical Roll clip](https://www.dailymotion.com/video/x9crft6)
+- **Why use it:** Excellent bridge between performance, feedback, glitch, and feminist video history.
+- **Use in class:** Show the interview first, then compare it with a clip/documentation of _Vertical Roll_.
+- **Live links:** [Joan Jonas: Layers of Time](https://vimeo.com/161898589) and [Vertical Roll clip](https://www.dailymotion.com/video/x9crft6)
 
 ### 4. Pipilotti Rist - _Color is Dangerous_ (2016 interview)
 
-**Why use it:** Helps students understand video art as affect, color, body, intimacy, and installation thinking.
-**Use in class:** Good when students assume video art must be austere or purely theoretical.
-**Live link:** [Pipilotti Rist interview](https://vimeo.com/167880482)
+- **Why use it:** Helps students understand video art as affect, color, body, intimacy, and installation thinking.
+- **Use in class:** Good when students assume video art must be austere or purely theoretical.
+- **Live link:** [Pipilotti Rist interview](https://vimeo.com/167880482)
 
 ### 5. Shirin Neshat - _Advice to the Young_ (2018 interview)
 
-**Why use it:** Strong introduction to political voice, image ethics, and the relation between art and public meaning.
-**Use in class:** Pair with discussion of how video art moves between gallery space and geopolitical discourse.
-**Live link:** [Louisiana Channel interview](https://channel.louisiana.dk/video/shirin-neshat-advice-to-the-young)
+- **Why use it:** Strong introduction to political voice, image ethics, and the relation between art and public meaning.
+- **Use in class:** Pair with discussion of how video art moves between gallery space and geopolitical discourse.
+- **Live link:** [Louisiana Channel interview](https://channel.louisiana.dk/video/shirin-neshat-advice-to-the-young)
 
 ### 6. Cecilia Condit - _Possibly in Michigan_ (1983)
 
-**Why use it:** Shows how video art can be narrative, uncanny, musical, and disturbing at the same time.
-**Use in class:** Good for discussing cult circulation, tone, performance, and internet afterlives.
-**Content note:** unsettling tone, violence.
-**Live link:** [Vimeo](https://vimeo.com/44030303)
+- **Why use it:** Shows how video art can be narrative, uncanny, musical, and disturbing at the same time.
+- **Use in class:** Good for discussing cult circulation, tone, performance, and internet afterlives.
+- **Content note:** unsettling tone, violence.
+- **Live link:** [Vimeo](https://vimeo.com/44030303)
 
 ### 7. Bruce Nauman - _Good Boy Bad Boy_ (1985)
 
-**Why use it:** Excellent for teaching language, repetition, emotional escalation, and two-channel structure in video art.
-**Use in class:** Use it to discuss how performance, syntax, and slight asynchrony can generate tension without conventional narrative editing.
-**Live link:** [YouTube](https://www.ubu.com/film/nauman_gooda.html)
-**Institutional reference:** [Tate](https://www.tate.org.uk/art/artworks/nauman-good-boy-bad-boy-t06853)
+- **Why use it:** Excellent for teaching language, repetition, emotional escalation, and two-channel structure in video art.
+- **Use in class:** Use it to discuss how performance, syntax, and slight asynchrony can generate tension without conventional narrative editing.
+- **Live link:** [YouTube](https://www.youtube.com/watch?v=R9BW2SraYeo)
+- **Institutional reference:** [Tate](https://www.tate.org.uk/art/artworks/nauman-good-boy-bad-boy-t06853)
 
 ---
 
