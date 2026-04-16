@@ -16,7 +16,6 @@ category: Resources
 
 <!-- prettier-ignore-end -->
 
-# Resources and References
 
 {% include tao-quote.html quote="The master editor knows that learning never ends. Every film watched, every article read, every technique practiced adds to the infinite reservoir of craft." %}
 
