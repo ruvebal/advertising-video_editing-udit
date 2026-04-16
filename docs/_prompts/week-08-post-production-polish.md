@@ -896,7 +896,51 @@ Render (slow but magical)
 
 ### The Hierarchy of Editing Priorities
 
-**Walter Murch (Editor: _Apocalypse Now_, _The English Patient_):**
+**Walter Murch (editor of _Apocalypse Now_ and _The English Patient_)**
+
+<figure class="quote">
+<blockquote>
+a list of six criteria for what makes a good cut. At the top of the list is Emotion, the thing
+you come to last, if at all, at film school largely because
+it's the hardest thing to define and deal with.
+How do you want the audience to feel? If they are feeling
+what you want them to feel all the way through
+the film, you've done about as much as you can ever
+do. What they finally remember is not the editing, not
+the camerawork, not the performances, not even the
+story-it's how they felt.
+An ideal cut (for me) is the one that satisfies all
+the following six criteria at once: 1) it is true to the
+emotion of the moment; 2) it advances the story; 3) it
+occurs at a moment that is rhythmically interesting
+and "right"; 4) it acknowledges what you might call
+"eye-trace"-the concern with the location and movement
+of the audience's focus of interest within the
+frame; 5) it respects "planarity"-the grammar of three
+dimensions transposed by photography to two (the
+questions of stage-line, etc.); 6) and it respects the
+three-dimensional continuity of the actual space
+(where people are in the room and in relation to one
+another).
+1) Emotion 51 %
+2) Story 23%
+3) Rhythm 10%
+4) Eye-trace 7%
+5) Two-dimensional plane of screen 5%
+6) Three-dimensional space of action 4%
+Emotion, at the top of the list, is the thing that
+you should try to preserve at all costs. If you find
+you have to sacrifice certain of those six things to
+THE RULE OF SIX
+make a cut, sacrifice your way up, item by item, from
+the bottom.
+</blockquote>
+<figcaption>
+&mdash; Walter Murch, <em>In the Blink of an Eye</em>, pp. 17-19, ISBN 1-879505-62-2
+</figcaption>
+</figure>
+
+**Why this matters for Week 8:** Murch's hierarchy gives students a practical way to prioritize post-production decisions. Polish is not decoration. It is a disciplined way of protecting emotion and clarifying story.
 
 **The Six Priorities (in order of importance):**
 
@@ -907,28 +951,13 @@ Render (slow but magical)
 **5. Two-Dimensional Plane (5%):** Does the cut respect screen direction and composition?
 **6. Three-Dimensional Space (4%):** Does the cut maintain spatial continuity?
 
-**Application to Post-Production:**
+### Application to Post-Production
 
-**Color Grading = Emotion (51%)**
+- **Color grading = emotion first:** color changes how the audience feels before they consciously analyze the image.
+- **Sound design = emotion + story:** sound carries mood, emphasis, clarity, and narrative direction with enormous efficiency.
+- **Motion graphics = story + rhythm:** titles, labels, and animated elements help structure information, but they should support rather than dominate the cut.
 
-- Color directly affects emotional response
-- Most important post-production element
-- Can change entire feeling of piece
-
-**Sound Design = Emotion + Story (74%)**
-
-- Sound conveys emotion powerfully
-- Sound advances story (dialogue, music cues)
-- Second most important element
-
-**Motion Graphics = Story + Rhythm (33%)**
-
-- Graphics clarify story (product names, CTAs)
-- Animation adds rhythm and energy
-- Important but tertiary to color and sound
-
-**The Lesson:**
-"Focus your post-production time on what matters most: Emotion through color and sound. Graphics are polish, not foundation."
+**Teaching takeaway:** Focus post-production time on what matters most. Protect emotion through color and sound first; treat graphics as support, not foundation.
 
 > _"The editor who understands Murch's hierarchy never wastes time on the wrong things. Emotion first. Always."_
 
