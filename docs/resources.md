@@ -47,6 +47,7 @@ Use it in this order:
 - **[DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)** - Professional-grade free editing, color, VFX, and audio post
 - **Blender** - Open-source 3D and video editing
 - **Audacity** - Free audio editing
+- **[REAPER](https://www.reaper.fm/)** - Advanced, low-cost audio editing and multitrack recording with generous free trial
 
 ### Useful Support Tools
 
