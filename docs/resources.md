@@ -9,8 +9,6 @@ category: Resources
 
 <!-- prettier-ignore-start -->
 
-## Table of Contents
-
 {: .no_toc }
 
 - TOC
