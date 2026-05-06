@@ -776,6 +776,177 @@ Render (slow but magical)
 
 ---
 
+### Captions, Subtitles & Social Media Text (15 minutes)
+
+> _"Text on screen can be information, emotion, or both. Know which you're using and why."_
+
+#### The Critical Distinction: Motion Graphics vs. Captions
+
+**Two Different Purposes:**
+
+| **Motion Graphics Text**                                                         | **Captions/Subtitles**                                                   |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Intentional design element** — part of the creative vision from the start      | **Accessibility/transcription** — represents spoken words                |
+| Examples: Titles, lower thirds, callouts, animated statistics, brand messaging   | Examples: Dialogue transcription, translations, accessibility compliance |
+| **Creative control**: Font, color, animation all serve brand/story               | **Functional priority**: Readability, accuracy, timing                   |
+| Added in post as graphic layers                                                  | Generated from audio or imported as text files                           |
+| **Motion graphics mindset**: "How does this text enhance the visual experience?" | **Caption mindset**: "How do I ensure every viewer gets the message?"    |
+
+**The Social Media Blur:**
+
+Modern short-form content (TikTok, Instagram Reels, YouTube Shorts) has created a hybrid:
+
+- "Social captions" — stylized, animated, often word-by-word reveals
+- Functionally they're captions (transcribe speech), but aesthetically they're motion graphics
+- This requires specialized tools (covered below)
+
+#### Method 1: Adobe Premiere Pro Native Captions
+
+**Best for:**
+
+- Professional deliverables requiring accessibility compliance
+- Broadcast/streaming standards (CEA-608, CEA-708, Teletext)
+- Multi-language subtitle tracks
+- Closed captions (viewer can toggle on/off)
+
+**Adobe Premiere Pro Workflow:**
+
+**Step 1: Generate Transcript**
+
+```
+Window > Text > Transcribe Sequence
+Language: [Select language]
+Audio analysis: Transcribe in-point to out-point
+Click "Transcribe"
+Wait for processing (progress shown in Text panel)
+```
+
+Adobe Official Guide: https://helpx.adobe.com/premiere/desktop/add-text-images/insert-captions/auto-transcribe-video-using-speech-to-text.html
+
+**Step 2: Create Captions**
+
+```
+Once transcript appears in Text panel:
+"..." menu > Create Captions
+Caption preset: Subtitle default (or broadcast standard)
+Format: CEA-608/708 for broadcast, Teletext for some regions
+Create from transcript: [Select transcript]
+Click "Create"
+```
+
+Adobe Official Guide: https://helpx.adobe.com/premiere/desktop/add-text-images/insert-captions/create-captions.html
+
+**Step 3: Edit & Style**
+
+```
+Captions appear on dedicated caption track
+Text panel > Captions tab to edit text/timing
+Essential Graphics panel to style:
+  - Font (choose highly readable typeface)
+  - Size (readable on mobile devices)
+  - Background (semi-transparent for contrast)
+  - Position (usually lower third, but adjust for safe zones)
+```
+
+**Closed vs. Open Captions:**
+
+- **Closed Captions (CC)**: Viewer can toggle; embedded as metadata; required for broadcast accessibility
+- **Open Captions**: Burned into video; always visible; used for social media where platforms may not support caption tracks
+
+Adobe Reference: https://helpx.adobe.com/ph_fil/premiere-pro/how-to/subtitles.html
+
+**Exporting Captions:**
+
+```
+File > Export > Media
+Caption export options:
+  - Create sidecar file (.srt, .vtt) for platforms supporting caption uploads
+  - Burn captions into video for universal visibility
+  - Embed in MXF/QuickTime for broadcast delivery
+```
+
+Premiere Pro Captions Overview: https://helpx.adobe.com/premiere-pro/using/working-with-captions.html
+
+#### Method 2: External Social Media Captioning Tools
+
+**When to use external tools:**
+
+- Need "TikTok-style" animated captions (word-by-word reveals, bouncy effects)
+- Creating vertical video content specifically
+- Faster workflow for high-volume social content
+- Stylized captions that match platform aesthetics
+
+**Popular Tools:**
+
+**CapCut (Free / Desktop & Mobile)**
+
+- Auto-generates captions with high accuracy
+- Built-in "TikTok style" animation presets
+- Word-by-word highlighting effects
+- Supports 20+ languages with auto-translation
+- Direct export optimized for social platforms
+- URL: https://www.capcut.com/tools/auto-caption-generator
+
+**Captions.ai**
+
+- AI-powered editor that auto-cuts and adds stylized captions
+- Automatic B-roll insertion and scene detection
+- Multiple caption animation styles
+- Auto-translation to global languages
+- URL: https://captions.ai/
+
+**VEED.io**
+
+- 99.9% accuracy auto-subtitle generator
+- "Dynamic subtitles" — animated captions that pop/glide
+- Customizable fonts, colors, animations
+- One-click translation to multiple languages
+- URL: https://www.veed.io/tools/auto-subtitle-generator-online
+
+**Zubtitle**
+
+- AI captions + video resizing for social platforms
+- Animated caption templates
+- Automatic aspect ratio optimization
+- Branded watermark/logo placement
+- URL: https://zubtitle.com/
+
+#### Choosing Your Caption Strategy
+
+**Decision Matrix:**
+
+| **Scenario**                  | **Recommended Tool**      | **Reason**                                     |
+| ----------------------------- | ------------------------- | ---------------------------------------------- |
+| Broadcast/TV delivery         | Premiere Pro native       | CEA-608/708 compliance, closed caption support |
+| Corporate/institutional video | Premiere Pro native       | Accessibility standards, sidecar file export   |
+| YouTube long-form             | Premiere Pro native       | SRT export for upload, SEO benefits            |
+| TikTok/Instagram Reels        | CapCut or Captions.ai     | Platform-native styling, animation effects     |
+| High-volume social content    | VEED or Zubtitle          | Speed, templates, batch processing             |
+| Multi-platform repurposing    | External tools + Premiere | Export variations optimized per platform       |
+
+**Best Practices for Social Media Captions:**
+
+1. **Assume sound-off viewing**: 85% of social videos are watched without sound
+2. **First 3 seconds matter**: Hook viewers with visible text immediately
+3. **Readability over style**: Ensure text is legible on small screens
+4. **Timing is crucial**: Captions should appear slightly before speech (200-300ms)
+5. **Keep lines short**: 32 characters max per line for mobile readability
+6. **Safe zones**: Keep captions within center 80% of frame (platforms overlay UI)
+7. **Brand consistency**: Use brand colors/fonts if platform permits
+
+**The Hybrid Workflow:**
+
+For professional social media content:
+
+1. Edit and color grade in Premiere Pro
+2. Export clean video
+3. Import to CapCut/Captions.ai for stylized captions
+4. Final export optimized for each platform
+
+> _"Captions are no longer an afterthought for accessibility—they're a primary design element for engagement. But never sacrifice clarity for style."_
+
+---
+
 ### Group Critique & Feedback (10 minutes)
 
 **Format:**
@@ -1035,32 +1206,316 @@ Answer:
 
 ---
 
+## Final Export & Platform Delivery
+
+> _"The export is the last creative decision you make. A bad export undoes every good edit before it."_
+
+### The Export Mindset
+
+Exporting isn't just "saving a file" — it's the final creative and technical decision:
+
+- **Wrong codec** = compression artifacts that ruin your color grade
+- **Wrong resolution** = platform crops or letterboxes your work
+- **Wrong bitrate** = blocky video that looks amateur
+- **No captions** = 85% of viewers scroll past
+
+### Platform-Specific Export Specifications
+
+#### YouTube
+
+**Official reference:** https://support.google.com/youtube/answer/1722171
+
+| Setting               | Value                              |
+| --------------------- | ---------------------------------- |
+| **Container**         | MP4                                |
+| **Video Codec**       | H.264 (AVC), High Profile          |
+| **Resolution**        | 1920×1080 minimum (16:9)           |
+| **Frame Rate**        | Match source (24, 25, 30 fps)      |
+| **Bitrate (1080p)**   | 8 Mbps (SDR), 10-12 Mbps (HDR)     |
+| **Bitrate (4K)**      | 35-45 Mbps (SDR), 44-56 Mbps (HDR) |
+| **Audio Codec**       | AAC-LC                             |
+| **Audio Sample Rate** | 48 kHz                             |
+| **Audio Bitrate**     | 384 kbps (stereo)                  |
+| **Keyframe**          | Every 2 seconds (closed GOP)       |
+| **Scan**              | Progressive (no interlacing)       |
+| **Max File Size**     | 256 GB                             |
+
+**Student Tip:** Upload at 1440p or 4K even if your source is 1080p — YouTube assigns a better codec (VP9) to higher-resolution uploads, improving visible quality.
+
+#### TikTok
+
+**Official reference:** https://ads.tiktok.com/business/creativecenter
+
+| Setting           | Value                                    |
+| ----------------- | ---------------------------------------- |
+| **Container**     | MP4 or MOV                               |
+| **Video Codec**   | H.264                                    |
+| **Resolution**    | 1080×1920 (9:16 vertical)                |
+| **Frame Rate**    | 24, 25, or 30 fps                        |
+| **Bitrate**       | 6-8 Mbps (1080p)                         |
+| **Audio Codec**   | AAC                                      |
+| **Audio Bitrate** | 128-256 kbps                             |
+| **Max File Size** | 287.6 MB (iOS), 72 MB (Android)          |
+| **Max Duration**  | 60 seconds (in-app), 10 minutes (upload) |
+
+**Student Tip:** TikTok re-encodes everything on upload. Start with the highest quality your file limit allows — don't pre-compress.
+
+#### Instagram Reels
+
+**Official reference:** https://help.instagram.com/1038071743007909
+
+| Setting           | Value                     |
+| ----------------- | ------------------------- |
+| **Container**     | MP4                       |
+| **Video Codec**   | H.264                     |
+| **Resolution**    | 1080×1920 (9:16 vertical) |
+| **Frame Rate**    | 24, 25, or 30 fps         |
+| **Bitrate**       | 5-8 Mbps (1080p)          |
+| **Audio Codec**   | AAC                       |
+| **Audio Bitrate** | 128-256 kbps              |
+| **Max File Size** | 650 MB                    |
+| **Max Duration**  | 90 seconds (Reels)        |
+
+**Student Tip:** Instagram does NOT support 4K. Always downscale to 1080p before uploading — uploading 4K causes Instagram's compression to degrade quality more aggressively.
+
+### Adobe Premiere Pro Export Workflow
+
+**Official reference:** https://helpx.adobe.com/premiere-pro/using/export-video.html
+
+**Quick Export (for social media):**
+
+```
+File > Export > Media
+Select destination: YouTube / TikTok / Facebook / X
+Premiere auto-configures format, codec, and bitrate
+Click Export
+```
+
+**Social Media Presets:**
+
+```
+File > Export > Media
+Preset dropdown > More presets...
+Browse platform-specific presets:
+  - YouTube 1080p Full HD
+  - TikTok 1080p Vertical
+  - Instagram Reels 1080p
+Select and export
+```
+
+**Official reference for social export:** https://helpx.adobe.com/premiere/desktop/render-and-export/export-files/export-videos-for-social-media-channels.html
+
+**Advanced/Custom Export:**
+
+```
+File > Export > Media
+Format: H.264
+Preset: Match Source - Adaptive High Bitrate
+  OR customize manually:
+    - Video: H.264, match frame rate, VBR 2-pass
+    - Bitrate: Target 10 Mbps, Max 12 Mbps (1080p)
+    - Audio: AAC, 48 kHz, 320 kbps
+    - Check: Render at Maximum Depth
+    - Check: Use Maximum Render Quality
+Export
+```
+
+### The Master File Strategy
+
+For professional work, export in two stages:
+
+**Step 1: Export Master File**
+
+- Format: QuickTime ProRes 422 or high-bitrate H.264 (20-25 Mbps)
+- Full resolution, no platform compression
+- Archive this as your "source of truth"
+
+**Step 2: Create Platform Versions**
+
+- From the master, export optimized versions for each platform
+- YouTube: H.264, 16:9, 8-12 Mbps
+- TikTok: H.264, 9:16, 6-8 Mbps
+- Instagram: H.264, 9:16, 5-8 Mbps
+
+### Reframing Horizontal to Vertical: The Pixel Problem
+
+> _"You can't invent pixels that don't exist. But you can plan for them before you shoot."_
+
+**The Math Problem:**
+
+Your horizontal edit is 1920×1080. A vertical deliverable needs 1080×1920. That means you need 1920 pixels of height — but your source only has 1080. You're short by 840 pixels (78% deficit).
+
+**Strategy 1: Shoot 4K (Best — Pre-Production Solution)**
+
+If source footage is 4K (3840×2160), you have 2160 vertical pixels. A 1080×1920 vertical crop uses 1920 of those 2160 — no upscaling needed, just crop.
+
+```
+4K source:  3840 × 2160
+Vertical crop: center 1080 × 1920
+Result: 1:1 pixel mapping, zero quality loss
+```
+
+**Strategy 2: Adobe Auto Reframe (Good — AI-Assisted)**
+
+Premiere Pro's Auto Reframe analyzes motion and automatically keeps the action centered in a vertical frame.
+
+**Official reference:** https://helpx.adobe.com/premiere-pro/using/auto-reframe.html
+
+```
+Sequence > Auto Reframe Sequence
+Target Aspect Ratio: Vertical 9:16
+Motion Tracking: Default (or Slower Motion for interviews)
+Click Create
+```
+
+Auto Reframe creates a new sequence with motion keyframes that follow the subject. Review and tweak manually — AI isn't perfect.
+
+**Strategy 3: Blurred Background Fill (Good — No Quality Loss on Main Image)**
+
+The most common social media technique. Scale the original clip to fill the vertical frame, apply heavy Gaussian Blur, then place the original clip centered on top.
+
+```
+Duplicate clip on track above
+Bottom track: Scale to fill 1080×1920, add Gaussian Blur (40-60)
+Top track: Keep original scale, centered
+Optional: Add a colored background instead of blur for branded look
+```
+
+**Strategy 4: Scale Up / Punch In (Acceptable — With Quality Loss)**
+
+Scale the 1080-height source to fill 1920 pixels. This is a 178% scale — expect visible softness.
+
+```
+Set Scale to 178% (1920 / 1080 = 1.78)
+Reposition Y axis to frame the subject
+Accept the quality trade-off
+```
+
+**When this works:** 4K source, good lighting, sharp lens, final delivery on phone screens where softness is less visible.
+
+**Strategy 5: Split Layout / Multi-Clip Stack (Creative)**
+
+Instead of one clip filling the frame, stack two or three clips vertically. Works well for comparison, reaction, or multi-angle content.
+
+```
+1080×1920 canvas
+Top third: Clip A (cropped to 1080×640)
+Middle third: Clip B (cropped to 1080×640)
+Bottom third: Clip C or text/graphics (1080×640)
+```
+
+**Strategy 6: Shoot Vertical Natively (Best — Production Solution)**
+
+The real answer: plan for vertical delivery during production. Shoot with the camera rotated 90° or use a second camera locked off in vertical orientation.
+
+### Decision Matrix: Which Strategy When
+
+| **Source Quality**    | **Content Type**        | **Recommended Strategy**                      |
+| --------------------- | ----------------------- | --------------------------------------------- |
+| 4K source             | Any                     | Auto Reframe or manual crop (no quality loss) |
+| 1080p, single subject | Talking head, interview | Blurred background fill                       |
+| 1080p, lots of motion | Action, sports          | Auto Reframe + accept softness                |
+| 1080p, multi-angle    | Tutorial, reaction      | Split layout / stacked clips                  |
+| Any, pre-production   | Planning ahead          | Shoot vertical natively                       |
+
+> _"The best reframe is the one you don't need. Shoot for your delivery format. Everything else is damage control."_
+
+### Export Best Practices
+
+1. **Use 2-pass VBR encoding** — better quality at same file size (takes longer but worth it)
+2. **Check "Render at Maximum Depth"** — preserves color information in gradients
+3. **Check "Use Maximum Render Quality"** — better scaling if resizing
+4. **Export at source frame rate** — don't convert 24fps to 30fps or vice versa
+5. **Always test on target device** — watch your export on a phone before publishing
+6. **Keep captions in safe zones** — platforms overlay UI elements (buttons, handles) on edges
+7. **Name files descriptively**: `ProjectName_Platform_Resolution_Date.mp4`
+
+### Common Export Mistakes
+
+| **Mistake**                   | **Result**                        | **Fix**                                 |
+| ----------------------------- | --------------------------------- | --------------------------------------- |
+| Exporting at wrong frame rate | Juddery motion                    | Match source frame rate exactly         |
+| Too-low bitrate               | Blocky artifacts, banding         | Increase to platform recommendations    |
+| Interlaced export             | Comb artifacts on digital screens | Always export progressive               |
+| Wrong aspect ratio            | Black bars or cropping            | Match platform spec exactly             |
+| Exporting 4K for Instagram    | Heavy compression artifacts       | Downscale to 1080p first                |
+| Forgetting captions           | 85% audience loss on social       | Burn in open captions or export sidecar |
+
+> _"The export is where your work meets the world. Respect it as much as the edit itself."_
+
+---
+
 ## Additional Resources
 
 ### Color Grading
 
-- **YouTube:** "Color Grading for Beginners" (Peter McKinnon)
-- **LinkedIn Learning:** "Premiere Pro: Color Correction and Grading"
-- **Color Grading Central:** Tutorials and LUTs
+**Adobe Official:**
+
+- Adobe Premiere Pro — Color management and Lumetri Color: https://helpx.adobe.com/premiere-pro/using/color-management-and-lumetri-color.html
+- Adobe Premiere Pro — Lumetri Scopes (monitor color and exposure): https://helpx.adobe.com/premiere-pro/using/lumetri-scopes.html
+- Adobe Premiere Pro — Get creative with color using Lumetri Looks: https://helpx.adobe.com/premiere-pro/using/creative-lumetri-looks.html
+- Adobe Premiere Pro — Create and edit multiple Lumetri Color effects: https://helpx.adobe.com/premiere/desktop/correct-color/color-correction-fundamentals/create-and-edit-multiple-lumetri-color-effects.html
+
+**Additional Learning:**
+
+- YouTube — "How To Color Grade for Beginners" by Peter McKinnon: https://www.youtube.com/watch?v=6x9VDoTnl70
+- LinkedIn Learning — "Premiere Pro: Color Correction and Enhancement": https://www.linkedin.com/learning/premiere-pro-2022-essential-training/color-correction-fixing-and-enhancing-color
+- Color Grading Central — Tutorials and LUTs: https://www.colorgradingcentral.com/
 
 ### Sound Design
 
-- **Freesound.org:** Free sound effects library
-- **Epidemic Sound:** Royalty-free music (subscription)
-- **YouTube Audio Library:** Free music and SFX
-- **Boom Library:** Professional sound effects
+**Adobe Official:**
+
+- Adobe Premiere Pro — Essential Sound panel: https://helpx.adobe.com/premiere-pro/using/premiere-essential-sound-panel.html
+- Adobe Premiere Pro — Audio editing concepts and best practices: https://helpx.adobe.com/premiere-pro/using/bestpractices-audio.html
+- Adobe Premiere Pro — Speech to Text (transcripts and captions): https://helpx.adobe.com/premiere-pro/using/speech-to-text.html
+- Adobe Audition — Noise reduction and restoration effects: https://helpx.adobe.com/audition/using/noise-reduction-restoration-effects.html
+
+**Additional Learning & Resources:**
+
+- Freesound.org — Free sound effects library: https://freesound.org/
+- Epidemic Sound — Royalty-free music (subscription): https://www.epidemicsound.com/
+- YouTube Audio Library — Free music and SFX: https://support.google.com/youtube/answer/3376882
+- BOOM Library — Professional sound effects: https://www.boomlibrary.com/
 
 ### Motion Graphics
 
-- **After Effects Kickstart:** Free course
-- **Video Copilot:** Tutorials and plugins
-- **Motion Array:** Templates and presets
+**Adobe Official:**
+
+- Adobe Premiere Pro — About Properties panel (text/graphics workflow): https://helpx.adobe.com/premiere-pro/using/about-properties-panel.html
+- Adobe Premiere Pro — Dynamic Link with After Effects: https://helpx.adobe.com/premiere-pro/using/dynamic-link.html
+- Adobe After Effects — Use Dynamic Link with Premiere Pro: https://helpx.adobe.com/after-effects/using/dynamic-link-effects.html
+- Adobe Premiere Pro — Motion Graphics templates overview: https://www.adobe.com/products/premiere/motion-graphics-templates.html
+
+**Additional Learning:**
+
+- School of Motion — After Effects Kickstart (free course): https://www.schoolofmotion.com/courses/after-effects-kickstart
+- Video Copilot — After Effects tutorials and plugins: https://www.videocopilot.net/
+- Motion Array — Templates and presets: https://motionarray.com/
 
 ### AI Tools
 
-- **Adobe Sensei:** Built into Creative Cloud
-- **Runway ML:** AI video tools
-- **Descript:** AI transcription and editing
+**Adobe Official (Adobe Sensei):**
+
+- Adobe Premiere Pro — Auto Reframe overview: https://helpx.adobe.com/premiere/desktop/add-video-effects/commonly-used-effects/auto-reframe-overview.html
+- Adobe Premiere Pro — Add Auto Reframe to a sequence: https://helpx.adobe.com/premiere/desktop/add-video-effects/commonly-used-effects/add-auto-reframe-effect-to-a-sequence.html
+- Adobe Premiere Pro — Auto transcribe video using Speech to Text: https://helpx.adobe.com/premiere/desktop/add-text-images/insert-captions/auto-transcribe-video-using-speech-to-text.html
+- Adobe After Effects — Content-Aware Fill for video: https://helpx.adobe.com/after-effects/using/content-aware-fill.html
+- Adobe Sensei — AI in Creative Cloud: https://www.adobe.com/ae_en/sensei/creative-cloud-artificial-intelligence.html
+
+**Additional AI Tools:**
+
+- Runway ML — AI video tools: https://runwayml.com/
+- Descript — AI transcription and editing: https://www.descript.com/
+
+### Export & Delivery
+
+**Adobe Official:**
+
+- Adobe Premiere Pro — Export video: https://helpx.adobe.com/premiere-pro/using/export-video.html
+- Adobe Premiere Pro — Export workflow overview (video/audio): https://helpx.adobe.com/premiere-pro/using/workflow-overview-exporting.html
+- Adobe Media Encoder — Export settings reference: https://helpx.adobe.com/media-encoder/using/export-settings-reference.html
+- Adobe Media Encoder — Supported export formats: https://helpx.adobe.com/media-encoder/using/file-formats-supported-export.html
 
 For books and academic references (including sound and post-production theory), see [Resources → Books, Articles & Academic References]({{ '/resources/' | relative_url }}#books-articles--academic-references).
 

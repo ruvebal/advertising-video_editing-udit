@@ -16,7 +16,6 @@ category: Resources
 
 <!-- prettier-ignore-end -->
 
-
 {% include tao-quote.html quote="The master editor knows that learning never ends. Every film watched, every article read, every technique practiced adds to the infinite reservoir of craft." %}
 
 ---
@@ -54,9 +53,16 @@ Use it in this order:
 - **[Adobe Color](https://color.adobe.com)** - Color palettes, theme building, and palette exploration
 - **[Coolors](https://coolors.co)** - Fast palette generator for mood boards and visual identity
 - **[Descript](https://www.descript.com)** - Text-based editing, captions, cleanup, and AI-assisted social editing
+- **[CapCut](https://www.capcut.com/tools/auto-caption-generator)** - Free auto-captions with TikTok-style animations and word-by-word reveals
+- **[Captions.ai](https://captions.ai/)** - AI-powered editor with auto-cuts, stylized captions, and B-roll insertion
+- **[VEED.io](https://www.veed.io/tools/auto-subtitle-generator-online)** - 99.9% accuracy auto-subtitles with dynamic animated captions
+- **[Zubtitle](https://zubtitle.com/)** - AI captions + auto-resizing for social platforms with branded templates
 - **[Adobe Enhance Speech](https://podcast.adobe.com/enhance)** - Fast spoken-audio cleanup for weak recordings
 - **[Video Copilot](https://www.videocopilot.net)** - After Effects tutorials, plug-ins, and stock FX
 - **[Motion Array](https://motionarray.com/)** - Templates, presets, stock media, music, sound effects, and plugins
+- **[School of Motion - After Effects Kickstart](https://www.schoolofmotion.com/courses/after-effects-kickstart)** - Free introductory motion design course
+- **[Color Grading Central](https://www.colorgradingcentral.com/)** - Tutorials, LUTs, and color grading education
+- **[BOOM Library](https://www.boomlibrary.com/)** - Professional sound effects by award-winning sound designers
 - **[Adobe Creative Cloud generative AI features](https://helpx.adobe.com/creative-cloud/apps/generative-ai/creative-cloud-generative-ai-features.html)** - Official guide to current Adobe AI features across Creative Cloud
 - **[Runway](https://runwayml.com)** - AI video generation/editing and experimental multimedia workflows
 - **[Upsampler](https://upsampler.com)** - AI image upscaling, restoration, and image/video generation
@@ -186,15 +192,105 @@ The SMPTE items above are professional society papers; access may require subscr
 
 ---
 
-## Platform Specifications
+## Platform Specifications & Export Settings
 
-| Platform  | Aspect Ratio | Duration | Key Features                         |
-| --------- | ------------ | -------- | ------------------------------------ |
-| TV        | 16:9         | 15-60s   | High production value, sound-on      |
-| YouTube   | 16:9         | 6-60s    | Hook in first 5s, skippable ads      |
-| TikTok    | 9:16         | 15-60s   | First 2s critical, loop-friendly     |
-| Instagram | 9:16 / 1:1   | 15-90s   | Sound-off captions essential         |
-| Vimeo     | 16:9         | Flexible | Portfolio-focused, creative audience |
+### Quick Reference
+
+| Platform  | Aspect Ratio | Resolution | Duration | Max File | Key Features                         |
+| --------- | ------------ | ---------- | -------- | -------- | ------------------------------------ |
+| TV        | 16:9         | 1920×1080  | 15-60s   | —        | High production value, sound-on      |
+| YouTube   | 16:9         | 1920×1080+ | 6-60s    | 256 GB   | Hook in first 5s, skippable ads      |
+| TikTok    | 9:16         | 1080×1920  | 15-60s   | 287.6 MB | First 2s critical, loop-friendly     |
+| Instagram | 9:16 / 1:1   | 1080×1920  | 15-90s   | 650 MB   | Sound-off captions essential         |
+| Vimeo     | 16:9         | 1920×1080+ | Flexible | —        | Portfolio-focused, creative audience |
+
+### YouTube Export Settings
+
+**Official reference:** https://support.google.com/youtube/answer/1722171
+
+| Setting               | Value                              |
+| --------------------- | ---------------------------------- |
+| **Container**         | MP4                                |
+| **Video Codec**       | H.264 (AVC), High Profile          |
+| **Frame Rate**        | Match source (24, 25, 30 fps)      |
+| **Bitrate (1080p)**   | 8 Mbps (SDR), 10-12 Mbps (HDR)     |
+| **Bitrate (4K)**      | 35-45 Mbps (SDR), 44-56 Mbps (HDR) |
+| **Audio Codec**       | AAC-LC                             |
+| **Audio Sample Rate** | 48 kHz                             |
+| **Audio Bitrate**     | 384 kbps (stereo)                  |
+| **Keyframe**          | Every 2 seconds (closed GOP)       |
+| **Scan**              | Progressive (no interlacing)       |
+| **Max File Size**     | 256 GB                             |
+
+**Student Tip:** Upload at higher resolution (1440p or 4K) to trigger YouTube's better VP9 codec, even if your source is 1080p.
+
+### TikTok Export Settings
+
+**Official reference:** https://ads.tiktok.com/business/creativecenter
+
+| Setting           | Value                                    |
+| ----------------- | ---------------------------------------- |
+| **Container**     | MP4 or MOV                               |
+| **Video Codec**   | H.264                                    |
+| **Resolution**    | 1080×1920 (9:16 vertical)                |
+| **Frame Rate**    | 24, 25, or 30 fps                        |
+| **Bitrate**       | 6-8 Mbps (1080p)                         |
+| **Audio Codec**   | AAC                                      |
+| **Audio Bitrate** | 128-256 kbps                             |
+| **Max File Size** | 287.6 MB (iOS), 72 MB (Android)          |
+| **Max Duration**  | 60 seconds (in-app), 10 minutes (upload) |
+
+**Student Tip:** TikTok re-encodes everything. Upload at the highest quality your file limit allows.
+
+### Instagram Reels Export Settings
+
+**Official reference:** https://help.instagram.com/1038071743007909
+
+| Setting           | Value                     |
+| ----------------- | ------------------------- |
+| **Container**     | MP4                       |
+| **Video Codec**   | H.264                     |
+| **Resolution**    | 1080×1920 (9:16 vertical) |
+| **Frame Rate**    | 24, 25, or 30 fps         |
+| **Bitrate**       | 5-8 Mbps (1080p)          |
+| **Audio Codec**   | AAC                       |
+| **Audio Bitrate** | 128-256 kbps              |
+| **Max File Size** | 650 MB                    |
+| **Max Duration**  | 90 seconds (Reels)        |
+
+**Student Tip:** Instagram does NOT support 4K. Always downscale to 1080p before uploading.
+
+### Adobe Premiere Pro Social Export
+
+**Official reference:** https://helpx.adobe.com/premiere/desktop/render-and-export/export-files/export-videos-for-social-media-channels.html
+
+Premiere Pro includes built-in export destinations for YouTube, TikTok, Facebook, and X (Twitter) with optimized presets for each platform. Use `File > Export > Media` and select the platform destination for automatic format configuration.
+
+### General Export Best Practices
+
+1. **Always export at source resolution** — upscaling in export degrades quality
+2. **Use 2-pass VBR encoding** for better quality at same file size
+3. **Render at maximum bit depth** and **maximum render quality** (checkbox in export dialog)
+4. **Export a master file first** (ProRes or high-bitrate H.264), then create platform versions from it
+5. **Test on target device** — watch your export on a phone before publishing
+6. **Keep captions in safe zones** — platforms overlay UI elements on edges
+
+### Reframing Horizontal (16:9) to Vertical (9:16)
+
+**The pixel problem:** 1920×1080 horizontal source only has 1080 vertical pixels. Vertical delivery needs 1080×1920 — you're 840 pixels short.
+
+**Six strategies (best to worst):**
+
+| Strategy                | Quality           | When to Use                                                           |
+| ----------------------- | ----------------- | --------------------------------------------------------------------- |
+| Shoot 4K and crop       | No loss           | 4K source: 2160 vertical pixels, crop 1080×1920 with 1:1 mapping      |
+| Auto Reframe (AI)       | Good              | Premiere Pro: `Sequence > Auto Reframe Sequence > 9:16`               |
+| Blurred background fill | Good (main image) | Duplicate clip, scale bottom to fill + blur, original centered on top |
+| Scale up / punch in     | Acceptable        | 178% scale. Works on phone screens with sharp source                  |
+| Split layout / stacked  | Creative          | Stack 2-3 clips vertically (each ~1080×640)                           |
+| Shoot vertical natively | Best              | Rotate camera 90° or use dedicated vertical camera                    |
+
+**Official reference:** https://helpx.adobe.com/premiere-pro/using/auto-reframe.html
 
 ### Official Platform Resources
 
@@ -511,15 +607,105 @@ The SMPTE items above are professional society papers; access may require subscr
 
 ---
 
-## Platform Specifications
+## Platform Specifications & Export Settings
 
-| Platform  | Aspect Ratio | Duration | Key Features                         |
-| --------- | ------------ | -------- | ------------------------------------ |
-| TV        | 16:9         | 15-60s   | High production value, sound-on      |
-| YouTube   | 16:9         | 6-60s    | Hook in first 5s, skippable ads      |
-| TikTok    | 9:16         | 15-60s   | First 2s critical, loop-friendly     |
-| Instagram | 9:16 / 1:1   | 15-90s   | Sound-off captions essential         |
-| Vimeo     | 16:9         | Flexible | Portfolio-focused, creative audience |
+### Quick Reference
+
+| Platform  | Aspect Ratio | Resolution | Duration | Max File | Key Features                         |
+| --------- | ------------ | ---------- | -------- | -------- | ------------------------------------ |
+| TV        | 16:9         | 1920×1080  | 15-60s   | —        | High production value, sound-on      |
+| YouTube   | 16:9         | 1920×1080+ | 6-60s    | 256 GB   | Hook in first 5s, skippable ads      |
+| TikTok    | 9:16         | 1080×1920  | 15-60s   | 287.6 MB | First 2s critical, loop-friendly     |
+| Instagram | 9:16 / 1:1   | 1080×1920  | 15-90s   | 650 MB   | Sound-off captions essential         |
+| Vimeo     | 16:9         | 1920×1080+ | Flexible | —        | Portfolio-focused, creative audience |
+
+### YouTube Export Settings
+
+**Official reference:** https://support.google.com/youtube/answer/1722171
+
+| Setting               | Value                              |
+| --------------------- | ---------------------------------- |
+| **Container**         | MP4                                |
+| **Video Codec**       | H.264 (AVC), High Profile          |
+| **Frame Rate**        | Match source (24, 25, 30 fps)      |
+| **Bitrate (1080p)**   | 8 Mbps (SDR), 10-12 Mbps (HDR)     |
+| **Bitrate (4K)**      | 35-45 Mbps (SDR), 44-56 Mbps (HDR) |
+| **Audio Codec**       | AAC-LC                             |
+| **Audio Sample Rate** | 48 kHz                             |
+| **Audio Bitrate**     | 384 kbps (stereo)                  |
+| **Keyframe**          | Every 2 seconds (closed GOP)       |
+| **Scan**              | Progressive (no interlacing)       |
+| **Max File Size**     | 256 GB                             |
+
+**Student Tip:** Upload at higher resolution (1440p or 4K) to trigger YouTube's better VP9 codec, even if your source is 1080p.
+
+### TikTok Export Settings
+
+**Official reference:** https://ads.tiktok.com/business/creativecenter
+
+| Setting           | Value                                    |
+| ----------------- | ---------------------------------------- |
+| **Container**     | MP4 or MOV                               |
+| **Video Codec**   | H.264                                    |
+| **Resolution**    | 1080×1920 (9:16 vertical)                |
+| **Frame Rate**    | 24, 25, or 30 fps                        |
+| **Bitrate**       | 6-8 Mbps (1080p)                         |
+| **Audio Codec**   | AAC                                      |
+| **Audio Bitrate** | 128-256 kbps                             |
+| **Max File Size** | 287.6 MB (iOS), 72 MB (Android)          |
+| **Max Duration**  | 60 seconds (in-app), 10 minutes (upload) |
+
+**Student Tip:** TikTok re-encodes everything. Upload at the highest quality your file limit allows.
+
+### Instagram Reels Export Settings
+
+**Official reference:** https://help.instagram.com/1038071743007909
+
+| Setting           | Value                     |
+| ----------------- | ------------------------- |
+| **Container**     | MP4                       |
+| **Video Codec**   | H.264                     |
+| **Resolution**    | 1080×1920 (9:16 vertical) |
+| **Frame Rate**    | 24, 25, or 30 fps         |
+| **Bitrate**       | 5-8 Mbps (1080p)          |
+| **Audio Codec**   | AAC                       |
+| **Audio Bitrate** | 128-256 kbps              |
+| **Max File Size** | 650 MB                    |
+| **Max Duration**  | 90 seconds (Reels)        |
+
+**Student Tip:** Instagram does NOT support 4K. Always downscale to 1080p before uploading.
+
+### Adobe Premiere Pro Social Export
+
+**Official reference:** https://helpx.adobe.com/premiere/desktop/render-and-export/export-files/export-videos-for-social-media-channels.html
+
+Premiere Pro includes built-in export destinations for YouTube, TikTok, Facebook, and X (Twitter) with optimized presets for each platform. Use `File > Export > Media` and select the platform destination for automatic format configuration.
+
+### General Export Best Practices
+
+1. **Always export at source resolution** — upscaling in export degrades quality
+2. **Use 2-pass VBR encoding** for better quality at same file size
+3. **Render at maximum bit depth** and **maximum render quality** (checkbox in export dialog)
+4. **Export a master file first** (ProRes or high-bitrate H.264), then create platform versions from it
+5. **Test on target device** — watch your export on a phone before publishing
+6. **Keep captions in safe zones** — platforms overlay UI elements on edges
+
+### Reframing Horizontal (16:9) to Vertical (9:16)
+
+**The pixel problem:** 1920×1080 horizontal source only has 1080 vertical pixels. Vertical delivery needs 1080×1920 — you're 840 pixels short.
+
+**Six strategies (best to worst):**
+
+| Strategy                | Quality           | When to Use                                                           |
+| ----------------------- | ----------------- | --------------------------------------------------------------------- |
+| Shoot 4K and crop       | No loss           | 4K source: 2160 vertical pixels, crop 1080×1920 with 1:1 mapping      |
+| Auto Reframe (AI)       | Good              | Premiere Pro: `Sequence > Auto Reframe Sequence > 9:16`               |
+| Blurred background fill | Good (main image) | Duplicate clip, scale bottom to fill + blur, original centered on top |
+| Scale up / punch in     | Acceptable        | 178% scale. Works on phone screens with sharp source                  |
+| Split layout / stacked  | Creative          | Stack 2-3 clips vertically (each ~1080×640)                           |
+| Shoot vertical natively | Best              | Rotate camera 90° or use dedicated vertical camera                    |
+
+**Official reference:** https://helpx.adobe.com/premiere-pro/using/auto-reframe.html
 
 ---
 
