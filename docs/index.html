@@ -8,13 +8,20 @@ description: A comprehensive course blending theory, technique, and ethics in vi
 	<div class="hero-glass">
 		<p class="hero-eyebrow">Rubén Vega Balbás, PhD · WEB ATELIER (UDIT)</p>
 		<h1>Advertising Video Editing</h1>
-		<p class="lead">A comprehensive 10-week course blending theory, technique, and ethics in video editing for advertising. Master Adobe Premiere Pro while developing a critical understanding of persuasive media.</p>
-		
-		{% include tao-quote.html quote="Before the first cut, the story must already exist in your mind. After the final cut, the story must exist in the viewer's heart." %}
+		<p class="lead">
+			A comprehensive 10-week course blending theory, technique, and ethics in video editing for advertising. Master Adobe
+			Premiere Pro while developing a critical understanding of persuasive media.
+		</p>
+
+		{% include tao-quote.html quote="Before the first cut, the story must already exist in your mind. After the final cut,
+		the story must exist in the viewer's heart." %}
 		<p class="hero-credit" lang="ru">
-			Авторы плаката: Владимир и Георгий Стенберги<br>
-			Режиссер: Дзига Вертов<br>
-			Оператор: Михаил Кауфман<br>
+			Авторы плаката: Владимир и Георгий Стенберги
+			<br />
+			Режиссер: Дзига Вертов
+			<br />
+			Оператор: Михаил Кауфман
+			<br />
 			Год: 1929
 		</p>
 	</div>
@@ -22,8 +29,12 @@ description: A comprehensive course blending theory, technique, and ethics in vi
 
 <section class="course-overview">
 	<h2>Course Overview</h2>
-	<p>This 10-week course explores the art and craft of video editing for advertising, from historical foundations to contemporary digital platforms. Students will master Adobe Premiere Pro while developing a critical understanding of persuasive media.</p>
-	
+	<p>
+		This 10-week course explores the art and craft of video editing for advertising, from historical foundations to
+		contemporary digital platforms. Students will master Adobe Premiere Pro while developing a critical understanding of
+		persuasive media.
+	</p>
+
 	<div class="course-stats">
 		<div class="stat">
 			<span class="stat-value">10</span>
@@ -42,31 +53,21 @@ description: A comprehensive course blending theory, technique, and ethics in vi
 
 <section class="weeks-grid">
 	<h2>Weekly Lessons</h2>
-	
+
 	<div class="week-cards">
-		{% assign prompts = site.prompts | sort: 'week' %}
-		{% for prompt in prompts %}
-		{% if prompt.week %}
+		{% assign prompts = site.prompts | sort: 'week' %} {% for prompt in prompts %} {% if prompt.week %}
 		<article class="week-card">
 			<div class="week-number">Week {{ prompt.week }}</div>
 			<h3>
 				<a href="{{ prompt.url | relative_url }}">{{ prompt.title }}</a>
 			</h3>
-			{% if prompt.status %}
-			{% assign status_lower = prompt.status | downcase %}
+			{% if prompt.status %} {% assign status_lower = prompt.status | downcase %}
 			<span class="lesson-status status-{{ prompt.status | downcase | replace: ' ', '-' }}">
-				{% if status_lower == 'finished' or status_lower == 'terminado' %}
-					✓ Finished
-				{% elsif status_lower == 'draft' or status_lower == 'borrador' %}
-					Draft
-				{% elsif status_lower == 'in progress' or status_lower == 'in-progress' or status_lower == 'en proceso' %}
-					In Progress
-				{% else %}
-					{{ prompt.status | capitalize }}
-				{% endif %}
+				{% if status_lower == 'finished' or status_lower == 'terminado' %} ✓ Finished {% elsif status_lower == 'draft' or
+				status_lower == 'borrador' %} Draft {% elsif status_lower == 'in progress' or status_lower == 'in-progress' or
+				status_lower == 'en proceso' %} In Progress {% else %} {{ prompt.status | capitalize }} {% endif %}
 			</span>
-			{% endif %}
-			{% if prompt.tags %}
+			{% endif %} {% if prompt.tags %}
 			<div class="lesson-tags">
 				{% for tag in prompt.tags %}
 				<span class="lesson-tag">{{ tag }}</span>
@@ -76,17 +77,36 @@ description: A comprehensive course blending theory, technique, and ethics in vi
 			<p>{{ prompt.description }}</p>
 			<a href="{{ prompt.url | relative_url }}" class="read-more">Read lesson →</a>
 		</article>
-		{% endif %}
-		{% endfor %}
+		{% endif %} {% endfor %}
 	</div>
 </section>
 
 <section class="weeks-grid">
-	<h2>Special Modules</h2>
+	<h2>
+		Special Modules
+		<span class="beta-badge">Beta</span>
+	</h2>
 	<div class="week-cards">
-		{% assign prompts = site.prompts | sort: 'title' %}
-		{% for prompt in prompts %}
-		{% unless prompt.week %}
+		<article class="week-card week-card--exam">
+			<div class="week-number">Interactive Exam</div>
+			<h3>
+				<a href="{{ '/exam/sample/' | relative_url }}">Sample Exam — Practice Test</a>
+				<span class="beta-badge">Beta</span>
+			</h3>
+			<span class="lesson-status status-finished">✓ Available</span>
+			<div class="lesson-tags">
+				<span class="lesson-tag">Study</span>
+				<span class="lesson-tag">Self-assessment</span>
+				<span class="lesson-tag">20 questions</span>
+			</div>
+			<p>
+				Slide-per-question practice exam covering all course topics. Three modes: Study (instant feedback), Exam (30-min
+				timer), Review. No grade, no surveillance — just learning.
+			</p>
+			<a href="{{ '/exam/sample/' | relative_url }}" class="read-more">Open exam →</a>
+		</article>
+
+		{% assign prompts = site.prompts | sort: 'title' %} {% for prompt in prompts %} {% unless prompt.week %}
 		<article class="week-card">
 			<div class="week-number">Monograph</div>
 			<h3>
@@ -95,21 +115,26 @@ description: A comprehensive course blending theory, technique, and ethics in vi
 			<p>{{ prompt.description }}</p>
 			<a href="{{ prompt.url | relative_url }}" class="read-more">Read module →</a>
 		</article>
-		{% endunless %}
-		{% endfor %}
+		{% endunless %} {% endfor %}
 	</div>
 </section>
 
 <section class="assignments-index weeks-grid">
 	<h2>Assignments</h2>
-	<p style="text-align: center; max-width: 600px; margin: 0 auto 2rem; color: var(--text-secondary);">Structured tasks that apply course concepts: analysis of existing work (Weeks 1–4), the capstone persuasive piece, re-edit exercise, and final self-portrait.</p>
+	<p style="text-align: center; max-width: 600px; margin: 0 auto 2rem; color: var(--text-secondary)">
+		Structured tasks that apply course concepts: analysis of existing work (Weeks 1–4), the capstone persuasive piece,
+		re-edit exercise, and final self-portrait.
+	</p>
 	<div class="week-cards">
 		<article class="week-card">
 			<div class="week-number">Due Week 4</div>
 			<h3>
 				<a href="{{ '/assignments/analysis/' | relative_url }}">Analysis Assignment</a>
 			</h3>
-			<p>Select one complete piece; deliver an oral analysis (screening + defense + Q&A) and submit a written guide + USB with samples.</p>
+			<p>
+				Select one complete piece; deliver an oral analysis (screening + defense + Q&A) and submit a written guide + USB
+				with samples.
+			</p>
 			<a href="{{ '/assignments/analysis/' | relative_url }}" class="read-more">Read assignment →</a>
 		</article>
 		<article class="week-card">
@@ -117,7 +142,9 @@ description: A comprehensive course blending theory, technique, and ethics in vi
 			<h3>
 				<a href="{{ '/assignments/edit-01/' | relative_url }}">Capstone: Persuasive Piece</a>
 			</h3>
-			<p>Group project (Weeks 1–4 synthesis): shoot and edit a max-2-min persuasive spot (product or idea; music, no speech).</p>
+			<p>
+				Group project (Weeks 1–4 synthesis): shoot and edit a max-2-min persuasive spot (product or idea; music, no speech).
+			</p>
 			<a href="{{ '/assignments/edit-01/' | relative_url }}" class="read-more">Read assignment →</a>
 		</article>
 		<article class="week-card">
@@ -125,7 +152,10 @@ description: A comprehensive course blending theory, technique, and ethics in vi
 			<h3>
 				<a href="{{ '/assignments/edit-02/' | relative_url }}">Re-Edit (15s or 30s)</a>
 			</h3>
-			<p>Individual re-edit: remake an existing piece into a 15s or 30s spot; apply Week 5 experimental techniques and Week 6 advertising structure.</p>
+			<p>
+				Individual re-edit: remake an existing piece into a 15s or 30s spot; apply Week 5 experimental techniques and Week 6
+				advertising structure.
+			</p>
 			<a href="{{ '/assignments/edit-02/' | relative_url }}" class="read-more">Read assignment →</a>
 		</article>
 		<article class="week-card">
@@ -133,7 +163,10 @@ description: A comprehensive course blending theory, technique, and ethics in vi
 			<h3>
 				<a href="{{ '/assignments/edit-03/' | relative_url }}">Self-Portrait (Edit 03)</a>
 			</h3>
-			<p>Individual final project: a self-portrait in video form (inner world, influences, work). Four-layer sound, mixed materials, three platform versions (YouTube, Instagram, TikTok).</p>
+			<p>
+				Individual final project: a self-portrait in video form (inner world, influences, work). Four-layer sound, mixed
+				materials, three platform versions (YouTube, Instagram, TikTok).
+			</p>
 			<a href="{{ '/assignments/edit-03/' | relative_url }}" class="read-more">Read assignment →</a>
 		</article>
 	</div>
@@ -141,21 +174,57 @@ description: A comprehensive course blending theory, technique, and ethics in vi
 
 <section class="course-resources">
 	<h2>Resources</h2>
-	<p class="resources-intro">The <a href="{{ '/resources/' | relative_url }}">Resource Library</a> centralises tools, references, and links. Key sections:</p>
+	<p class="resources-intro">
+		The
+		<a href="{{ '/resources/' | relative_url }}">Resource Library</a>
+		centralises tools, references, and links. Key sections:
+	</p>
 	<ul class="resources-index">
-		<li><a href="{{ '/resources/' | relative_url }}#software--tools">Software & Tools</a> — Premiere, Resolve, Audacity, alternatives</li>
-		<li><a href="{{ '/resources/' | relative_url }}#film-theory--media-studies">Film Theory & Media Studies</a> — Essential reading and viewing</li>
-		<li><a href="{{ '/resources/' | relative_url }}#editing-techniques">Editing Techniques</a> — Continuity, montage, experimental</li>
-		<li><a href="{{ '/resources/' | relative_url }}#books-articles--academic-references">Books, Articles & Academic References</a> — Books, DOI-linked papers, SMPTE</li>
-		<li><a href="{{ '/resources/' | relative_url }}#platform-specifications">Platform Specifications</a> — TV, YouTube, TikTok, Instagram, Vimeo</li>
-		<li><a href="{{ '/resources/' | relative_url }}#audio-resources">Audio Resources</a> — Music, SFX, <a href="{{ '/resources/' | relative_url }}#ai-voice-over--text-to-speech">AI voice-over & text-to-speech</a> (ElevenLabs, PlayHT, Canva, NaturalReader, Murf)</li>
-		<li><a href="{{ '/resources/' | relative_url }}#stock-footage">Stock Footage</a> — Pexels, Pixabay, Videvo, Coverr</li>
-		<li><a href="{{ '/resources/' | relative_url }}#community-best-practices">Community & Best Practices</a> — Project organisation, naming, backup</li>
-		<li><a href="{{ '/resources/' | relative_url }}#keyboard-shortcuts-premiere-pro">Keyboard Shortcuts (Premiere Pro)</a></li>
+		<li>
+			<a href="{{ '/resources/' | relative_url }}#software--tools">Software & Tools</a>
+			— Premiere, Resolve, Audacity, alternatives
+		</li>
+		<li>
+			<a href="{{ '/resources/' | relative_url }}#film-theory--media-studies">Film Theory & Media Studies</a>
+			— Essential reading and viewing
+		</li>
+		<li>
+			<a href="{{ '/resources/' | relative_url }}#editing-techniques">Editing Techniques</a>
+			— Continuity, montage, experimental
+		</li>
+		<li>
+			<a href="{{ '/resources/' | relative_url }}#books-articles--academic-references">
+				Books, Articles & Academic References
+			</a>
+			— Books, DOI-linked papers, SMPTE
+		</li>
+		<li>
+			<a href="{{ '/resources/' | relative_url }}#platform-specifications">Platform Specifications</a>
+			— TV, YouTube, TikTok, Instagram, Vimeo
+		</li>
+		<li>
+			<a href="{{ '/resources/' | relative_url }}#audio-resources">Audio Resources</a>
+			— Music, SFX,
+			<a href="{{ '/resources/' | relative_url }}#ai-voice-over--text-to-speech">AI voice-over & text-to-speech</a>
+			(ElevenLabs, PlayHT, Canva, NaturalReader, Murf)
+		</li>
+		<li>
+			<a href="{{ '/resources/' | relative_url }}#stock-footage">Stock Footage</a>
+			— Pexels, Pixabay, Videvo, Coverr
+		</li>
+		<li>
+			<a href="{{ '/resources/' | relative_url }}#community-best-practices">Community & Best Practices</a>
+			— Project organisation, naming, backup
+		</li>
+		<li>
+			<a href="{{ '/resources/' | relative_url }}#keyboard-shortcuts-premiere-pro">Keyboard Shortcuts (Premiere Pro)</a>
+		</li>
 	</ul>
 	<ul class="resources-meta">
 		<li><a href="{{ '/curriculum/' | relative_url }}">Complete Course Curriculum</a></li>
 		<li><a href="{{ '/resources/' | relative_url }}">Full Resource Library</a></li>
-		<li><a href="https://github.com/{{ site.repository }}" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
+		<li>
+			<a href="https://github.com/{{ site.repository }}" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+		</li>
 	</ul>
 </section>

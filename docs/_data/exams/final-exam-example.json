@@ -1,0 +1,671 @@
+{
+  "metadata": {
+    "title": "Advertising Video Editing — Sample Exam (public)",
+    "course": "25/26-UDIT-AVE",
+    "duration_minutes": 30,
+    "total_points": 40,
+    "delivered_points": 30,
+    "language": "en",
+    "date_created": "2026-05-18",
+    "author": "Rubén Vega Balbás, PhD",
+    "question_count": 20,
+    "category_counts": {
+      "theory-authors": 5,
+      "editing-techniques": 3,
+      "post-production": 3,
+      "formats-codecs": 3,
+      "video-forms": 1,
+      "backup": 5
+    }
+  },
+  "categories": [
+    {
+      "id": "theory-authors",
+      "name": "Theory & Authors",
+      "description": "McLuhan, Debord, Murch, Eisenstein, Kuleshov, Chion, Vertov."
+    },
+    {
+      "id": "editing-techniques",
+      "name": "Editing Techniques",
+      "description": "Continuity, montage, jump cuts, eyeline, 180° rule."
+    },
+    {
+      "id": "post-production",
+      "name": "Post-Production",
+      "description": "Color, sound, captions vs motion graphics."
+    },
+    {
+      "id": "formats-codecs",
+      "name": "Formats, Codecs & Export",
+      "description": "Containers vs codecs, platform specs, reframing."
+    },
+    {
+      "id": "video-forms",
+      "name": "Video Essay & Video Art",
+      "description": "Distinctions between forms."
+    },
+    {
+      "id": "backup",
+      "name": "Backup Pool",
+      "description": "Replacement questions; not part of the default 15-question set."
+    }
+  ],
+  "questions": [
+    {
+      "answers": [
+        {
+          "text": "Advertising must be tailored to each medium for maximum reach across diverse audience demographics worldwide.",
+          "fraction": 0,
+          "feedback": "A marketing tactic, not McLuhan's thesis. See Week 01: Introduction to Persuasion — The Medium is the Message."
+        },
+        {
+          "text": "The form of a medium reshapes perception more than the content it carries.",
+          "fraction": 100,
+          "feedback": "Correct. See Week 01: Introduction to Persuasion — McLuhan, The Medium is the Message."
+        },
+        {
+          "text": "A strong message can succeed independently of the medium chosen to deliver it to the target audience.",
+          "fraction": 0,
+          "feedback": "Opposite of McLuhan. Review Week 01: Introduction to Persuasion."
+        },
+        {
+          "text": "Television replaces print as the dominant medium of public discourse in the second half of the twentieth century.",
+          "fraction": 0,
+          "feedback": "Related but not the meaning of the phrase. See Week 01: Introduction to Persuasion — McLuhan reading."
+        }
+      ],
+      "id": "q001",
+      "category": "theory-authors",
+      "type": "multichoice",
+      "name": "McLuhan — medium and message",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>Recall the McLuhan reading discussed in class. \"The medium is the message\" most directly argues that:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "Story.",
+          "fraction": 0,
+          "feedback": "Story is #2 (23%). Review Week 08: Post-Production Polish — Murch hierarchy."
+        },
+        {
+          "text": "Rhythm.",
+          "fraction": 0,
+          "feedback": "Rhythm is #3 (10%). Review Week 08: Post-Production Polish — Murch hierarchy."
+        },
+        {
+          "text": "Emotion.",
+          "fraction": 100,
+          "feedback": "Correct — emotion at 51%. See Week 08: Post-Production Polish — Murch Rule of Six (51% priority)."
+        },
+        {
+          "text": "3D continuity of action across the frame.",
+          "fraction": 0,
+          "feedback": "3D continuity is at the bottom of the hierarchy (4%). See Week 08: Post-Production Polish — Murch Rule of Six."
+        }
+      ],
+      "id": "q002",
+      "category": "theory-authors",
+      "type": "multichoice",
+      "name": "Murch — Rule of Six top priority",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>From the post-production class on Walter Murch's <em>Rule of Six</em>, the highest priority when choosing where to cut is:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "Long takes preserve emotional truth more faithfully than rapidly intercut shot/reverse-shot sequences.",
+          "fraction": 0,
+          "feedback": "A separate aesthetic argument, not Kuleshov. See Week 04: Soviet Montage & Kuleshov Effect."
+        },
+        {
+          "text": "Stanislavski-trained actors produce more legible micro-expressions than untrained performers do on camera.",
+          "fraction": 0,
+          "feedback": "Acting theory, not the Kuleshov experiment. Review Week 04: Soviet Montage & Kuleshov."
+        },
+        {
+          "text": "A face's meaning is shaped by the shot that follows it.",
+          "fraction": 100,
+          "feedback": "Correct — meaning is constructed by editing context. See Week 04: Soviet Montage & Kuleshov Effect."
+        },
+        {
+          "text": "Black-and-white footage carries stronger emotional weight than colour footage for early-cinema audiences.",
+          "fraction": 0,
+          "feedback": "Not a Kuleshov claim. Review Week 04: Soviet Montage & Kuleshov Effect."
+        }
+      ],
+      "id": "q003",
+      "category": "theory-authors",
+      "type": "multichoice",
+      "name": "Kuleshov effect",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>The Kuleshov effect demonstrates that:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "A sound whose source is heard but not yet seen on screen.",
+          "fraction": 100,
+          "feedback": "Correct. Chion uses \"acousmatic\" for sound separated from a visible source. See Week 11: Audio Mixing for Advertisement — Chion and acousmatic sound."
+        },
+        {
+          "text": "A sound that is recorded without compression so that its waveform remains mathematically lossless.",
+          "fraction": 0,
+          "feedback": "That describes a technical audio format issue, not Chion''s film-sound concept. Review Week 11: Audio Mixing — Chion and film-sound vocabulary."
+        },
+        {
+          "text": "A sound effect synchronized exactly to a visible movement so the cut feels seamless.",
+          "fraction": 0,
+          "feedback": "This confuses acousmatic sound with synchronization. See Week 11: Audio Mixing — diegetic, non-diegetic, and Chion vocabulary."
+        },
+        {
+          "text": "A musical cue that exists outside the story world and can only be heard by the audience.",
+          "fraction": 0,
+          "feedback": "That is non-diegetic sound. Acousmatic sound is defined by whether the source is visible, not simply by story-world status."
+        }
+      ],
+      "id": "q004",
+      "category": "theory-authors",
+      "type": "multichoice",
+      "name": "Chion — acousmatic sound",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>In Michel Chion's vocabulary, an <em>acousmatic</em> sound is:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "Cutting on motion to preserve the spatial continuity of the action across the cut.",
+          "fraction": 0,
+          "feedback": "Continuity editing — what Eisenstein contested. See Week 04: Soviet Montage & Kuleshov Effect — Eisenstein montage types."
+        },
+        {
+          "text": "Alternating shot lengths rapidly to drive the emotional rhythm of the sequence forward across the climax.",
+          "fraction": 0,
+          "feedback": "Closer to rhythmic montage, a different category. Review Week 04: Soviet Montage — Eisenstein typology."
+        },
+        {
+          "text": "Synchronizing visual cuts to musical beats sourced from the orchestral score of the film itself.",
+          "fraction": 0,
+          "feedback": "Tonal montage relates to mood/key, not literal beat-sync. See Week 04: Soviet Montage — Eisenstein montage categories."
+        },
+        {
+          "text": "Juxtaposing two shots to generate a concept that exists in neither shot alone.",
+          "fraction": 100,
+          "feedback": "Correct — dialectical synthesis. See Week 04: Soviet Montage & Kuleshov Effect — Intellectual montage."
+        }
+      ],
+      "id": "q005",
+      "category": "theory-authors",
+      "type": "multichoice",
+      "name": "Eisenstein — intellectual montage",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>Eisenstein's \"intellectual montage\" produces meaning by:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "A jump cut, eliding part of the action in a temporally jarring way for stylistic effect on screen.",
+          "fraction": 0,
+          "feedback": "Jump cuts are about temporal elision, not the spatial axis. Review Week 03: Continuity & Gestalt — 180° rule."
+        },
+        {
+          "text": "Apparent reversal of screen direction, disorienting the viewer.",
+          "fraction": 100,
+          "feedback": "Correct. See Week 03: Continuity & Gestalt — 180° rule violation consequences."
+        },
+        {
+          "text": "A match-on-action that maintains continuity through the kinetic momentum of on-screen movement itself.",
+          "fraction": 0,
+          "feedback": "Match-on-action is unrelated to the 180° axis. See Week 03: Continuity & Gestalt — match cuts and axis."
+        },
+        {
+          "text": "A graphic match exploiting the visual similarity between two shapes from different times and places.",
+          "fraction": 0,
+          "feedback": "Graphic match is about composition, not the axis line. Review Week 03: Continuity & Gestalt."
+        }
+      ],
+      "id": "q006",
+      "category": "editing-techniques",
+      "type": "multichoice",
+      "name": "180-degree rule",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>Crossing the 180° axis between two consecutive shots most commonly produces:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "True",
+          "fraction": 100,
+          "feedback": "Correct. See Week 05: Breaking Rules & Experimental — Godard and the jump cut."
+        },
+        {
+          "text": "False",
+          "fraction": 0,
+          "feedback": "It is true. Review Week 05: Breaking Rules & Experimental — Nouvelle Vague techniques."
+        }
+      ],
+      "id": "q007",
+      "category": "editing-techniques",
+      "type": "truefalse",
+      "name": "Jump cut origin",
+      "points": 2,
+      "question": "<p>The jump cut became a defining stylistic device of the <em>Nouvelle Vague</em>, popularised by Godard's <em>Breathless</em> (1960).</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "Mark a temporal ellipsis by overlapping two simultaneous events into one continuous spatial frame for the viewer.",
+          "fraction": 0,
+          "feedback": "Describes split-screen, not an L-cut. See Week 03: Continuity & Gestalt — split edits and L-cuts."
+        },
+        {
+          "text": "Insert a cutaway shot between two pieces of dialogue while maintaining the same shot scale on both speakers.",
+          "fraction": 0,
+          "feedback": "Generic cutaway — does not require an L-cut. Review Week 03: Continuity & Gestalt — J-cuts and L-cuts."
+        },
+        {
+          "text": "Carry audio from the outgoing shot under the incoming picture.",
+          "fraction": 100,
+          "feedback": "Correct — smooths the transition. See Week 03: Continuity & Gestalt — split edits (J-cuts and L-cuts)."
+        },
+        {
+          "text": "Trim a clip's in-point and out-point simultaneously by a fixed number of frames using the slip-edit tool.",
+          "fraction": 0,
+          "feedback": "That is a slip edit. Review Week 03: Continuity & Gestalt — trim vs slip vs slide edits."
+        }
+      ],
+      "id": "q008",
+      "category": "editing-techniques",
+      "type": "multichoice",
+      "name": "L-cut / split edit",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>An <em>L-cut</em> (split edit) is most commonly used to:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "Captions are always burned in (open) and motion graphics are always sidecar files attached to the export container of the deliverable.",
+          "fraction": 0,
+          "feedback": "Both can be open or sidecar. See Week 08: Post-Production Polish — Captions vs motion graphics."
+        },
+        {
+          "text": "Captions and motion graphics are now governed by the unified CEA-708 broadcast standard for digital deliverables across all major platforms.",
+          "fraction": 0,
+          "feedback": "Honeypot — CEA-708 covers closed captions only. Review Week 08: Post-Production Polish — caption standards."
+        },
+        {
+          "text": "Captions transliterate spoken audio for accessibility; motion graphics are designed visual elements.",
+          "fraction": 100,
+          "feedback": "Correct. See Week 08: Post-Production Polish — captions vs motion graphics distinction."
+        },
+        {
+          "text": "Motion graphics are exported in SRT or VTT sidecar files while captions are baked into .mogrt template format inside Adobe ecosystems.",
+          "fraction": 0,
+          "feedback": "Inverted definitions. Review Week 08: Post-Production Polish — captions and subtitles."
+        }
+      ],
+      "id": "q009",
+      "category": "post-production",
+      "type": "multichoice",
+      "name": "Captions vs motion graphics",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>Which statement most precisely captures the distinction between <em>captions</em> and <em>motion-graphics text</em>?</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "After the creative grade so that aesthetic choices remain visible across all tonal regions of the image throughout the edit.",
+          "fraction": 0,
+          "feedback": "Inverted workflow. See Week 08: Post-Production Polish — Lumetri Color workflow (primary before creative)."
+        },
+        {
+          "text": "Only on Log footage, since Rec.709 footage is already neutralized at the camera and does not require correction.",
+          "fraction": 0,
+          "feedback": "Both Log and Rec.709 typically benefit from correction. Review Week 08: Post-Production Polish — color correction fundamentals."
+        },
+        {
+          "text": "Before any creative grade or LUT.",
+          "fraction": 100,
+          "feedback": "Correct — neutralize first, stylize second. See Week 08: Post-Production Polish — Lumetri Color panel workflow."
+        },
+        {
+          "text": "Exclusively in the export stage via the Adobe Media Encoder so as not to overwrite raw camera metadata.",
+          "fraction": 0,
+          "feedback": "Color is corrected in the timeline, not at export. Review Week 08: Post-Production Polish — color workflow."
+        }
+      ],
+      "id": "q010",
+      "category": "post-production",
+      "type": "multichoice",
+      "name": "Lumetri — primary correction order",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>In the Lumetri Color exercise from class, primary correction is performed:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "−23 dB — the EBU R128 broadcast standard adopted across European public-broadcasting organisations.",
+          "fraction": 0,
+          "feedback": "EBU R128 is a broadcast loudness standard, not a peak level target. See Week 11: Audio Mixing for Advertisement — peak levels and normalization."
+        },
+        {
+          "text": "−6 dB, leaving more headroom than most social/streaming masters need for normal delivery.",
+          "fraction": 0,
+          "feedback": "Too conservative for this course target — it can waste dynamic range without additional benefit for most platforms. Review Week 11: Audio Mixing — optimal headroom for streaming."
+        },
+        {
+          "text": "−3 to −4 dB.",
+          "fraction": 100,
+          "feedback": "Correct. Leaves safe headroom below 0 dBFS while preserving useful dynamic range. See Week 11: Audio Mixing for Advertisement — export targets."
+        },
+        {
+          "text": "0 dB, since digital audio is calibrated relative to full scale and any negative value indicates a quieter master.",
+          "fraction": 0,
+          "feedback": "0 dBFS is full scale and would clip. Review Week 11: Audio Mixing — digital audio fundamentals."
+        }
+      ],
+      "id": "q011",
+      "category": "post-production",
+      "type": "multichoice",
+      "name": "Peak level for streaming",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>A safe peak level target for streaming delivery (YouTube, social) to leave headroom and avoid platform normalization crushing your mix is approximately:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "A container compresses video data while a codec organises the resulting bitstream into a single file with metadata for playback.",
+          "fraction": 0,
+          "feedback": "Inverted. See Week 08: Post-Production Polish — containers vs codecs."
+        },
+        {
+          "text": "A codec is the wrapper that bundles audio and video tracks while the container is the encoder responsible for compression efficiency.",
+          "fraction": 0,
+          "feedback": "Inverted definitions. Review Week 08: Post-Production Polish — export formats."
+        },
+        {
+          "text": "A container is a wrapper format; a codec is the algorithm that encodes the streams.",
+          "fraction": 100,
+          "feedback": "Correct. MP4/MOV/MKV = containers; H.264/H.265/ProRes = codecs. See Week 08: Post-Production Polish — export specifications table."
+        },
+        {
+          "text": "Containers and codecs are interchangeable; the technical literature distinguishes them mostly for legacy reasons inherited from broadcast workflows.",
+          "fraction": 0,
+          "feedback": "They are not interchangeable. See Week 08: Post-Production Polish — containers vs codecs."
+        }
+      ],
+      "id": "q012",
+      "category": "formats-codecs",
+      "type": "multichoice",
+      "name": "Container vs codec",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>Which statement correctly distinguishes a <em>container</em> from a <em>codec</em>?</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "A codec, derived from the MPEG-4 family of compression standards developed by the Moving Picture Experts Group during the 1990s.",
+          "fraction": 0,
+          "feedback": "Honeypot — common confusion. MP4 is a container, not a codec. See Week 08: Post-Production Polish — export specifications table."
+        },
+        {
+          "text": "A delivery profile defined by ISO/IEC for streaming over adaptive HTTP-based protocols in modern OTT distribution chains.",
+          "fraction": 0,
+          "feedback": "Plausible-sounding but incorrect. Review Week 08: Post-Production Polish — export formats overview."
+        },
+        {
+          "text": "A container format.",
+          "fraction": 100,
+          "feedback": "Correct — MPEG-4 Part 14 container; can hold H.264, H.265, AAC, etc. See Week 08: Post-Production Polish — export specifications table."
+        },
+        {
+          "text": "A proprietary Apple format originally designed for QuickTime that was later adopted as a generic web video standard.",
+          "fraction": 0,
+          "feedback": "MP4 is an open ISO standard; QuickTime .mov is the Apple format. Review Week 08: Post-Production Polish — containers vs codecs."
+        }
+      ],
+      "id": "q013",
+      "category": "formats-codecs",
+      "type": "multichoice",
+      "name": "MP4 — what is it?",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>MP4 (.mp4) is best classified as:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "Scale the original up by approximately 178% so the 1080-pixel height fills the 1920-pixel target frame entirely without any background fill.",
+          "fraction": 0,
+          "feedback": "Forces a 178% upscale on the main image. See Week 07: Production Sprint – Team Videothon — reframing strategies."
+        },
+        {
+          "text": "Apply Premiere's Auto Reframe with the slowest motion-tracking preset to follow subject motion across all shots in the timeline.",
+          "fraction": 0,
+          "feedback": "Auto Reframe still upscales 1080-height source. Review Week 08: Post-Production Polish — Auto Reframe limitations."
+        },
+        {
+          "text": "Keep the main subject at native scale, center/crop it as needed, and fill the vertical frame with a blurred copy.",
+          "fraction": 100,
+          "feedback": "Correct — the subject stays 1:1 with no upscaling; the blurred layer fills the empty vertical space. See Week 07: Production Sprint – Team Videothon — reframing strategies."
+        },
+        {
+          "text": "Export at 1920×1080 with a 9:16 metadata flag attached to the container and let the platform crop the frame on playback.",
+          "fraction": 0,
+          "feedback": "Platforms ignore such metadata. Review Week 09: Digital Platforms, Algorithms & Ethics — platform specifications."
+        }
+      ],
+      "id": "q014",
+      "category": "formats-codecs",
+      "type": "multichoice",
+      "name": "Reframing horizontal to vertical",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>Your master is 1920×1080 (16:9). For TikTok delivery (1080×1920) with the original at 1080p (not 4K), which strategy preserves the most fidelity on the main subject?</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "The video essay is always narrated by an off-screen voice while video art relies exclusively on diegetic ambient sound captured during recording.",
+          "fraction": 0,
+          "feedback": "Both can use any sound strategy. See Video Essay Monograph — sound design in video essays."
+        },
+        {
+          "text": "Video essays are distributed online while video art is always installed inside galleries and museums for in-person viewing only.",
+          "fraction": 0,
+          "feedback": "Distribution channels overlap. Review Video Art Monograph — exhibition contexts and online distribution."
+        },
+        {
+          "text": "The video essay develops an argument; video art foregrounds the medium itself.",
+          "fraction": 100,
+          "feedback": "Correct — argument vs. material/formal investigation. See Video Essay Monograph and Video Art Monograph — form distinctions."
+        },
+        {
+          "text": "Video art uses experimental editing whereas the video essay is restricted to classical continuity grammar inherited from Hollywood narrative cinema.",
+          "fraction": 0,
+          "feedback": "Video essays freely use experimental techniques. Review Video Essay Monograph — stylistic approaches."
+        }
+      ],
+      "id": "q015",
+      "category": "video-forms",
+      "type": "multichoice",
+      "name": "Video essay vs video art",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>Which difference most fundamentally separates the <em>video essay</em> from <em>video art</em>?</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "The total volume of advertising and televised content circulating across mass-media channels in late capitalism.",
+          "fraction": 0,
+          "feedback": "Common misreading — Debord defines spectacle as a social relation, not a quantity of media. See Week 01: Introduction to Persuasion — Debord and the spectacle."
+        },
+        {
+          "text": "A communication strategy used by the ruling class to consolidate political power through staged public events worldwide.",
+          "fraction": 0,
+          "feedback": "Closer to a Marxist propaganda critique; Debord's concept is broader. Review Week 01: Introduction to Persuasion — Debord reading."
+        },
+        {
+          "text": "A social relation between people, mediated by images.",
+          "fraction": 100,
+          "feedback": "Correct — Debord's thesis #4. See Week 01: Introduction to Persuasion — Society of the Spectacle."
+        },
+        {
+          "text": "The subjective experience of being overwhelmed by visual stimuli in modern urban environments and screens.",
+          "fraction": 0,
+          "feedback": "Phenomenological reading; not Debord's definition. Review Week 01: Introduction to Persuasion — Debord's Society of the Spectacle."
+        }
+      ],
+      "id": "q901",
+      "category": "backup",
+      "type": "multichoice",
+      "name": "Debord — the spectacle",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>For Guy Debord, \"the spectacle\" is best understood as:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "Reproduce the perceptual habits of theatre-trained spectators within the framework of a fully cinematic medium.",
+          "fraction": 0,
+          "feedback": "Vertov rejected theatrical fiction. See Week 04: Soviet Montage & Kuleshov Effect — Vertov and kino-eye."
+        },
+        {
+          "text": "Use the camera and montage to reveal truths invisible to the human eye.",
+          "fraction": 100,
+          "feedback": "Correct. See Week 04: Soviet Montage & Kuleshov Effect — Vertov and the camera as truth-revealer."
+        },
+        {
+          "text": "Build a documentary aesthetic grounded in observational long takes captured by static cameras inside factories during work shifts.",
+          "fraction": 0,
+          "feedback": "Honeypot — confuses Vertov with later Direct Cinema. Review Week 04: Soviet Montage — Vertov montage vs observational documentary."
+        },
+        {
+          "text": "Train audiences to read intertitles as the primary bearer of meaning across silent-era propaganda films of the period.",
+          "fraction": 0,
+          "feedback": "Vertov resisted intertitles in favour of visual montage. See Week 04: Soviet Montage & Kuleshov Effect — Vertov montage aesthetics."
+        }
+      ],
+      "id": "q902",
+      "category": "backup",
+      "type": "multichoice",
+      "name": "Vertov — kino-eye",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>Vertov's <em>kino-eye</em> programme aimed to:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "2 Mbps, corresponding to the platform's baseline profile for low-bandwidth viewers on mobile networks worldwide.",
+          "fraction": 0,
+          "feedback": "Too low. See Week 09: Digital Platforms, Algorithms & Ethics — YouTube recommended bitrates."
+        },
+        {
+          "text": "8 Mbps.",
+          "fraction": 100,
+          "feedback": "Correct per official YouTube guidance. See Week 09: Digital Platforms, Algorithms & Ethics — platform specs and bitrate recommendations."
+        },
+        {
+          "text": "50 Mbps, in line with archival mezzanine recommendations published in YouTube's creator-academy advanced workflow notes.",
+          "fraction": 0,
+          "feedback": "Closer to mastering bitrates. Review Week 09: Digital Platforms, Algorithms & Ethics — mezzanine vs delivery bitrates."
+        },
+        {
+          "text": "100 Mbps, matching the bitrate ceiling YouTube imposes per resolution tier across all uploads from verified creators.",
+          "fraction": 0,
+          "feedback": "Far above recommendation. See Week 09: Digital Platforms, Algorithms & Ethics — bitrate ceilings and diminishing returns."
+        }
+      ],
+      "id": "q903",
+      "category": "backup",
+      "type": "multichoice",
+      "name": "YouTube 1080p bitrate",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>YouTube's recommended H.264 upload bitrate for SDR 1080p (24–30 fps) is approximately:</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "True",
+          "fraction": 0,
+          "feedback": "Incorrect — Instagram does not support 4K Reels; downscale to 1080×1920 before upload. See Week 09: Digital Platforms, Algorithms & Ethics — Instagram specs."
+        },
+        {
+          "text": "False",
+          "fraction": 100,
+          "feedback": "Correct — pre-downscale to 1080p. See Week 09: Digital Platforms, Algorithms & Ethics — Instagram Reels specifications."
+        }
+      ],
+      "id": "q904",
+      "category": "backup",
+      "type": "truefalse",
+      "name": "Instagram supports 4K Reels",
+      "points": 2,
+      "question": "<p>Instagram Reels currently supports 4K vertical (2160×3840) uploads natively.</p>"
+    },
+    {
+      "answers": [
+        {
+          "text": "A French <em>Nouvelle Vague</em> filmmaker known for radical jump-cut grammar in the early 1960s feature-film output.",
+          "fraction": 0,
+          "feedback": "Godard et al., not Paik. Review Video Art Monograph — Nam June Paik biography."
+        },
+        {
+          "text": "A pioneer of video art.",
+          "fraction": 100,
+          "feedback": "Correct. See Video Art Monograph — Nam June Paik and video art origins."
+        },
+        {
+          "text": "A Soviet montage theorist active in the 1920s alongside Eisenstein, Vertov and Kuleshov within the early film-school institutions.",
+          "fraction": 0,
+          "feedback": "Wrong era. Review Video Art Monograph — Nam June Paik timeline (1960s-2000s)."
+        },
+        {
+          "text": "A documentary director of observational television series for the BBC during the post-war public-broadcasting expansion.",
+          "fraction": 0,
+          "feedback": "Unrelated. See Video Art Monograph — Nam June Paik vs documentary traditions."
+        }
+      ],
+      "id": "q905",
+      "category": "backup",
+      "type": "multichoice",
+      "name": "Nam June Paik",
+      "points": 2,
+      "single": true,
+      "shuffleanswers": true,
+      "question": "<p>Nam June Paik is most often credited as:</p>"
+    }
+  ]
+}

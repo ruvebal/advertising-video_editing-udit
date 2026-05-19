@@ -8,74 +8,79 @@ source: docs
 
 markdown: kramdown
 kramdown:
-  input: GFM
-  hard_wrap: false
-  parse_block_html: true
-  parse_span_html: true
-  show_warnings: false
-  auto_ids: true
-  auto_id_stripping: true
-  smart_quotes: [lsquo, rsquo, ldquo, rdquo]
-  entity_output: as_char
-  typographic_symbols:
-    hellip: '…'
-    ndash: '–'
-    mdash: '—'
-    laquo: '«'
-    raquo: '»'
-  footnote_nr: 1
-  footnote_backlink: '↩'
-  toc_levels: 2..4
+ input: GFM
+ hard_wrap: false
+ parse_block_html: true
+ parse_span_html: true
+ show_warnings: false
+ auto_ids: true
+ auto_id_stripping: true
+ smart_quotes: [lsquo, rsquo, ldquo, rdquo]
+ entity_output: as_char
+ typographic_symbols:
+  hellip: '…'
+  ndash: '–'
+  mdash: '—'
+  laquo: '«'
+  raquo: '»'
+ footnote_nr: 1
+ footnote_backlink: '↩'
+ toc_levels: 2..4
 
 theme: null
 highlighter: rouge
 permalink: /prompts/:slug/
 
 collections:
-  prompts:
-    output: true
-    permalink: /prompts/:slug/
-  assignments:
-    output: true
-    permalink: /assignments/:name/
+ prompts:
+  output: true
+  permalink: /prompts/:slug/
+ assignments:
+  output: true
+  permalink: /assignments/:name/
 
 defaults:
-  - scope:
-      path: '_prompts'
-      type: 'prompts'
-    values:
-      layout: 'lesson'
-      status: draft
-  - scope:
-      path: '_assignments'
-    values:
-      layout: 'lesson'
-  - scope:
-      path: ''
-    values:
-      layout: 'default'
+ - scope:
+    path: '_prompts'
+    type: 'prompts'
+   values:
+    layout: 'lesson'
+    status: draft
+ - scope:
+    path: '_assignments'
+   values:
+    layout: 'lesson'
+ - scope:
+    path: ''
+   values:
+    layout: 'default'
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+ - jekyll-seo-tag
+ - jekyll-sitemap
 
 exclude:
-  - node_modules
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-  - package.json
-  - package-lock.json
-  - scripts
-  - .github
-  - astro
-  - prompts
-  - "*.analysis.md"
-  - jekyll-implementation-guide.md
-  - course-website-technical-analysis.md
-  - VIDEO_INTEGRATION_GUIDE.md
-  - VIDEO_QUICK_REFERENCE.md
-  - VIDEO_INTEGRATION_SUMMARY.md
-  - PROJECT_AUDIT.md
-  - DIRECTORY_STRUCTURE_EXPLANATION.md  - JEKYLL_BUILD_FIX.md
-  - JEKYLL_BUILD_FIX.md
+ - node_modules
+ - vendor
+ - Gemfile
+ - Gemfile.lock
+ - package.json
+ - package-lock.json
+ - scripts
+ - .github
+ - astro
+ - prompts
+ - '*.analysis.md'
+ - jekyll-implementation-guide.md
+ - course-website-technical-analysis.md
+ - VIDEO_INTEGRATION_GUIDE.md
+ - VIDEO_QUICK_REFERENCE.md
+ - VIDEO_INTEGRATION_SUMMARY.md
+ - PROJECT_AUDIT.md
+ - DIRECTORY_STRUCTURE_EXPLANATION.md
+ - JEKYLL_BUILD_FIX.md
+ - INTERACTIVE_EXAM_PLAN.md
+ - MEDIA-WEEK-08.md
+ - DIRECT_MEDIA_WEEKS_03_04.md
+ - DIRECT_MEDIA_WEEKS_04_05.md
+ - deep-research-report.md

@@ -499,8 +499,7 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 - Brands invest in polish
 
 **Examples of Continuity in Ads (watch & discuss):**
-
-    - [Dream Job | Google Pixel SB Commercial 2025](https://www.youtube.com/watch?v=-7e6g11BJc0) — Made by Google’s Super Bowl LIX spot (checked 200/OK on 2026-02-11) that tracks a father’s interview prep in a single axis, keeping eyelines and match-on-action tight while Gemini-generated prompts motivate each cut.
+{% include video-player.html platform="youtube" id="-7e6g11BJc0" title="Dream Job | Google Pixel SB Commercial 2025" timestamps="0:00|Interview Setup,0:15|Eyeline Matches,0:30|Match on Action,0:45|Emotional Build" %}
 
 ---
 

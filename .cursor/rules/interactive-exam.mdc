@@ -1,0 +1,22 @@
+---
+description: How to maintain the interactive exam route
+globs: ['docs/_data/exams/**', 'docs/exam/**', 'docs/assets/{css,js}/exam*', 'scripts/build-exam-json.js']
+alwaysApply: false
+---
+
+# Interactive Exam — Authoring Rules
+
+1. **Source of truth:** `private/exams/*.yml`. Never edit JSON by hand.
+2. **Public/private split:** Only `final-exam-example.yml` is published. The real exam never reaches `docs/_data/`.
+3. **No anti-AI in the web exam.** The interactive route is a study tool; honeypots, hidden HTML traps, and AI-detection logic stay in the proctored Moodle delivery. The build-time sanitizer (`build-exam-json.js`) must strip:
+   - `grader_info`, `canary_clusters`, `honeypot_ids`, `question_ids`, `gpt_signature_hint`, `anti_ai_level`
+   - any question whose id appears in `metadata.honeypot_ids`
+   - any HTML node with `aria-hidden="true"` whose visible style is white-on-white
+   - any HTML comment containing "HIDDEN INSTRUCTION" or "AI-HINT"
+   - any inline `style` declaring `color:#ffffff` on white background
+     If you add a new private field or trap pattern to the YAML, add it to the strip list in the same PR and add a fixture test.
+4. **Lesson links:** Every `feedback` string must reference a Week or Monograph (rule inherited from `exam-authoring.mdc`). The renderer auto-linkifies "Week NN" → `/prompts/week-NN-…/` if a matching prompt exists; otherwise the text remains plain.
+5. **No new dependencies:** Alpine.js is the only allowed runtime. No bundlers, no npm install steps for the site itself.
+6. **Accessibility budget:** All new markup must pass WCAG 2.2 AA. Run axe-core locally before merging.
+7. **Build pipeline:** Run `make exam-build` (or `node scripts/build-exam-json.js`) after editing any YAML exam. Commit both the YAML and the updated JSON together.
+8. **Moodle export:** For the real proctored exam, run `.cursor/skills/exam-forge/scripts/export-exam.sh private/exams/final-exam-real.yml --moodle-only`. Keep the Moodle XML in `private/exams-out/`; never publish it to `docs/_data/`.

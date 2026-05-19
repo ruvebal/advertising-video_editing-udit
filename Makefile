@@ -1,4 +1,4 @@
-.PHONY: help env check setup install serve build clean
+.PHONY: help env check setup install serve build clean exam-build
 
 PORT ?= 4001
 CONFIG ?= _config.yml
@@ -12,6 +12,7 @@ help:
 	@echo "make setup        Install bundler + gems"
 	@echo "make serve        Run jekyll server (PORT=$(PORT))"
 	@echo "make build        Build site"
+	@echo "make exam-build   YAML → sanitized JSON for interactive exam"
 	@echo "make clean        Remove _site"
 	@echo "make env          Show ruby/bundler used"
 
@@ -35,7 +36,10 @@ install: setup
 serve: check
 	@$(ENV) bundle _2.6.9_ exec jekyll serve --config $(CONFIG) --port $(PORT)
 
-build: check
+exam-build:
+	@node scripts/build-exam-json.js
+
+build: check exam-build
 	@$(ENV) bundle _2.6.9_ exec jekyll build --config $(CONFIG)
 
 clean:

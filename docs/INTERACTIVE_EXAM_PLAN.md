@@ -415,3 +415,69 @@ When the next course (3D, web foundations, sound design) needs an exam, the work
 ---
 
 > _"The medium is the message."_ The medium of this exam is a quiet, accessible, citable web page. The message is: **you are studying, not being surveilled.**
+
+---
+
+## 15. Implementation Report
+
+> **Date:** 2026-05-19
+> **Status:** v1.0 — Core implementation complete.
+
+### Files created
+
+| File                                       | Purpose                                                                                                                                                                                                                                                                          | Lines |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
+| `scripts/build-exam-json.js`               | YAML → sanitized JSON build script. Inline YAML parser (no npm deps). Strips all anti-AI content, private metadata, and honeypot questions.                                                                                                                                      | ~290  |
+| `docs/_data/exams/final-exam-example.json` | Generated public JSON (20 questions, 6 categories). Committed.                                                                                                                                                                                                                   | ~670  |
+| `docs/_layouts/exam.html`                  | Exam-specific layout. Extends `head.html`/`header.html`, loads Alpine.js + `exam.css` + `exam.js`. Custom study-tool footer.                                                                                                                                                     | ~65   |
+| `docs/_includes/exam-shell.html`           | Main exam template. Alpine `x-data="examApp()"` shell with header, mode bar, progress, dot nav, slide container, answer buttons, feedback, navigation, keyboard hints. Question template inlined (no separate `exam-question.html` needed).                                      | ~135  |
+| `docs/exam/sample/index.md`                | Route page. Front-matter only (`layout: exam`, `permalink: /exam/sample/`).                                                                                                                                                                                                      | 6     |
+| `docs/assets/css/exam.css`                 | Scoped styles. Uses existing `site.css` design tokens. Scroll-snap-less slide transport (translateX via Alpine), card layout, progress bar, mode switcher, answer buttons with correct/incorrect states, feedback, keyboard hints. Print stylesheet collapses slides vertically. | ~290  |
+| `docs/assets/js/exam.js`                   | Alpine.js component. Three modes (study/exam/review), localStorage persistence, 30-min timer, score calculation, keyboard nav (←/→/A-D/Enter/Esc), auto-advance in study mode. Parses question fractions from rendered DOM.                                                      | ~250  |
+| `.cursor/rules/interactive-exam.mdc`       | Cursor/Cascade authoring rule for exam routes and build pipeline.                                                                                                                                                                                                                | ~20   |
+| `AGENTS.md`                                | Agent-agnostic orientation file (Claude Code, Cody, Aider, Codex CLI).                                                                                                                                                                                                           | 7     |
+
+### Files modified
+
+| File                         | Change                                                                                            |
+| ---------------------------- | ------------------------------------------------------------------------------------------------- |
+| `Makefile`                   | Added `exam-build` target; `build` now depends on `exam-build`.                                   |
+| `_config.yml`                | Added `INTERACTIVE_EXAM_PLAN.md` and other doc `.md` files to `exclude`. Fixed malformed line 80. |
+| `docs/_includes/header.html` | Added "Exam" nav link pointing to `/exam/sample/`.                                                |
+| `CLAUDE.md`                  | Added §14 Interactive Exam (architecture, rules, anti-AI split, accessibility).                   |
+
+### Acceptance criteria status
+
+| Criterion                                                              | Status                                                                       |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `/exam/sample/` renders all 20 questions                               | **Done** — q001–q015 + q901–q905 confirmed via `grep` on built HTML.         |
+| Three modes (Study / Exam / Review) reachable via URL hash             | **Done** — `#mode=study`, `#mode=exam`, `#mode=review`.                      |
+| Keyboard-only navigation                                               | **Done** — ←/→ slides, A/B/C/D select, Enter submit, Esc exit exam.          |
+| Lighthouse ≥ 95 Accessibility, ≥ 90 Performance                        | **Pending** — requires manual Lighthouse run.                                |
+| No real exam content reachable from public URL                         | **Done** — build script only reads `*-example.yml`; real exam is gitignored. |
+| Print stylesheet produces clean A4 study sheet                         | **Done** — `@media print` collapses slides, hides nav/header.                |
+| `_kit/interactive-exam/` portable kit                                  | **Deferred** — Phase 8.1 (reusability). Not v1 scope.                        |
+| `CLAUDE.md`, `AGENTS.md`, `.cursor/rules/interactive-exam.mdc` present | **Done**.                                                                    |
+
+### Anti-AI verification
+
+```
+$ grep -ci 'HIDDEN INSTRUCTION\|AI-HINT\|honeypot_ids\|grader_info\|anti_ai_level\|gpt_signature\|color:#ffffff' _site/exam/sample/index.html
+0
+```
+
+Zero anti-AI content in the public HTML. The build-time sanitizer strips all private metadata and trap patterns before the JSON is written. The web exam is a clean study tool.
+
+### Architecture deviation from plan
+
+- **`exam-question.html` include not created.** The question template is inlined in `exam-shell.html` for simplicity — the template uses Jekyll `{% for %}` loops over `site.data.exams['final-exam-example'].questions`, making a separate include unnecessary for 20 questions. Can be refactored if the template grows.
+- **`exam-vanilla.js` fallback not created.** Deferred to Phase 4 follow-up. Alpine.js CDN is reliable; a self-hosted copy (`assets/js/vendor/alpine-3.14.8.min.js`) is the recommended mitigation per §11.
+- **Slide transport uses `translateX` instead of CSS `scroll-snap`.** Alpine's reactive `currentIndex` drives `transform: translateX(-N%)` for cleaner state management. The visual result is identical; `prefers-reduced-motion` disables the transition.
+
+### Next steps
+
+1. **Lighthouse audit** — run `npx lighthouse http://localhost:4001/advertising-video_editing-udit/exam/sample/ --only-categories=accessibility,performance`.
+2. **Self-host Alpine.js** — download pinned copy to `assets/js/vendor/` to eliminate CDN dependency.
+3. **`exam-vanilla.js`** — progressive-enhancement fallback if Alpine fails to load.
+4. **CI step** — fail build if YAML and JSON are out of sync (`make exam-build && git diff --exit-code docs/_data/exams/`).
+5. **`_kit/` portable directory** — extract reusable files for sister repos.

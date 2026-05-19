@@ -1,0 +1,163 @@
+{% assign exam = site.data.exams['final-exam-example'] %}
+
+<div class="exam-study-notice">
+	<span class="exam-study-notice__icon" aria-hidden="true">📚</span>
+	<span>This is a <strong>study version</strong>. The graded exam is delivered separately and is not available online.</span>
+</div>
+
+<div class="exam-container"
+     x-data="examApp()"
+     x-init="init()"
+     @keydown.left.window="prevQuestion()"
+     @keydown.right.window="nextQuestion()"
+     @keydown.escape.window="handleEscape()">
+
+	<!-- Exam Header -->
+	<div class="exam-header">
+		<div class="exam-header-inner">
+			<div class="exam-title-row">
+				<h1 class="exam-title">{{ exam.metadata.title }} <span class="beta-badge">Beta</span></h1>
+				<div class="exam-meta">
+					<span class="exam-meta-item" x-text="totalQuestions + ' questions'"></span>
+					<span class="exam-meta-sep">·</span>
+					<span class="exam-meta-item" x-text="totalPoints + ' pts'"></span>
+					<span class="exam-meta-sep" x-show="mode === 'exam'">·</span>
+					<span class="exam-timer" x-show="mode === 'exam'" x-text="timerDisplay"></span>
+				</div>
+			</div>
+
+			<!-- Mode switcher -->
+			<div class="exam-mode-bar">
+				<button class="exam-mode-btn" :class="{ 'active': mode === 'study' }"
+						@click="setMode('study')">Study</button>
+				<button class="exam-mode-btn" :class="{ 'active': mode === 'exam' }"
+						@click="setMode('exam')">Exam</button>
+				<button class="exam-mode-btn" :class="{ 'active': mode === 'review' }"
+						@click="setMode('review')" :disabled="!submitted">Review</button>
+			</div>
+
+			<!-- Progress bar -->
+			<div class="exam-progress-bar" role="progressbar"
+				 :aria-valuenow="answeredCount" :aria-valuemin="0" :aria-valuemax="totalQuestions"
+				 :aria-label="'Progress: ' + answeredCount + ' of ' + totalQuestions + ' answered'">
+				<div class="exam-progress-track">
+					<div class="exam-progress-fill" :style="'width:' + progressPercent + '%'"></div>
+				</div>
+				<span class="exam-progress-label" x-text="answeredCount + '/' + totalQuestions"></span>
+			</div>
+
+			<!-- Question dots nav -->
+			<div class="exam-dots" role="tablist" aria-label="Question navigation">
+				<template x-for="(q, idx) in questions" :key="q.id">
+					<button class="exam-dot"
+							:class="{
+								'current': idx === currentIndex,
+								'answered': answers[q.id] !== undefined && answers[q.id] !== null,
+								'correct': mode === 'review' && isCorrect(q.id),
+								'incorrect': mode === 'review' && answers[q.id] !== undefined && answers[q.id] !== null && !isCorrect(q.id)
+							}"
+							:aria-label="'Question ' + (idx + 1)"
+							:aria-selected="idx === currentIndex"
+							role="tab"
+							@click="goTo(idx)">
+					</button>
+				</template>
+			</div>
+		</div>
+	</div>
+
+	<!-- Questions Slide Container -->
+	<div class="exam-slides-viewport">
+		<div class="exam-slides" :style="'transform: translateX(-' + (currentIndex * 100) + '%)'">
+			{% for q in exam.questions %}
+			<section class="exam-slide"
+					 role="group"
+					 aria-labelledby="q{{ q.id }}-title"
+					 id="slide-{{ q.id }}">
+				<div class="exam-card">
+					<!-- Question header -->
+					<div class="exam-q-header">
+						<span class="exam-q-number" id="q{{ q.id }}-title">
+							Q<span x-text="getDisplayIndex('{{ q.id }}')"></span>
+							/ <span x-text="totalQuestions"></span>
+						</span>
+						<span class="exam-q-category">{{ q.category }}</span>
+						<span class="exam-q-points">{{ q.points }} pts</span>
+					</div>
+
+					<!-- Question stem -->
+					<div class="exam-q-stem">
+						{{ q.question }}
+					</div>
+
+					<!-- Answer options -->
+					<div class="exam-answers" role="radiogroup" aria-label="Answer choices">
+						{% for a in q.answers %}
+						<button class="exam-answer-btn"
+								:class="{
+									'selected': answers['{{ q.id }}'] === {{ forloop.index0 }},
+									'correct-answer': (mode === 'study' && answers['{{ q.id }}'] === {{ forloop.index0 }} && {{ a.fraction }} > 0) || (mode === 'review' && {{ a.fraction }} > 0),
+									'incorrect-answer': (mode === 'study' && answers['{{ q.id }}'] === {{ forloop.index0 }} && {{ a.fraction }} === 0) || (mode === 'review' && answers['{{ q.id }}'] === {{ forloop.index0 }} && {{ a.fraction }} === 0)
+								}"
+								:disabled="mode === 'review' || (mode === 'study' && answers['{{ q.id }}'] !== undefined && answers['{{ q.id }}'] !== null)"
+								role="radio"
+								:aria-checked="answers['{{ q.id }}'] === {{ forloop.index0 }}"
+								@click="selectAnswer('{{ q.id }}', {{ forloop.index0 }})">
+							<span class="exam-answer-marker"
+								  x-text="'{{ "ABCD" | slice: forloop.index0, 1 }}'"></span>
+							<span class="exam-answer-text">{{ a.text }}</span>
+						</button>
+
+						<!-- Feedback (study mode: show for selected; review: show for selected + correct) -->
+						<div class="exam-feedback"
+							 x-show="(mode === 'study' && answers['{{ q.id }}'] === {{ forloop.index0 }}) || (mode === 'review' && (answers['{{ q.id }}'] === {{ forloop.index0 }} || {{ a.fraction }} > 0))"
+							 x-transition>
+							<span class="exam-feedback-icon" x-text="{{ a.fraction }} > 0 ? '✓' : '✗'"></span>
+							<span class="exam-feedback-text">{{ a.feedback }}</span>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</section>
+			{% endfor %}
+		</div>
+	</div>
+
+	<!-- Navigation -->
+	<div class="exam-nav">
+		<button class="exam-nav-btn" @click="prevQuestion()" :disabled="currentIndex === 0">
+			<span aria-hidden="true">←</span> Prev
+		</button>
+
+		<div class="exam-nav-center">
+			<!-- Submit button (exam mode) -->
+			<button class="exam-submit-btn"
+					x-show="mode === 'exam' && !submitted"
+					@click="submitExam()"
+					:disabled="answeredCount < totalQuestions">
+				Submit Exam
+			</button>
+
+			<!-- Score display (after submit or review) -->
+			<div class="exam-score" x-show="submitted || mode === 'review'">
+				<span class="exam-score-label">Score:</span>
+				<span class="exam-score-value" x-text="score + '/' + totalPoints + ' pts'"></span>
+				<span class="exam-score-pct" x-text="'(' + scorePct + '%)'"></span>
+			</div>
+
+			<!-- Reset button -->
+			<button class="exam-reset-btn" @click="resetExam()" aria-label="Reset exam">
+				↺ Reset
+			</button>
+		</div>
+
+		<button class="exam-nav-btn" @click="nextQuestion()" :disabled="currentIndex >= totalQuestions - 1">
+			Next <span aria-hidden="true">→</span>
+		</button>
+	</div>
+
+	<!-- Keyboard hints -->
+	<div class="exam-keyboard-hint">
+		<kbd>←</kbd><kbd>→</kbd> navigate · <kbd>A</kbd><kbd>B</kbd><kbd>C</kbd><kbd>D</kbd> select answer
+	</div>
+</div>

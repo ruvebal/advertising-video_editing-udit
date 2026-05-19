@@ -2,8 +2,15 @@
 
 A comprehensive 10-week course blending theory, technique, and ethics in video editing for advertising. Master Adobe Premiere Pro while developing a critical understanding of persuasive media.
 
-**Author:** Rubén Vega Balbás, PhD · UDIT  
-**ORCID:** [0000-0001-6862-9081](https://orcid.org/0000-0001-6862-9081)
+**Course:** Advertising & Video Editing for Digital Media  
+**Institution:** [UDIT](https://udit.es/) (Universidad de Diseño, Innovación y Tecnología)  
+**Email:** ruben.vega@udit.es  
+**ORCID:** [0000-0001-6862-9081](https://orcid.org/0000-0001-6862-9081)  
+**Instructor:** Rubén Vega Balbás, PhD — Creative Technologist & Educator  
+**Affiliation:** ECSIT / UDIT (research & teaching)  
+**Duration:** 10 weeks  
+**Tools:** Adobe Premiere Pro + critical theory  
+**License:** CC BY-NC-SA 4.0 (Creative Commons — Non-Commercial, Share-Alike)
 
 ---
 
@@ -13,16 +20,16 @@ This course website was developed with AI assistance following the **docs-first 
 
 ### How AI Was Used
 
-| Area | Description |
-|------|-------------|
+| Area                    | Description                                                        |
+| ----------------------- | ------------------------------------------------------------------ |
 | **Research Assistance** | Literature review, reference organization, and content structuring |
-| **Web Composing** | Layout design, CSS styling, and responsive implementation |
-| **Deployment** | Build configuration, Jekyll setup, and GitHub Pages integration |
-| **Documentation** | Course materials, lesson plans, and resource organization |
+| **Web Composing**       | Layout design, CSS styling, and responsive implementation          |
+| **Deployment**          | Build configuration, Jekyll setup, and GitHub Pages integration    |
+| **Documentation**       | Course materials, lesson plans, and resource organization          |
 
 ### Our Approach to AI
 
-> *"AI exists to AMPLIFY human intention, not to replace it."*
+> _"AI exists to AMPLIFY human intention, not to replace it."_
 
 We follow these principles:
 
@@ -73,7 +80,7 @@ Before every AI-assisted task, we ask:
 
 This project follows the **AI-Assisted Development: A Practical Guide** methodology developed by the author. For the complete framework including ethics, prompt architecture, and implementation workflows, see:
 
-> [Desarrollo Asistido por IA: Guía Práctica](https://ruvebal.github.io/web-atelier/methodology/es/ai-practical-guide/)
+> [Desarrollo Asistido por IA: Guía Práctica](https://ruvebal.github.io/web-atelier-udit/methodology/es/ai-practical-guide/)
 
 ---
 
@@ -81,4 +88,4 @@ This project follows the **AI-Assisted Development: A Practical Guide** methodol
 
 Content: **CC BY-NC-SA 4.0**
 
-*Critical Coding for a Better Living.*
+_Critical Coding for a Better Living._

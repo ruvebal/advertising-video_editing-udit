@@ -1,11 +1,13 @@
 # CLAUDE.md — Advertising & Video Editing Course (UDIT)
 
-> *"AI exists to AMPLIFY human intention, not to replace it."*
+> _"AI exists to AMPLIFY human intention, not to replace it."_
 
 **Course:** Advertising & Video Editing for Digital Media
-**Institution:** UDIT (Universitat Autònoma de Barcelona)
-**Instructor:** Rubén Vega Balbás, PhD — Creative Technologist & Educator — ruvebal@crea-comm.net
-**Affiliation:** ECSIT / UDIT (research & teaching)
+**Institution:** [UDIT](https://udit.es/) (Universidad de Diseño, Innovación y Tecnología)  
+**Email:** ruben.vega@udit.es  
+**ORCID:** [0000-0001-6862-9081](https://orcid.org/0000-0001-6862-9081)  
+**Instructor:** Rubén Vega Balbás, PhD — Creative Technologist & Educator  
+**Affiliation:** ECSIT / UDIT (research & teaching)  
 **Duration:** 10 weeks
 **Tools:** Adobe Premiere Pro + critical theory
 **License:** CC BY-NC-SA 4.0 (Creative Commons — Non-Commercial, Share-Alike)
@@ -26,6 +28,7 @@
 ### **Course Outcomes**
 
 By week 10, students will:
+
 - Master Premiere Pro workflow (timelines, effects, sound design, color grading)
 - Understand film/advertising history from early cinema through digital media
 - Apply montage theory (Kuleshov, Soviet montage, semantic montage)
@@ -95,18 +98,18 @@ advertising-video_editing-udit/
 
 ## 3. Curriculum Overview (10 Weeks)
 
-| Week | Topic | Theory | Technique | Assignment |
-|------|-------|--------|-----------|------------|
-| **1** | Introduction to Advertising | Semiotics, rhetoric, persuasion | Premiere Pro basics | Video analysis |
-| **2** | Early Cinema & Tricks | Méliès, Lumière, primitive montage | Transitions, effects | Analyze historical edit |
-| **3** | Continuity & Gestalt | Soviet montage aftermath, continuity editing | J-cuts, L-cuts, spatial continuity | Continuity edit |
-| **4** | Soviet Montage & Kuleshov | Eisenstein, collision montage, meaning-making | Rhythmic montage | Montage sequence |
-| **5** | Breaking Rules: Experimental | Jump cuts, discontinuity, artistic montage | Creative transitions | Experimental edit (30–60s) |
-| **6** | Advertising Formats & Storytelling | Commercial structure, brand narratives, 6-second spots | Copywriting, music sync, pacing | Ad concept development |
-| **7** | Team Production (Videothon) | Production workflow, collaborative storytelling | Crew roles, scheduling | Group-produced ad (60–90s) |
-| **8** | Post-Production & Polish | Color grading, sound design, mastering | Lumetri, Audition, mixing | Professional grade |
-| **9** | Platforms, Ethics & Algorithms | Social media, YouTube, TikTok; algorithmic bias | Publishing, metadata, platform-specific edits | Ethical audit of own work |
-| **10** | Final Showcase & Reflection | Exhibition, critique, career discussion | Reel creation, portfolio | Complete final piece + artist statement |
+| Week   | Topic                              | Theory                                                 | Technique                                     | Assignment                              |
+| ------ | ---------------------------------- | ------------------------------------------------------ | --------------------------------------------- | --------------------------------------- |
+| **1**  | Introduction to Advertising        | Semiotics, rhetoric, persuasion                        | Premiere Pro basics                           | Video analysis                          |
+| **2**  | Early Cinema & Tricks              | Méliès, Lumière, primitive montage                     | Transitions, effects                          | Analyze historical edit                 |
+| **3**  | Continuity & Gestalt               | Soviet montage aftermath, continuity editing           | J-cuts, L-cuts, spatial continuity            | Continuity edit                         |
+| **4**  | Soviet Montage & Kuleshov          | Eisenstein, collision montage, meaning-making          | Rhythmic montage                              | Montage sequence                        |
+| **5**  | Breaking Rules: Experimental       | Jump cuts, discontinuity, artistic montage             | Creative transitions                          | Experimental edit (30–60s)              |
+| **6**  | Advertising Formats & Storytelling | Commercial structure, brand narratives, 6-second spots | Copywriting, music sync, pacing               | Ad concept development                  |
+| **7**  | Team Production (Videothon)        | Production workflow, collaborative storytelling        | Crew roles, scheduling                        | Group-produced ad (60–90s)              |
+| **8**  | Post-Production & Polish           | Color grading, sound design, mastering                 | Lumetri, Audition, mixing                     | Professional grade                      |
+| **9**  | Platforms, Ethics & Algorithms     | Social media, YouTube, TikTok; algorithmic bias        | Publishing, metadata, platform-specific edits | Ethical audit of own work               |
+| **10** | Final Showcase & Reflection        | Exhibition, critique, career discussion                | Reel creation, portfolio                      | Complete final piece + artist statement |
 
 ---
 
@@ -137,6 +140,7 @@ advertising-video_editing-udit/
 ### **Pedagogical Pattern**
 
 Each lesson follows **spiral learning**:
+
 - Review previous technique in new context
 - Introduce 1–2 new core skills
 - Apply to creative challenge
@@ -185,9 +189,9 @@ DevIAC MCP ──context retrieval──→ Cursor IDE (when teaching)
 
 - **Pedagogical Aphorisms** — Week-end reflections captured as TTOD quotes (origin: `teaching`, scope: `advertising-video-editing`)
 - **Example Aphorisms** (captured from this course):
-  - *"Montage is not assembly; montage is collision. The gap between shots is where meaning happens."*
-  - *"Advertising whispers to the unconscious. Understanding this is the first step toward ethical creation."*
-  - *"A jump cut is a contract with the viewer: you decide to break the fourth wall together."*
+  - _"Montage is not assembly; montage is collision. The gap between shots is where meaning happens."_
+  - _"Advertising whispers to the unconscious. Understanding this is the first step toward ethical creation."_
+  - _"A jump cut is a contract with the viewer: you decide to break the fourth wall together."_
 
 ---
 
@@ -195,12 +199,12 @@ DevIAC MCP ──context retrieval──→ Cursor IDE (when teaching)
 
 ### **How AI Was Used in This Course**
 
-| Area | Description | Ethical Justification |
-|------|-------------|----------------------|
-| **Research** | Literature review, reference organization | AI handles mechanical search; human curates meaning |
-| **Lesson Design** | Template creation, prompt structure | AI as apprentice to pedagogy, not replacement |
-| **Web Implementation** | Layout, CSS, responsive design | Frees author to focus on content & theory |
-| **Documentation** | Resource organization, accessibility features | Amplifies human vision through automation |
+| Area                   | Description                                   | Ethical Justification                               |
+| ---------------------- | --------------------------------------------- | --------------------------------------------------- |
+| **Research**           | Literature review, reference organization     | AI handles mechanical search; human curates meaning |
+| **Lesson Design**      | Template creation, prompt structure           | AI as apprentice to pedagogy, not replacement       |
+| **Web Implementation** | Layout, CSS, responsive design                | Frees author to focus on content & theory           |
+| **Documentation**      | Resource organization, accessibility features | Amplifies human vision through automation           |
 
 ### **Student Awareness**
 
@@ -210,7 +214,7 @@ DevIAC MCP ──context retrieval──→ Cursor IDE (when teaching)
 
 ### **Instructor Transparency**
 
-> "This course was built with AI assistance following the *Desarrollo Asistido por IA: Guía Práctica* methodology I published. My commitment: I have reviewed all content, I understand every pedagogical decision, and I take full responsibility for what you learn here."
+> "This course was built with AI assistance following the _Desarrollo Asistido por IA: Guía Práctica_ methodology I published. My commitment: I have reviewed all content, I understand every pedagogical decision, and I take full responsibility for what you learn here."
 
 ---
 
@@ -243,12 +247,12 @@ DevIAC MCP ──context retrieval──→ Cursor IDE (when teaching)
 
 ### **Implicit Grading Criteria** (from lesson prompts)
 
-| Dimension | Excellent | Good | Fair | Poor |
-|-----------|-----------|------|------|------|
-| **Technical Mastery** | Flawless execution, creative tool use | Clean edits, proper pacing | Some timing issues | Amateurish, rough cuts |
-| **Conceptual Depth** | Original idea, theoretically grounded | Clear creative intent | Conventional, safe | No apparent concept |
-| **Artistic Vision** | Distinctive voice, takes risks | Competent, professional | Derivative | Confused intent |
-| **Ethical Reflection** | Critiques own work, cultural awareness | Acknowledges ethics | Mentions ethics superficially | No reflection |
+| Dimension              | Excellent                              | Good                       | Fair                          | Poor                   |
+| ---------------------- | -------------------------------------- | -------------------------- | ----------------------------- | ---------------------- |
+| **Technical Mastery**  | Flawless execution, creative tool use  | Clean edits, proper pacing | Some timing issues            | Amateurish, rough cuts |
+| **Conceptual Depth**   | Original idea, theoretically grounded  | Clear creative intent      | Conventional, safe            | No apparent concept    |
+| **Artistic Vision**    | Distinctive voice, takes risks         | Competent, professional    | Derivative                    | Confused intent        |
+| **Ethical Reflection** | Critiques own work, cultural awareness | Acknowledges ethics        | Mentions ethics superficially | No reflection          |
 
 ### **Formative vs. Summative**
 
@@ -262,15 +266,15 @@ DevIAC MCP ──context retrieval──→ Cursor IDE (when teaching)
 
 ### **Essential Reading**
 
-- Eisenstein, S. *Film Form* (montage theory)
-- Bordwell, D. & Thompson, K. *Film Art: An Introduction* (continuity & semantics)
-- Williams, R. *Television: Technology & Cultural Form* (media criticism)
-- Jhally, S. *Codes of Advertising* (semiotics of commercials)
+- Eisenstein, S. _Film Form_ (montage theory)
+- Bordwell, D. & Thompson, K. _Film Art: An Introduction_ (continuity & semantics)
+- Williams, R. _Television: Technology & Cultural Form_ (media criticism)
+- Jhally, S. _Codes of Advertising_ (semiotics of commercials)
 
 ### **Film References**
 
 - Early cinema: Lumière brothers, Méliès
-- Soviet montage: Eisenstein (*Battleship Potemkin*), Vertov (*Man with a Movie Camera*)
+- Soviet montage: Eisenstein (_Battleship Potemkin_), Vertov (_Man with a Movie Camera_)
 - Advertising: Iconic commercials (Apple, Nike, Patagonia, etc.)
 - Contemporary: Music videos, short-form content, TikTok analysis
 
@@ -324,14 +328,33 @@ DevIAC MCP ──context retrieval──→ Cursor IDE (when teaching)
 
 ## 13. External References
 
-| Resource | Purpose |
-|----------|---------|
-| [`Desarrollo Asistido por IA: Guía Práctica`](https://ruvebal.github.io/web-atelier/methodology/es/ai-practical-guide/) | Author's published methodology for AI-assisted development |
-| [Web Atelier (UDIT)](https://ruvebal.github.io/web-atelier/) | Broader course ecosystem (web foundations, 3D, etc.) |
-| [ADADI.org](https://adadi.org/) | Professional association website (sister teaching project) |
-| [Arkadia](../../../src/arkadia/) | Studio knowledge platform (RAG for research support) |
+| Resource                                                                                                                     | Purpose                                                    |
+| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [`Desarrollo Asistido por IA: Guía Práctica`](https://ruvebal.github.io/web-atelier-udit/methodology/es/ai-practical-guide/) | Author's published methodology for AI-assisted development |
+| [Web Atelier (UDIT)](https://ruvebal.github.io/web-atelier/)                                                                 | Broader course ecosystem (web foundations, 3D, etc.)       |
+| [ADADI.org](https://adadi.org/)                                                                                              | Professional association website (sister teaching project) |
+| [Arkadia](../../../src/arkadia/)                                                                                             | Studio knowledge platform (RAG for research support)       |
 
 ---
 
-> *"The edit is where the film truly speaks. Master the tool, then forget the tool, and let the story tell itself."*
+## 14. Interactive Exam
+
+The course includes an interactive web-based sample exam at `/exam/sample/`. It renders `private/exams/final-exam-example.yml` as a slide-per-question study tool.
+
+**Architecture:** YAML → `scripts/build-exam-json.js` → `docs/_data/exams/final-exam-example.json` → Jekyll layout + Alpine.js.
+
+**Key rules:**
+
+- **Source of truth:** `private/exams/*.yml`. Never edit JSON by hand; run `make exam-build`.
+- **Anti-AI split:** The web exam contains **zero** honeypots, hidden HTML traps, or AI-detection logic. Those stay exclusively in `final-exam-real.yml` for the proctored Moodle exam. The build script sanitizes all such content before publishing JSON.
+- **One library:** Alpine.js (~15 KB CDN). No React, no bundlers, no npm for the site.
+- **Three modes:** Study (immediate feedback), Exam (30-min timer, submit), Review (all answers + correct + lesson links).
+- **Lesson links:** Every feedback string references a Week or Monograph, turning wrong answers into directed remediation.
+- **Accessibility:** WCAG 2.2 AA — keyboard navigation (←/→, A/B/C/D), `role="group"`, `role="radiogroup"`, `prefers-reduced-motion`.
+
+See `docs/INTERACTIVE_EXAM_PLAN.md` for the full design rationale and `.cursor/rules/interactive-exam.mdc` for authoring rules.
+
+---
+
+> _"The edit is where the film truly speaks. Master the tool, then forget the tool, and let the story tell itself."_
 > — Paraphrasing Eisenstein + Kieślowski
