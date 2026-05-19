@@ -31,3 +31,13 @@ package-lock.json
 # IDE/project files
 .vscode/
 .idea/
+
+# Exam Forge — YAML banks and LMS exports (see private/README.md)
+private/exams/
+private/exams-out/
+**/private/exams/
+**/private/exams-out/
+*-moodle.xml
+*-qti/
+*-qti.zip
+!private/README.md
