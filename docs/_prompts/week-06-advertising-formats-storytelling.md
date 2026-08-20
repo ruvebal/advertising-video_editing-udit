@@ -445,7 +445,7 @@ By the end of Week 6, students should be able to:
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Three-act_structure.svg" alt="Three-act structure diagram: setup, confrontation, resolution." loading="lazy" />
 <figcaption>
 <p>Three-act structure as a timing scaffold: map around 0–10, 10–25, 25–30 seconds.</p>
-<p class="image-credit">CC BY-SA 4.0. Source: Wikimedia Commons (File:Three-act_structure.svg).</p>
+<p class="image-credit">CC BY-NC-SA 4.0. Source: Wikimedia Commons (File:Three-act_structure.svg).</p>
 </figcaption>
 </figure>
 

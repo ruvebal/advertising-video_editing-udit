@@ -220,7 +220,7 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Scheinkonturen_Kanizsa_Dreieck.svg/960px-Scheinkonturen_Kanizsa_Dreieck.svg.png" alt="Kanizsa triangle illusion (closure): a triangle is perceived though not drawn" loading="lazy" />
 <figcaption>
 <p><strong>Closure (Kanizsa triangle)</strong> — Viewers “complete” missing contours. In editing, this is why ellipsis works: we don’t need every micro-action between two cuts.</p>
-<p class="image-credit">CC BY-SA 4.0 — <a href="https://commons.wikimedia.org/wiki/File:Scheinkonturen_Kanizsa_Dreieck.svg">Wikimedia Commons</a></p>
+<p class="image-credit">CC BY-NC-SA 4.0 — <a href="https://commons.wikimedia.org/wiki/File:Scheinkonturen_Kanizsa_Dreieck.svg">Wikimedia Commons</a></p>
 </figcaption>
 </figure>
 
@@ -244,7 +244,7 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Figur_Grund_Wahrnehmung.svg/960px-Figur_Grund_Wahrnehmung.svg.png" alt="Figure-ground perception: a cross can be seen as black on white or white on black" loading="lazy" />
 <figcaption>
 <p><strong>Figure–ground</strong> — What’s “subject” vs “background” can flip. In ads, clean figure–ground separation keeps product legible even in fast cuts.</p>
-<p class="image-credit">CC BY-SA 4.0 — <a href="https://commons.wikimedia.org/wiki/File:Figur_Grund_Wahrnehmung.svg">Wikimedia Commons</a></p>
+<p class="image-credit">CC BY-NC-SA 4.0 — <a href="https://commons.wikimedia.org/wiki/File:Figur_Grund_Wahrnehmung.svg">Wikimedia Commons</a></p>
 </figcaption>
 </figure>
 
@@ -609,10 +609,10 @@ German school of psychology (1920s) studying how humans perceive patterns and wh
 - **The Birth of a Nation poster:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Birth_of_a_Nation_theatrical_poster.jpg) — Public Domain
 - **180-degree rule diagram:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:180_degree_rule.svg) — CC BY-SA 3.0
 - **Gestalt overview:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gestalt.svg) — CC BY 4.0
-- **Kanizsa triangle:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scheinkonturen_Kanizsa_Dreieck.svg) — CC BY-SA 4.0
+- **Kanizsa triangle:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scheinkonturen_Kanizsa_Dreieck.svg) — CC BY-NC-SA 4.0
 - **Gestalt proximity:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gestalt_proximity.svg) — Public Domain
 - **Similarity diagram:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Similar-geometric-shapes.svg) — Public Domain
-- **Figure–ground diagram:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Figur_Grund_Wahrnehmung.svg) — CC BY-SA 4.0
+- **Figure–ground diagram:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Figur_Grund_Wahrnehmung.svg) — CC BY-NC-SA 4.0
 
 Full list of course references (books, articles with DOI, professional papers): [Resources — Books, Articles & Academic References]({{ '/resources/' | relative_url }}#books-articles--academic-references).
 

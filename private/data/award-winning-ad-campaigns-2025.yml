@@ -1,0 +1,239 @@
+metadata:
+ title: 'Recent Award-Winning Advertising Campaigns - Teaching Shortlist'
+ course: '25/26-UDIT-AVE'
+ purpose: 'Private research dataset for advertising video editing lessons, screenings, and exam prompts.'
+ scope_note: 'Most recent complete global awards cycle checked for this course: 2025 Cannes Lions, D&AD, The One Show, and Clio Awards.'
+ language: en
+ created: '2026-05-19'
+ checked_on: '2026-05-19'
+ author: 'Rubén Vega Balbás, PhD'
+ generated_with: 'Cursor agent web research; URLs checked against award/news pages before writing.'
+ privacy: 'private'
+ source_policy:
+  - 'Prefer official award pages and official award press releases.'
+  - 'Use trade press only when official pages are unavailable or blocked.'
+  - 'Verify video availability again before classroom screening.'
+
+campaigns:
+ - id: spotify-spreadbeats-2025
+   rank: 1
+   campaign: 'Spreadbeats'
+   brand_or_client: 'Spotify'
+   lead_agency: 'FCB New York'
+   country: 'United States'
+   primary_format: 'B2B / data-driven film / interactive music video'
+   why_shortlisted: 'A rare convergence of craft, data, music, and media strategy: an Excel spreadsheet becomes a music video to reposition Spotify as a video advertising platform.'
+   major_honours:
+    - 'The One Show 2025 - Best of Show Pencil'
+    - 'D&AD 2025 - Black Pencil, Advertising'
+    - 'Clio Awards 2025 - multiple Grand Clios including Creative Use of Data, Design, Design Craft, and Direct'
+   checked_urls:
+    - label: 'The One Show 2025 archive - Spreadbeats'
+      url: 'https://www.oneclub.org/awards/theoneshow/-adtitle/Spreadbeats/2025/all/all'
+    - label: 'D&AD Annual 2025'
+      url: 'https://www.dandad.org/work/annual/'
+    - label: 'Clio Awards 2025 press release'
+      url: 'https://www.apmultimedianewsroom.com/multimedia-newsroom/2025-clio-awards'
+   course_use:
+    - 'Creative data as storytelling.'
+    - 'Music video grammar inside a business-facing campaign.'
+    - 'How medium, interface, and message collapse into one artifact.'
+
+ - id: axa-three-words-2025
+   rank: 2
+   campaign: 'AXA - Three Words'
+   brand_or_client: 'AXA'
+   lead_agency: 'Publicis Conseil Paris'
+   country: 'France'
+   primary_format: 'Brand action / policy intervention / integrated campaign'
+   why_shortlisted: 'A legal-language intervention that turns an insurance contract into a domestic-violence support mechanism; useful for teaching persuasion beyond messaging.'
+   major_honours:
+    - 'Cannes Lions 2025 - Dan Wieden Titanium Grand Prix'
+    - 'Cannes Lions 2025 - Creative Brand of the Year context: AXA ranked first'
+   checked_urls:
+    - label: 'Cannes Lions 2025 final winners'
+      url: 'https://www.canneslions.com/news/cannes-lions-announces-2025-final-winners'
+   course_use:
+    - 'Ethics of persuasion and material consequences.'
+    - 'Copywriting as legal infrastructure.'
+    - 'Campaigns where editing/case-film rhetoric must prove real-world impact.'
+
+ - id: dove-real-beauty-ai-era-2025
+   rank: 3
+   campaign: 'Real Beauty / Real Beauty Redefined for the AI Era'
+   brand_or_client: 'Dove'
+   lead_agency: 'Ogilvy UK / Mindshare New York'
+   country: 'United Kingdom / United States'
+   primary_format: 'Long-term brand platform / social impact / media intervention'
+   why_shortlisted: 'A mature brand platform adapted to algorithmic and AI image culture; strong bridge between Kilbourne, representation, and contemporary platform aesthetics.'
+   major_honours:
+    - 'Cannes Lions 2025 - Glass: The Lion for Change Grand Prix'
+    - 'Cannes Lions 2025 - Media Lions Grand Prix for AI-era media work'
+   checked_urls:
+    - label: 'Cannes Lions 2025 final winners'
+      url: 'https://www.canneslions.com/news/cannes-lions-announces-2025-final-winners'
+    - label: 'Cannes Lions 2025 Creative Data, Direct, Media, PR, Social and Creator winners'
+      url: 'https://www.canneslions.com/news/winners-of-the-creative-data-direct-media-pr-and-social-and-creator-lions-announced'
+   course_use:
+    - 'Representation of bodies in advertising.'
+    - 'AI image norms and platform responsibility.'
+    - 'How a brand platform sustains variation over decades.'
+
+ - id: jcd-meet-marina-prieto-2025
+   rank: 4
+   campaign: 'Meet Marina Prieto'
+   brand_or_client: 'JCDecaux'
+   lead_agency: 'DAVID Madrid'
+   country: 'Spain'
+   primary_format: 'Out of home / B2B proof campaign / social amplification'
+   why_shortlisted: 'A low-budget, locally rooted proof of media effectiveness: unused subway inventory made a 100-year-old Instagram user famous while selling OOH value to advertisers.'
+   major_honours:
+    - 'The One Show 2025 - Best of Out of Home'
+    - 'Clio Awards 2025 - four Grand Clios including Creative Effectiveness, Creative Strategy, Out of Home, and Use of Influencers'
+   checked_urls:
+    - label: 'The One Show - Meet Marina Prieto award entry'
+      url: 'https://www.oneclub.org/awards/theoneshow/-award/57330/meet-marina-prieto/'
+    - label: 'The One Show 2025 - Meet Marina Prieto title archive'
+      url: 'https://www.oneclub.org/awards/theoneshow/-adtitle/Meet%20Marina%20Prieto/2025'
+    - label: 'Clio Awards 2025 press release'
+      url: 'https://www.apmultimedianewsroom.com/multimedia-newsroom/2025-clio-awards'
+   course_use:
+    - 'Madrid-local case study for OOH media.'
+    - 'Earned media and social proof.'
+    - 'Editing the case film around before/after transformation.'
+
+ - id: cerave-michael-cerave-2025
+   rank: 5
+   campaign: 'Michael CeraVe'
+   brand_or_client: 'CeraVe'
+   lead_agency: 'Ogilvy PR New York'
+   country: 'United States'
+   primary_format: 'Influencer / PR / film / Super Bowl culture'
+   why_shortlisted: 'A deliberately absurd celebrity-name coincidence becomes a participatory rumor campaign, useful for analyzing attention, reveal timing, and parasocial credibility.'
+   major_honours:
+    - 'The One Show 2025 - Best of Creative Effectiveness'
+    - 'Clio Awards 2025 - Grand Clio in Film'
+    - 'Clio Awards 2025 - Grand Clio in Use of Influencers'
+   checked_urls:
+    - label: 'The One Show - Michael CeraVe'
+      url: 'https://www.oneclub.org/awards/theoneshow/-adtitle/Michael+CeraVe/2025/all/1'
+    - label: 'Clio Awards 2025 press release'
+      url: 'https://www.apmultimedianewsroom.com/multimedia-newsroom/2025-clio-awards'
+   course_use:
+    - 'Influencer strategy and ambiguity.'
+    - 'Super Bowl reveal structure.'
+    - 'Comedy editing and audience inference.'
+
+ - id: hyundai-night-fishing-2025
+   rank: 6
+   campaign: 'Night Fishing'
+   brand_or_client: 'Hyundai Motor Company / IONIQ'
+   lead_agency: 'INNOCEAN Seoul'
+   country: 'South Korea'
+   primary_format: 'Branded entertainment / short film'
+   why_shortlisted: 'A cinematic sci-fi film shot through car cameras; excellent for teaching how product affordances can become film grammar rather than interruption.'
+   major_honours:
+    - 'Cannes Lions 2025 - Entertainment Lions Grand Prix'
+    - 'Clio Awards 2025 - Grand Clio in Branded Entertainment and Content'
+   checked_urls:
+    - label: 'Cannes Lions 2025 Entertainment and Craft winners'
+      url: 'https://www.canneslions.com/news/cannes-lions-announces-2025-winners-across-entertainment-and-craft-tracks'
+    - label: 'Clio Awards 2025 press release'
+      url: 'https://www.apmultimedianewsroom.com/multimedia-newsroom/2025-clio-awards'
+   course_use:
+    - 'Product-camera POV as narrative constraint.'
+    - 'Branded entertainment vs traditional spot.'
+    - 'Genre language in advertising film.'
+
+ - id: xbox-everyday-tactician-2025
+   rank: 7
+   campaign: 'The Everyday Tactician'
+   brand_or_client: 'Microsoft / Xbox'
+   lead_agency: 'McCann London'
+   country: 'United Kingdom'
+   primary_format: 'Gaming / experience / activation'
+   why_shortlisted: 'Turns Football Manager expertise into real football employment, making game literacy consequential in the real world.'
+   major_honours:
+    - 'The One Show 2025 - Best of Gaming'
+    - 'Clio Awards 2025 - Grand Clio in Experience/Activation'
+   checked_urls:
+    - label: 'The One Show 2025 archive'
+      url: 'https://www.oneclub.org/awards/theoneshow/-archive/holdingcompany/2025/12/all'
+    - label: 'Clio Awards 2025 press release'
+      url: 'https://www.apmultimedianewsroom.com/multimedia-newsroom/2025-clio-awards'
+   course_use:
+    - 'Gaming as participatory media.'
+    - 'Reality/fiction boundary in brand activation.'
+    - 'Narrative proof in case-study editing.'
+
+ - id: vaseline-verified-2025
+   rank: 8
+   campaign: 'Vaseline Verified'
+   brand_or_client: 'Vaseline / Unilever'
+   lead_agency: 'Ogilvy Singapore'
+   country: 'Singapore'
+   primary_format: 'Health misinformation / creator culture / social proof'
+   why_shortlisted: 'Transforms viral skincare hacks into a lab-tested verification platform; valuable for teaching science, creators, and trust in short-form media.'
+   major_honours:
+    - 'Cannes Lions 2025 - Health and Wellness Grand Prix'
+    - 'Cannes Lions 2025 - Social and Creator spotlight context'
+   checked_urls:
+    - label: 'Cannes Lions 2025 first winners'
+      url: 'https://www.canneslions.com/news/first-winners-announced-at-the-72nd-cannes-lions-international-festival'
+    - label: 'Cannes Lions 2025 winners spotlight'
+      url: 'https://www.canneslions.com/awards/winners-spotlight'
+   course_use:
+    - 'Creator credibility and misinformation.'
+    - 'Explainer editing for social media.'
+    - 'Trust-building through lab evidence.'
+
+ - id: natura-amazon-greenventory-2025
+   rank: 9
+   campaign: 'The Amazon Greenventory'
+   brand_or_client: 'Natura'
+   lead_agency: 'Africa Creative DDB Sao Paulo'
+   country: 'Brazil'
+   primary_format: 'Sustainability / AI and drone data / brand action'
+   why_shortlisted: 'Uses AI and drones to map cosmetic-potential trees and support forest-positive economic logic; strong for discussing environmental claims beyond greenwashing.'
+   major_honours:
+    - 'Cannes Lions 2025 - Sustainable Development Goals Lions Grand Prix'
+   checked_urls:
+    - label: 'Cannes Lions 2025 final winners'
+      url: 'https://www.canneslions.com/news/cannes-lions-announces-2025-final-winners'
+   course_use:
+    - 'Environmental advertising and proof.'
+    - 'AI as field-data infrastructure rather than image generator.'
+    - 'Ethics of sustainability claims.'
+
+ - id: pedigree-adoptable-2025
+   rank: 10
+   campaign: 'Adoptable. By PEDIGREE.'
+   brand_or_client: 'PEDIGREE'
+   lead_agency: 'Colenso BBDO'
+   country: 'New Zealand'
+   primary_format: 'Direct / innovation / pet adoption platform'
+   why_shortlisted: 'Converts shelter dogs into instantly adaptable advertising assets, linking media distribution to real adoption outcomes.'
+   major_honours:
+    - 'Clio Awards 2025 - Grand Clio in Direct'
+    - 'Clio Awards 2025 - Grand Clio in Innovation'
+   checked_urls:
+    - label: 'Clio Awards 2025 press release'
+      url: 'https://www.apmultimedianewsroom.com/multimedia-newsroom/2025-clio-awards'
+   course_use:
+    - 'Dynamic creative and modular assets.'
+    - 'Direct response with social-good outcomes.'
+    - 'How a campaign system differs from a single film.'
+
+alternates_for_future_updates:
+ - campaign: 'Child Wedding Cards'
+   brand_or_client: 'UN Women'
+   note: 'The One Show 2025 Best of Non-Profit; useful for social-impact and print/direct discussion.'
+   checked_url: 'https://www.oneclub.org/awards/theoneshow/-archive/holdingcompany/2025/12/all'
+ - campaign: 'Other Hand'
+   brand_or_client: 'Cheetos'
+   note: 'The One Show 2025 Best of Integrated/Omnichannel; useful for snack-brand behaviour and humour.'
+   checked_url: 'https://www.oneclub.org/awards/theoneshow/-archive/holdingcompany/2025/12/all'
+ - campaign: 'Magnetic Stories'
+   brand_or_client: 'Siemens Healthineers'
+   note: 'The One Show 2025 Best of Radio and Audio-First; Clio Grand in Branded Entertainment and Content.'
+   checked_url: 'https://www.apmultimedianewsroom.com/multimedia-newsroom/2025-clio-awards'

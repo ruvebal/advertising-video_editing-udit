@@ -9,10 +9,10 @@ Below is a curated, **repo-safe** set of **public-domain and Creative Commons** 
 
 Map every embed to both paths unless you decide to keep only one canonical Week 8 file: fileciteturn76file8turn76file0
 
-| Lesson target                  | File path                                                                |
-| ------------------------------ | ------------------------------------------------------------------------ |
-| Week 8 lesson                  | `docs/_prompts/week-08-post-production-polish.md` fileciteturn76file0 |
-| Video embed rules              | `docs/VIDEO_INTEGRATION_GUIDE.md` fileciteturn81file0                 |
+| Lesson target     | File path                                                                |
+| ----------------- | ------------------------------------------------------------------------ |
+| Week 8 lesson     | `docs/_prompts/week-08-post-production-polish.md` fileciteturn76file0 |
+| Video embed rules | `docs/VIDEO_INTEGRATION_GUIDE.md` fileciteturn81file0                 |
 
 ```mermaid
 flowchart TD
@@ -36,7 +36,7 @@ flowchart TD
 - **Direct file URL:** https://upload.wikimedia.org/wikipedia/commons/f/fd/Mixing_and_mastering.jpg citeturn21view0
 - **Source record:** https://commons.wikimedia.org/wiki/File:Mixing_and_mastering.jpg citeturn20view0
 - **Caption (1–2 lines):** Mixing & mastering desk—visual shorthand for Week 8’s “polish”: levels, EQ, dynamics, deliverables. citeturn20view0
-- **Rights status:** **CC BY-SA 4.0** (attribution + share-alike). citeturn20view0
+- **Rights status:** **CC BY-NC-SA 4.0** (attribution + share-alike). citeturn20view0
 - **Legal justification (repo/classroom):** Embedding is permitted under CC BY‑SA with attribution; if you **adapt** (crop/overlay), the derivative must remain CC BY‑SA compatible. citeturn20view0
 
 **Ready-to-paste `<figure>` (your preferred pattern):**
@@ -51,7 +51,7 @@ flowchart TD
 		<p>
 			Mixing and mastering desk—visual shorthand for Week 8’s post-production polish (levels, EQ, dynamics, deliverables).
 		</p>
-		<p class="image-credit">Wikimedia Commons • CC BY-SA 4.0 • Source: “Mixing and mastering”</p>
+		<p class="image-credit">Wikimedia Commons • CC BY-NC-SA 4.0 • Source: “Mixing and mastering”</p>
 	</figcaption>
 </figure>
 ```
@@ -67,7 +67,7 @@ Note: some **binary** direct URLs cannot be fully rendered by the crawler, but t
 
 - Direct: https://upload.wikimedia.org/wikipedia/commons/6/6e/Smpte_bars.webm citeturn45view0turn42view0
 - Record: https://commons.wikimedia.org/wiki/File:Smpte_bars.webm citeturn42view0
-- Rights: **CC BY-SA 4.0** citeturn42view0
+- Rights: **CC BY-NC-SA 4.0** citeturn42view0
 - Use: Perfect for scopes (waveform/vectorscope), white balance, legal levels. citeturn42view0
 - Legal: CC BY‑SA allows reuse with attribution; share‑alike applies if modified. citeturn42view0
 
@@ -99,7 +99,7 @@ Note: some **binary** direct URLs cannot be fully rendered by the crawler, but t
 
 - Direct: https://upload.wikimedia.org/wikipedia/commons/5/56/SMPTE_color_bars_with_tone.ogg citeturn57view1turn46view0
 - Record: https://commons.wikimedia.org/wiki/File:SMPTE_color_bars_with_tone.ogg citeturn46view0
-- Rights: **CC BY-SA 4.0** citeturn46view0
+- Rights: **CC BY-NC-SA 4.0** citeturn46view0
 - Legal: allowed with attribution; share-alike only if you publish modified versions. citeturn46view0
 
 ```liquid
@@ -114,7 +114,7 @@ Note: some **binary** direct URLs cannot be fully rendered by the crawler, but t
 
 - Direct: https://upload.wikimedia.org/wikipedia/commons/c/c2/This_is_a_10_second_testvideo_with_bars_and_tone.webm citeturn57view0turn56view0
 - Record: https://commons.wikimedia.org/wiki/File:This_is_a_10_second_testvideo_with_bars_and_tone.webm citeturn56view0
-- Rights: **CC BY-SA 4.0** citeturn56view0
+- Rights: **CC BY-NC-SA 4.0** citeturn56view0
 - Legal: CC BY‑SA compliant embed; attribute in captions/credits. citeturn56view0
 
 ```liquid
@@ -321,7 +321,6 @@ Recommended additions (no binaries committed; just curated links):
   - Under “Color Correction & Grading”: V01–V05, I01–I03, I02
   - Under “Sound Design & Mixing”: I04–I07, I12, plus V07–V12 for lab drills
   - Under “Motion Graphics & Titles”: I08 + V06
-
 
 ### Quick URL validation script (recommended in CI)
 

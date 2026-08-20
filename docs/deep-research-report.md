@@ -1,21 +1,25 @@
 # Curated Public‑Domain and Free‑Use Media Pack for Weeks 3–4 in ruvebal/advertising-video_editing-udit
 
 ## Executive summary
-Weeks 3–4 in your repo map cleanly to two complementary research threads: (a) *continuity editing as attention engineering* (rules such as the 180° axis, match-on-action, and “edit blindness”), and (b) *montage as meaning-by-juxtaposition* (Kuleshov, Eisenstein, Vertov). citeturn27search0turn27search4turn26search1turn26search0turn26search2  
-To keep your public repo legally robust, this pack prioritizes **public domain (PD)** and **Creative Commons (CC)** media from entity["organization","Wikimedia Commons","media repository"] and PD‑forward archival pipelines (notably entity["organization","Prelinger Archives","ephemeral film archive"] via entity["organization","Internet Archive","nonprofit digital library"], whose classroom suitability and large PD share are widely documented). citeturn10search0turn16search1  
-Verification note (honest constraint): the environment used here can fetch and parse *record pages* reliably but cannot “open” large binary media streams to prove HTTP‑200 at the file URL level; you still get **direct file URLs** (not landing pages), plus a **one‑line curl check** below for pre‑PR validation (timestamp: 2026‑02‑11 CET). citeturn19view0turn28view1turn12search0  
+
+Weeks 3–4 in your repo map cleanly to two complementary research threads: (a) _continuity editing as attention engineering_ (rules such as the 180° axis, match-on-action, and “edit blindness”), and (b) _montage as meaning-by-juxtaposition_ (Kuleshov, Eisenstein, Vertov). citeturn27search0turn27search4turn26search1turn26search0turn26search2
+To keep your public repo legally robust, this pack prioritizes **public domain (PD)** and **Creative Commons (CC)** media from entity["organization","Wikimedia Commons","media repository"] and PD‑forward archival pipelines (notably entity["organization","Prelinger Archives","ephemeral film archive"] via entity["organization","Internet Archive","nonprofit digital library"], whose classroom suitability and large PD share are widely documented). citeturn10search0turn16search1
+Verification note (honest constraint): the environment used here can fetch and parse _record pages_ reliably but cannot “open” large binary media streams to prove HTTP‑200 at the file URL level; you still get **direct file URLs** (not landing pages), plus a **one‑line curl check** below for pre‑PR validation (timestamp: 2026‑02‑11 CET). citeturn19view0turn28view1turn12search0
 
 ## Repo targets and mapping logic
+
 **Lesson files found in repo (connector-backed):**
+
 - Week 3: `docs/_prompts/week-03-continuity-gestalt.md`
 - Week 4: `docs/_prompts/week-04-soviet-montage-kuleshov.md`
 
 **Why these media choices fit the lessons (analytical rationale):**
-Continuity editing rules can be taught as applied cognition/attention design (useful anchors: entity["people","Tim J. Smith","film cognition researcher"]’s “Attentional Theory of Cinematic Continuity”, DOI: 10.3167/proj.2012.060102, and “edit blindness”, DOI: 10.16910/jemr.2.2.6). citeturn27search0turn27search4  
-Montage concepts are reinforced with (i) historically canonical PD films associated with entity["people","Sergei Eisenstein","soviet filmmaker 1898-1948"], entity["people","Dziga Vertov","soviet filmmaker 1896-1954"], and entity["people","Lev Kuleshov","soviet filmmaker 1899-1970"], and (ii) modern experimental corroboration of “Kuleshov effect” framing (DOI: 10.1093/scan/nsl014). citeturn14search0turn18search11turn15search2turn26search1  
+Continuity editing rules can be taught as applied cognition/attention design (useful anchors: entity["people","Tim J. Smith","film cognition researcher"]’s “Attentional Theory of Cinematic Continuity”, DOI: 10.3167/proj.2012.060102, and “edit blindness”, DOI: 10.16910/jemr.2.2.6). citeturn27search0turn27search4
+Montage concepts are reinforced with (i) historically canonical PD films associated with entity["people","Sergei Eisenstein","soviet filmmaker 1898-1948"], entity["people","Dziga Vertov","soviet filmmaker 1896-1954"], and entity["people","Lev Kuleshov","soviet filmmaker 1899-1970"], and (ii) modern experimental corroboration of “Kuleshov effect” framing (DOI: 10.1093/scan/nsl014). citeturn14search0turn18search11turn15search2turn26search1
 
 ## Direct video file URLs for Weeks 3–4
-All items below are **direct file URLs** (binary), each paired with a **source record URL** that contains the rights statement/license tag. Selection emphasizes commercials/ads first, then canonical montage/continuity films. citeturn11search0turn16search3turn16search0turn11search2turn11search1turn29search2turn10search4turn28view1turn15search2turn18search11turn19view0turn13search2  
+
+All items below are **direct file URLs** (binary), each paired with a **source record URL** that contains the rights statement/license tag. Selection emphasizes commercials/ads first, then canonical montage/continuity films. citeturn11search0turn16search3turn16search0turn11search2turn11search1turn29search2turn10search4turn28view1turn15search2turn18search11turn19view0turn13search2
 
 ```tsv
 id	title	direct_file_url	source_record_url	rights_status	caption	legal_use_note
@@ -34,14 +38,15 @@ w3v05	Intolerance (1916)	https://upload.wikimedia.org/wikipedia/commons/9/9c/Int
 ```
 
 ## Direct image and poster file URLs for Weeks 3–4
-These are direct images/graphics used to teach spatial continuity + Gestalt (Week 3) and montage/Kuleshov + Soviet film iconography (Week 4). citeturn12search0turn12search7turn12search4turn12search15turn15search1turn17search1turn17search2turn17search6turn18search0turn13search4turn11search3turn12search11  
+
+These are direct images/graphics used to teach spatial continuity + Gestalt (Week 3) and montage/Kuleshov + Soviet film iconography (Week 4). citeturn12search0turn12search7turn12search4turn12search15turn15search1turn17search1turn17search2turn17search6turn18search0turn13search4turn11search3turn12search11
 
 ```tsv
 id	title	direct_file_url	source_record_url	rights_status	caption	legal_use_note
 w3i01	180-degree rule diagram	https://upload.wikimedia.org/wikipedia/commons/b/be/180_degree_rule.svg	https://commons.wikimedia.org/wiki/File:180_degree_rule.svg	CC BY-SA 3.0 / GFDL	Axis-of-action schematic.	CC BY-SA => ok w/ attribution; SA for edits.
 w3i02	Gestalt closure diagram (simple)	https://upload.wikimedia.org/wikipedia/commons/3/30/Gestalt_closure.svg	https://commons.wikimedia.org/wiki/File:Gestalt_closure.svg	Public domain (ineligible)	Closure principle in one graphic.	PD => ok; cite record.
-w3i03	Gestalt closure icon	https://upload.wikimedia.org/wikipedia/commons/a/af/Law_of_closure_gestalt_svg_hariadhi.svg	https://commons.wikimedia.org/wiki/File:Law_of_closure_gestalt_svg_hariadhi.svg	CC BY-SA 4.0	Modern closure glyph.	CC BY-SA => ok w/ attribution; SA for edits.
-w3i04	Gestalt principles sheet	https://upload.wikimedia.org/wikipedia/commons/d/dc/Gestalt_Principles_1.png	https://commons.wikimedia.org/wiki/File:Gestalt_Principles_1.png	CC BY-SA 4.0	Proximity/similarity/continuity.	CC BY-SA => ok w/ attribution; SA for edits.
+w3i03	Gestalt closure icon	https://upload.wikimedia.org/wikipedia/commons/a/af/Law_of_closure_gestalt_svg_hariadhi.svg	https://commons.wikimedia.org/wiki/File:Law_of_closure_gestalt_svg_hariadhi.svg	CC BY-NC-SA 4.0	Modern closure glyph.	CC BY-SA => ok w/ attribution; SA for edits.
+w3i04	Gestalt principles sheet	https://upload.wikimedia.org/wikipedia/commons/d/dc/Gestalt_Principles_1.png	https://commons.wikimedia.org/wiki/File:Gestalt_Principles_1.png	CC BY-NC-SA 4.0	Proximity/similarity/continuity.	CC BY-SA => ok w/ attribution; SA for edits.
 w4i01	Kuleshov effect illustration	https://upload.wikimedia.org/wikipedia/commons/6/60/Kuleshov_effect.jpg	https://commons.wikimedia.org/wiki/File:Kuleshov_effect.jpg	CC BY-SA 3.0	Context changes reading of face.	CC BY-SA => ok w/ attribution; SA for edits.
 w4i02	Battleship Potemkin poster (1927)	https://upload.wikimedia.org/wikipedia/commons/7/72/Kino0.jpg	https://commons.wikimedia.org/wiki/File:Kino0.jpg	Public domain (Russia)	Poster artifact for montage era.	PD => ok; cite record.
 w4i03	Odessa Steps baby carriage still	https://upload.wikimedia.org/wikipedia/commons/e/ea/Carrozzina_potemkin.jpg	https://commons.wikimedia.org/wiki/File:Carrozzina_potemkin.jpg	Public domain (Russia)	Iconic montage still for shot-by-shot.	PD => ok; cite record.
@@ -53,19 +58,21 @@ w3i07	Figure–ground gestalt image	https://upload.wikimedia.org/wikipedia/commo
 ```
 
 ## Repo-ready integration snippets, mapping table, and DOI anchors
-Continuity editing (Week 3) has a strong cognitive literature base (AToCC; “edit blindness”). citeturn27search0turn27search4  
-Montage and Kuleshov framing have both film-theory and empirical support (e.g., DOI: 10.1093/scan/nsl014; montage overview DOI: 10.4324/9781135000356-REMO18-1). citeturn26search1turn26search0  
+
+Continuity editing (Week 3) has a strong cognitive literature base (AToCC; “edit blindness”). citeturn27search0turn27search4
+Montage and Kuleshov framing have both film-theory and empirical support (e.g., DOI: 10.1093/scan/nsl014; montage overview DOI: 10.4324/9781135000356-REMO18-1). citeturn26search1turn26search0
 
 ```html
 <!-- HTML <figure> pattern (drop into Week 3 or 4 markdown) -->
 <figure class="spectacle-image">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/180_degree_rule.svg"
-       alt="180-degree rule diagram showing camera arc around the axis of action"
-       loading="lazy" />
-  <figcaption>
-    <p>180° rule: keep camera positions on one side of the action axis to preserve screen direction.</p>
-    <p class="image-credit">CC BY-SA (see Commons record). Source: Wikimedia Commons.</p>
-  </figcaption>
+	<img
+		src="https://upload.wikimedia.org/wikipedia/commons/b/be/180_degree_rule.svg"
+		alt="180-degree rule diagram showing camera arc around the axis of action"
+		loading="lazy" />
+	<figcaption>
+		<p>180° rule: keep camera positions on one side of the action axis to preserve screen direction.</p>
+		<p class="image-credit">CC BY-SA (see Commons record). Source: Wikimedia Commons.</p>
+	</figcaption>
 </figure>
 ```
 
@@ -82,37 +89,38 @@ To embed direct PD/CC files from Wikimedia upload, add a "file" platform in vide
 ```
 
 ```markdown
-| Media ID | Map to lesson file(s) |
-|---|---|
-| w3v01 | docs/_prompts/week-03-continuity-gestalt.md |
-| w4v01 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w3v02 | docs/_prompts/week-03-continuity-gestalt.md |
-| w4v02 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w4v03 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w3v03 | docs/_prompts/week-03-continuity-gestalt.md |
-| w3v04 | docs/_prompts/week-03-continuity-gestalt.md |
-| w4v04 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w4v05 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w4v06 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w4v07 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w3v05 | docs/_prompts/week-03-continuity-gestalt.md |
-| w3i01 | docs/_prompts/week-03-continuity-gestalt.md |
-| w3i02 | docs/_prompts/week-03-continuity-gestalt.md |
-| w3i03 | docs/_prompts/week-03-continuity-gestalt.md |
-| w3i04 | docs/_prompts/week-03-continuity-gestalt.md |
-| w4i01 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w4i02 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w4i03 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w4i04 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w4i05 | docs/_prompts/week-04-soviet-montage-kuleshov.md |
-| w3i05 | docs/_prompts/week-03-continuity-gestalt.md |
-| w3i06 | docs/_prompts/week-03-continuity-gestalt.md |
-| w3i07 | docs/_prompts/week-03-continuity-gestalt.md |
+| Media ID | Map to lesson file(s)                             |
+| -------- | ------------------------------------------------- |
+| w3v01    | docs/\_prompts/week-03-continuity-gestalt.md      |
+| w4v01    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w3v02    | docs/\_prompts/week-03-continuity-gestalt.md      |
+| w4v02    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w4v03    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w3v03    | docs/\_prompts/week-03-continuity-gestalt.md      |
+| w3v04    | docs/\_prompts/week-03-continuity-gestalt.md      |
+| w4v04    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w4v05    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w4v06    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w4v07    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w3v05    | docs/\_prompts/week-03-continuity-gestalt.md      |
+| w3i01    | docs/\_prompts/week-03-continuity-gestalt.md      |
+| w3i02    | docs/\_prompts/week-03-continuity-gestalt.md      |
+| w3i03    | docs/\_prompts/week-03-continuity-gestalt.md      |
+| w3i04    | docs/\_prompts/week-03-continuity-gestalt.md      |
+| w4i01    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w4i02    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w4i03    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w4i04    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w4i05    | docs/\_prompts/week-04-soviet-montage-kuleshov.md |
+| w3i05    | docs/\_prompts/week-03-continuity-gestalt.md      |
+| w3i06    | docs/\_prompts/week-03-continuity-gestalt.md      |
+| w3i07    | docs/\_prompts/week-03-continuity-gestalt.md      |
 ```
 
 ## Copyright posture and PR instructions
-Because your repo is public, the safest baseline is: **only PD and explicitly free licenses (CC BY / CC BY‑SA / CC0, etc.)**—not classroom-only fair use. citeturn12search0turn19view0turn28view1  
-For advertising in particular, copyright normally applies; this pack uses commercials that Commons classifies as PD (often via “no notice” logic) or that are released via Prelinger’s PD dedication—so re‑hosting in a teaching repo is defensible *if you preserve attribution and any share‑alike requirements*. citeturn11search0turn16search0turn29search2turn10search0  
+
+Because your repo is public, the safest baseline is: **only PD and explicitly free licenses (CC BY / CC BY‑SA / CC0, etc.)**—not classroom-only fair use. citeturn12search0turn19view0turn28view1
+For advertising in particular, copyright normally applies; this pack uses commercials that Commons classifies as PD (often via “no notice” logic) or that are released via Prelinger’s PD dedication—so re‑hosting in a teaching repo is defensible _if you preserve attribution and any share‑alike requirements_. citeturn11search0turn16search0turn29search2turn10search0
 
 ```diff
 # Minimal patch sketch: add HTML5 direct-file support to docs/_includes/video-player.html
@@ -152,4 +160,3 @@ gh pr create \
   --title "Week 03–04: PD/CC media pack + direct-file video support" \
   --body "Adds curated PD/CC videos, images, and rights notes for Week 3 (continuity/Gestalt) and Week 4 (Soviet montage/Kuleshov), plus HTML5 <video> support in video-player include."
 ```
-

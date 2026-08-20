@@ -35,7 +35,7 @@ next_week:
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Mixing_and_mastering.jpg" alt="Mixing and mastering desk (post-production audio polish)" loading="lazy" />
 <figcaption>
 <p>Mixing and mastering desk—visual shorthand for Week 8’s post-production polish (levels, EQ, dynamics, deliverables).</p>
-<p class="image-credit"><a href="https://commons.wikimedia.org/wiki/File:Mixing_and_mastering.jpg">Wikimedia Commons</a> • CC BY-SA 4.0</p>
+<p class="image-credit"><a href="https://commons.wikimedia.org/wiki/File:Mixing_and_mastering.jpg">Wikimedia Commons</a> • CC BY-NC-SA 4.0</p>
 </figcaption>
 </figure>
 
